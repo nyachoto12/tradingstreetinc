@@ -28,30 +28,6 @@ audio:not([controls]) {
     display: none;
 }
 
-html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
-
-body {
-    margin: 0;
-}
-
-a:focus {
-    outline: thin dotted;
-}
-
-a:active,
-a:hover {
-    outline: 0;
-}
-
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-}
-
 abbr[title] {
     border-bottom: 1px dotted;
 }
@@ -125,9 +101,10 @@ figure {
 }
 
 fieldset {
-    border: 1px solid #c0c0c0;
+    border: 1px solid #d50000;
     margin: 0 2px;
     padding: 0.35em 0.625em 0.75em;
+    border-style: dashed;
 }
 
 legend {
@@ -199,4 +176,5 @@ textarea {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+    border-style: dashed;
 }
