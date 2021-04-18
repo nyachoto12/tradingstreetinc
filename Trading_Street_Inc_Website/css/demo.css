@@ -79,7 +79,7 @@
     font-variant: normal;
     font-family: 'codropsicons';
     line-height: 1;
-    speak: none;
+    speak-as: none;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -91,18 +91,18 @@
     content: "\e004";
 }
 
-section {
+.demo-1 {
     padding: 4em 2em;
     text-align: center;
 }
 
-section h2 {
+.demo-1 h2 {
     font-weight: 300;
     font-size: 2em;
     padding: 1em 0;
 }
 
-.codrops-header+section {
+.codrops-header+.demo-1 {
     padding-top: 1.5em;
 }
 
