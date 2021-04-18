@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Bootsrap 4 CDN-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--Bootstrap Css-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <script src="./js/all.js"></script>
+    <!-- MainCss -->
+
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- W3School Css -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- AnimateCss -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">
+
+
+
+    <style>
+        .bg-black {
+            background-color: #f7f7f7;
+            transition: 1s;
+        }
+        
+        #top1 {
+            z-index: 1;
+        }
+        
+        @media (max-width: 575.98px) {
+            .brand {
+                width: 0%;
+                height: 0%;
+                visibility: hidden;
+            }
+            .navbar-brand {
+                font-size: 20px !important;
+            }
+            .navbar-toggler {
+                width: 40px !important;
+                height: 30px !important;
+                padding: 0px !important;
+            }
+            .navbar-toggler-icon {
+                width: 20px !important;
+                height: 20px !important;
+            }
+            #empty_footer {
+                visibility: none;
+                display: none;
+            }
+            #d_footer h3 {
+                font-size: 17px !important;
+                font-weight: bold;
+            }
+            #d_footer {
+                padding: 50px;
+                padding-bottom: 0px;
+            }
+            #mail_footer {
+                font-size: small !important;
+                padding: 50px;
+                padding-top: 0px;
+            }
+            #mail_footer h5 {
+                font-size: 17px !important;
+                font-weight: bold;
+            }
+        }
+        
+        @media (min-width: 576px) and (max-width: 767.98px) {
+            .navbar-brand {
+                font-size: 20px !important;
+            }
+            .navbar-inverse .navbar-brand {
+                font-size: 30px;
+                padding: 20px 15px;
+            }
+            .carousel-caption {
+                padding-bottom: 120px;
+            }
+            .carousel-caption h2 {
+                font-size: 25px;
+            }
+            .carousel-caption h3 {
+                font-size: 18px;
+            }
+            .carousel-caption a {
+                padding: 10px 25px;
+            }
+            #empty_footer {
+                visibility: none;
+                display: none;
+            }
+            #d_footer h3 {
+                font-size: 17px !important;
+                font-weight: bold;
+            }
+            #d_footer {
+                padding: 30px;
+                margin-left: 100px;
+                padding-bottom: 0px;
+            }
+            #mail_footer {
+                font-size: small !important;
+                padding: 50px;
+                padding-right: 40px;
+                margin-top: 20px;
+                padding-bottom: 0px;
+                text-align: center;
+            }
+            #mail_footer h5 {
+                font-size: 17px !important;
+                font-weight: bold;
+            }
+        }
+        
+        @media (min-width: 768px) and (max-width: 991.98px) {
+            .navbar-brand {
+                visibility: hidden;
+            }
+            .brand {
+                width: 100%;
+                height: 60px;
+            }
+            #empty_footer {
+                visibility: none;
+                display: none;
+            }
+            #d_footer h3 {
+                font-size: 17px !important;
+                font-weight: bold;
+            }
+            #d_footer {
+                padding: 30px;
+                margin-left: 100px;
+                padding-bottom: 0px;
+            }
+            #mail_footer {
+                font-size: small !important;
+                padding: 50px;
+                margin-top: 20px;
+                padding-bottom: 0px;
+            }
+            #mail_footer h5 {
+                font-size: 17px !important;
+                font-weight: bold;
+            }
+        }
+        
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+            .navbar-brand {
+                visibility: hidden;
+            }
+            .brand {
+                width: 100%;
+                height: 60px;
+            }
+            .nav-item {
+                padding: 10px;
+            }
+            /* #empty_footer {
+                visibility: none;
+                display: none;
+            }*/
+            #d_footer h3 {
+                font-size: 17px !important;
+                font-weight: bold;
+            }
+            /* #d_footer {
+                padding: 50px;
+            }*/
+            /*#mail_footer {
+                font-size: small !important;
+                padding: 50px;
+            }*/
+            #mail_footer h5 {
+                font-size: 17px !important;
+                font-weight: bold;
+            }
+        }
+        
+        @media (min-width: 1200px) {
+            .navbar-brand {
+                visibility: hidden;
+            }
+            .brand {
+                width: 100%;
+                height: 60px;
+            }
+            .nav-item {
+                padding: 12px;
+            }
+        }
+        
+        .custom-toggler .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(10, 22, 106)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+        
+        .custom-toggler.navbar-toggler {
+            border-color: #003366;
+        }
+        
+        .navbar-toggler {
+            width: 40px !important;
+            height: 30px !important;
+            padding: 0px !important;
+        }
+        
+        .navbar-toggler-icon {
+            width: 20px !important;
+            height: 20px !important;
+        }
+        
+        nav .nav-link {
+            color: #003366 !important;
+        }
+        
+        nav .nav-link:hover {
+            color: #A47E00 !important;
+            transition: 0.3s;
+        }
+        
+        .active {
+            border-bottom: 3px solid #003366;
+        }
+        
+        .carousel-caption {
+            padding-bottom: 100px;
+            font-family: poppins;
+        }
+        
+        .carousel-caption h2 {
+            font-size: 70px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        
+        .carousel-caption h2 span {
+            color: #EDBB00;
+        }
+        
+        .carousel-caption a {
+            background: white;
+            padding: 15px 35px;
+            display: inline-block;
+            margin-top: 20px;
+            color: #003366;
+            text-transform: uppercase;
+            border-radius: 25px;
+            font-weight: bolder;
+            text-shadow: none;
+        }
+        
+        .carousel-control.right {
+            background-image: none;
+        }
+        
+        .carousel-control.left {
+            background-image: none;
+        }
+        
+        .carousel-indicators .active {
+            background-color: white;
+            border-color: white;
+        }
+        /*responsive css*/
+        
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+            .carousel-caption {
+                padding-bottom: 100px;
+            }
+            .carousel-caption h2 {
+                font-size: 50px;
+            }
+        }
+        
+        @media only screen and (max-width: 767px) {
+            .navbar-inverse .navbar-brand {
+                font-size: 30px;
+                padding: 20px 15px;
+            }
+            .carousel-caption {
+                padding-bottom: 120px;
+            }
+            .carousel-caption h2 {
+                font-size: 25px;
+            }
+            .carousel-caption h3 {
+                font-size: 18px;
+            }
+            .carousel-caption a {
+                padding: 10px 25px;
+            }
+        }
+        
+        .banner {
+            -webkit-background-size: cover;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            height: 500px;
+        }
+        
+        .carousel-inner .item {
+            height: 500px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div style="background-color: #003366 ; box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);" class="p-3 container-fluid">
+            <div class="row ">
+                <div class="col-lg-12 d-flex text-white justify-content-center">
+
+                    <span><i style="font-size: 20px;" class="fab fa-whatsapp"></i></span>
+                    <span class="pl-3"><i style="font-size: 20px;" class="fab  fa-facebook"></i></span>
+                    <span class="pl-3"><i style="font-size: 20px;" class="far  fa-envelope"></i></span>
+
+                </div>
+            </div>
+        </div>
+
+
+        <nav id="top1" class="navbar rounded-0 navbar-expand-md m-0 pr-2 p-0  w-100 clearHeader navbar-light">
+
+            <!-- first navigation -->
+            <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+                <ul class="navbar-nav mr-auto">
+                    <li style="padding-left: 100px;" class="nav-item">
+                        <a class="" href="#">
+                            <img class="brand" src="./images/nemari logo 2.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- brand -->
+            <div class="mx-auto order-0">
+                <a class="navbar-brand  mx-auto" href="#"> <strong style=" color: #003366 !important;">Nemari <b style=" color: #A47E00 !important;">Technologies</b> </strong>
+                </a>
+            </div>
+
+            <!-- toggle button for navigations -->
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <!-- second navigation -->
+            <div style="font-family:helvetica;" class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a style=" color: #A47E00 !important;" class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <!--End Header -->
+
+
+
+
+    <!-- SlideShow -->
+
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <div class="banner" style="background-image: url(./images/download-9-w855h425@2x.jpg);"></div>
+                <div class="carousel-caption">
+
+                    <h2 class="animated bounceInRight text-left" style="animation-delay: 1s">Website Design</h2>
+                    <h3 class="animated bounceInLeft text-left bg-white p-3 pl-5 w-75" style="animation-delay: 2s;color: #003366 !important;text-shadow: none;">We offer you from as little as $50USD &ensp;<span style="border-right: 2px solid #003366;"></span> </h3>
+                    <p class="animated bounceInLeft p-0 text-left" style="animation-delay: 2s;">4 Paged Website</p>
+                    <p class="animated bounceInLeft p-0 text-left" style="animation-delay: 2s;">Free Domain Name</p>
+                    <p class="animated bounceInLeft p-0 text-left" style="animation-delay: 2s;">1 Year Free Hosting</p>
+                    <p class="animated bounceInRight text-left" style="animation-delay: 3s"><a href="#">Order Now</a></p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="banner" style="background-image: url(./images/884393.jpg);"></div>
+                <div class="carousel-caption">
+                    <h2 class="animated slideInDown" style="animation-delay: 1s">We Are <span class="bg-white pl-5 pr-5" style="color:#003366 !important;">Nemari</span></h2>
+                    <h3 class="animated fadeInUp" style="animation-delay: 2s">Feel free to contact us, its our duty to work for you.</h3>
+                    <p class="animated zoomIn" style="animation-delay: 3s"><a href="#">Contact us</a></p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="banner" style="background-image: url(./images/1105009.png);"></div>
+                <div class="carousel-caption">
+                    <h2 class="animated zoomIn" style="animation-delay: 1s">Website <span>Hosting</span></h2>
+                    <h3 class="animated fadeInLeft p-3 pl-5  bg-white" style="animation-delay: 2s;color: #003366 !important;text-shadow: none;">We offer you from as little as $3.50 USD/ month</h3>
+                    <p class="animated zoomIn" style="animation-delay: 3s"><a href="#">Order Now</a></p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="banner" style="background-image: url(./images/wallpaperflare.com_wallpaper.jpg);"></div>
+                <div class="carousel-caption">
+                    <h2 class="animated bounceInLeft" style="animation-delay: 1s">We Are <span>Diligent</span></h2>
+                    <h3 class="animated fadeInUp" style="animation-delay: 2s">Web Design and Development Agency</h3>
+                    <p class="animated zoomIn" style="animation-delay: 3s"><a href="#">Contact us</a></p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- End Of SlideShow -->
+
+
+    .
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <section class="text-white p-0">
+        .
+        <div style="background-color: #A47E00 ;" class="container-fluid p-0">
+            <!-- 1st Row -->
+            <div class="row  p-0">
+                <div id="empty_footer" class="col-sm col-md-0 col-lg ">&ensp;</div>
+                <div class="col-sm-12 col-md-12 col-lg  p-0 m-0">
+                    <div class="container-fluid bg-white">
+                        <div class="row">
+                            <div id="d_footer" class="col-sm col-md col-lg pl-sm-0 pl-lg-5 pt-3">
+                                <h4 style="color: #003366;font-weight: bold;" class="text-uppercase">Feel free to message us.</h4>
+                                <p style="color: #003366 ;">email: sales@nemari.co.zw</p>
+                            </div>
+                            <div id="mail_footer" class="col-sm col-md col-lg-5 pt-sm-0 pt-3 ">
+                                <p style="color: #003366 ;" class="pl-lg-4 pl-md-4 pt-lg-2"><i class="far fa-3x fa-envelope "></i></p>
+                                <h5 style="color: #003366;font-weight: bold;" class="text-uppercase pr-lg-5">SEND EMAIL</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- End of 1st Row -->
+            <!-- 2nd Row -->
+            <div class="row p-5">
+                <div class="col">
+                    <h4 class="text-white"><strong style="border-bottom: 3px solid #003366;">About Us</strong></h4>
+                    <br>
+                    <p>Our software solutions enhance efficiency, performance and ease of doing things in health-care, banking, and insurance. Nemari Technologies believes technology is the future we are building now.</p>
+                </div>
+                <div class="col ">
+                    <h4 class="text-white"><strong style="border-bottom: 3px solid #003366;">Quick Links</strong></h4>
+
+                    <ul class="pt-1 pl-0" style="list-style-type: none;">
+                        <li>
+                            <a href="">Blog</a>
+                        </li>
+                        <li>
+                            <a href="">About Us</a>
+                        </li>
+                        <li>
+                            <a href="">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="">Services</a>
+                        </li>
+                        <li>
+                            <a href="">Get a Quote</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col">
+                    <h4 class="text-white text-lg-center"><strong style="border-bottom: 3px solid #003366;">Social Media</strong></h4>
+                    <p class="pl-5">
+                        <span><i class="fab fa-3x fa-linkedin"></i></span> &ensp;&ensp;&ensp;&ensp;&ensp;
+                        <span><i class="fab fa-3x fa-instagram"></i></span> &ensp;&ensp;&ensp;&ensp;&ensp;
+                        <span><i class="fab fa-3x fa-facebook"></i></span> &ensp;&ensp;&ensp;&ensp;&ensp;
+                        <span><i class="fab fa-3x fa-twitter"></i></span> &ensp;&ensp;&ensp;&ensp;&ensp;
+                    </p>
+
+                </div>
+            </div>
+            <!-- End of 2nd Row -->
+            <!-- 3rd Row -->
+            <div class="row">
+                <div class="col p-5 pt-0">
+                    <span><i class="fas fa-1x fa-map-marker-alt"></i>&ensp;</span>
+                    <span>&ensp;Location: 7th and 100th Street <br>&ensp;&ensp;&ensp; Harare CBD Zimbabwe</span>
+                    <br>
+                    <span><i class="fas fa-1x fa-phone-alt"></i>&ensp;</span>
+                    <span>Brian: (+263 773721760)      <br> &ensp;
+                        &ensp;&ensp;Ropafadzo: (+263 784 511 223)  <br> &ensp;
+                        &ensp;&ensp;Artwell : (+263 774 108 429)  <br> &ensp;
+                        &ensp;&ensp;Tawanda : (+263775 936 424) <br> &ensp;
+                        &ensp;&ensp;Email: : sales@nemari.co.zw <br> &ensp;
+                        </span>
+                    <p class="text-center">
+                        <span> <a href="##">Terms & Conditions</a> <span style="border-right: 1px solid white;"></span> &ensp; </span>
+                        <span> <a href="##">Copy Rights</a> <span style="border-right: 1px solid white;"></span> &ensp; </span>
+                        <span> <a href="##">SSL Certificate</a> </span>
+                    </p>
+                </div>
+            </div>
+            <!-- End of 3rd Row -->
+            <!-- 4th Row -->
+            <div style="background-color:#003366;" class="row p-2">
+                <div class="col d-flex justify-content-end">
+                    <p>2021 &copy; Nemari Technologies. All copy rights reserved</p>
+                </div>
+            </div>
+            <!-- End of 4th Row -->
+        </div>
+    </section>
+    <!-- End Of Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        $(function() {
+            var header = $(".clearHeader");
+            $(window).scroll(function() {
+                var scroll = $(window).scrollTop();
+
+                if (scroll >= 100) {
+                    document.getElementById("top1").style.position = "fixed";
+                    header.removeClass('clearHeader').addClass("bg-black");
+
+
+                } else {
+                    header.removeClass("bg-black").addClass('clearHeader');
+                    document.getElementById("top1").style.top = "0px";
+                    document.getElementById("top1").style.position = "relative";
+                }
+            });
+        });
+    </script>
+    <!--JQuery-->
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <!--Bootstrap JavaScript-->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
