@@ -459,3 +459,13 @@
       height: 120px;
       border-radius: 50%;
   }
+  /* inserting a background image */
+ 
+.picture {
+
+    background: url(./images/Top_Forex_Trading_Tips_For_Beginners.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
