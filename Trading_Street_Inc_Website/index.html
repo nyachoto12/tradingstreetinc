@@ -518,9 +518,11 @@
         <div class="row about-picture">
             <div style=" background-color: rgba(0, 0, 0, 0.665);font-size: small;" class="text-white p-5">
 
-                <div>
-                    <h6 class="text-center text-uppercase text-white"><strong>What we do</strong></h6>
-                    <h6 class="display-6 text-white">Trading Street Inc</h6>
+                <div class="text-center">
+                    <h6 class="text-uppercase text-white "><strong>What we do</strong></h6>
+                    <h6 class="display-6 text-white "><strong>Trading Street Inc</strong></h6>
+
+                    <div style="position: relative;display:block;border-bottom: 5px solid #00d2ff;height:10px;width:150px;left: 550px;"></div>
                 </div>
 
 
@@ -597,18 +599,18 @@
     <!-- Below is javascript code for readmore and readless functionality-->
     <script>
         function myFunction() {
-            var dots = document.getElementById("dots");
-            var moreText = document.getElementById("more");
-            var btnText = document.getElementById("myBtn");
+            var dots = document.getElementById("dots ");
+            var moreText = document.getElementById("more ");
+            var btnText = document.getElementById("myBtn ");
 
-            if (dots.style.display === "none") {
-                dots.style.display = "inline";
-                btnText.innerHTML = "Read more";
-                moreText.style.display = "none";
+            if (dots.style.display === "none ") {
+                dots.style.display = "inline ";
+                btnText.innerHTML = "Read more ";
+                moreText.style.display = "none ";
             } else {
-                dots.style.display = "none";
-                btnText.innerHTML = "Read less";
-                moreText.style.display = "inline";
+                dots.style.display = "none ";
+                btnText.innerHTML = "Read less ";
+                moreText.style.display = "inline ";
             }
         }
     </script>
