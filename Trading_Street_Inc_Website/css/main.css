@@ -1,0 +1,461 @@
+  @media (max-width: 575.98px) {
+      .mobile-off {
+          visibility: hidden;
+          display: none;
+      }
+      .more-btn {
+          visibility: hidden;
+          display: none;
+      }
+      .banner {
+          -webkit-background-size: cover;
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 300px;
+      }
+      .carousel-item2::before {
+          content: "" !important;
+          display: block !important;
+          position: absolute !important;
+          top: 0 !important;
+          left: 100 !important;
+          bottom: 0 !important;
+          right: 0 !important;
+          background: #000 !important;
+          opacity: 0.6 !important;
+          width: 500px;
+      }
+      .block-reveal .p1 {
+          font-size: 17px;
+          font-weight: bolder !important;
+          text-transform: capitalize;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .block-reveal .p2 {
+          font-size: 12px;
+          text-transform: capitalize;
+          color: #17A2B8;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .block-reveal .p3 {
+          font-size: 10px;
+          text-transform: capitalize;
+          width: 260px;
+      }
+      /* Cards */
+      .frontside {
+          position: relative;
+          -webkit-transform: rotateY(0deg);
+          -ms-transform: rotateY(0deg);
+          z-index: 2;
+          margin-bottom: 30px;
+      }
+      .backside {
+          position: absolute;
+          top: 0;
+          left: 0;
+          background: white;
+          -webkit-transform: rotateY(-180deg);
+          -moz-transform: rotateY(-180deg);
+          -o-transform: rotateY(-180deg);
+          -ms-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+          -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+          -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+          box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+      }
+      /* End of Cards */
+  }
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+      .mobile-off {
+          visibility: hidden;
+          display: none;
+      }
+      .more-btn {
+          visibility: hidden;
+          display: none;
+      }
+      .banner {
+          -webkit-background-size: cover;
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 300px;
+      }
+      .carousel-item2::before {
+          content: "" !important;
+          display: block !important;
+          position: absolute !important;
+          top: 0 !important;
+          left: 100 !important;
+          bottom: 0 !important;
+          right: 0 !important;
+          background: #000 !important;
+          opacity: 0.6 !important;
+          width: 500px;
+      }
+      .block-reveal .p1 {
+          font-size: 17px;
+          font-weight: bolder !important;
+          text-transform: capitalize;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .block-reveal .p2 {
+          font-size: 12px;
+          text-transform: capitalize;
+          color: #17A2B8;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .block-reveal .p3 {
+          font-size: 10px;
+          text-transform: capitalize;
+          width: 260px;
+      }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+      .mobile-off {
+          visibility: hidden;
+          display: none;
+      }
+      .more-btn {
+          visibility: hidden;
+          display: none;
+      }
+      .banner {
+          -webkit-background-size: cover;
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 500px;
+      }
+      .carousel-item2::before {
+          content: "" !important;
+          display: block !important;
+          position: absolute !important;
+          top: 0 !important;
+          left: 100 !important;
+          bottom: 0 !important;
+          right: 0 !important;
+          background: #000 !important;
+          opacity: 0.6 !important;
+          width: 100%;
+      }
+      .block-reveal .p1 {
+          font-size: 17px;
+          font-weight: bolder !important;
+          text-transform: capitalize;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .block-reveal .p2 {
+          font-size: 12px;
+          text-transform: capitalize;
+          color: #17A2B8;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .block-reveal .p3 {
+          font-size: 10px;
+          text-transform: capitalize;
+          width: 260px;
+      }
+      .s-1 {
+          position: relative;
+          left: 400px;
+          display: block;
+      }
+      .carousel-caption {
+          bottom: 100px;
+      }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+      .mobile-off {
+          visibility: hidden;
+          display: none;
+      }
+  }
+  
+  @media (min-width: 1200px) {
+      /* Slideshow */
+      .banner {
+          -webkit-background-size: cover;
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 800px;
+      }
+      .carousel-item2 {
+          height: 120vh !important;
+          min-height: 300px !important;
+          background: no-repeat scroll center scroll !important;
+          -webkit-background-size: cover !important;
+          background-size: cover !important;
+      }
+      .carousel-item2::before {
+          content: "" !important;
+          display: block !important;
+          position: absolute !important;
+          top: 0 !important;
+          left: 100 !important;
+          bottom: 0 !important;
+          right: 0 !important;
+          background: #000 !important;
+          opacity: 0.6 !important;
+          width: 700px;
+      }
+      .carousel-caption {
+          bottom: 220px;
+      }
+      .block-reveal .p1 {
+          font-size: 17px;
+          font-weight: 300 !important;
+          text-transform: capitalize;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .block-reveal .p2 {
+          font-size: 12px;
+          text-transform: capitalize;
+          color: #17A2B8;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .block-reveal .p3 {
+          font-size: 10px;
+          text-transform: capitalize;
+          width: 400px;
+      }
+      .s-1 {
+          position: relative;
+          left: 100px;
+          display: block;
+      }
+      .carousel-item3 {
+          height: 120vh !important;
+          min-height: 300px !important;
+          background: no-repeat scroll center scroll !important;
+          -webkit-background-size: cover !important;
+          background-size: cover !important;
+      }
+      .carousel-item3::before {
+          content: "" !important;
+          display: block !important;
+          position: absolute !important;
+          top: 0 !important;
+          left: 100 !important;
+          bottom: 0 !important;
+          right: 0 !important;
+          background: #000 !important;
+          opacity: 0.6 !important;
+          width: 100%;
+      }
+      /* End of Slideshow */
+      /* Cards */
+      .frontside {
+          position: relative;
+          -webkit-transform: rotateY(0deg);
+          -ms-transform: rotateY(0deg);
+          z-index: 2;
+          margin-bottom: 30px;
+          top: -100px;
+      }
+      .backside {
+          position: absolute;
+          top: 0;
+          left: 0;
+          background: white;
+          top: -100px;
+          -webkit-transform: rotateY(-180deg);
+          -moz-transform: rotateY(-180deg);
+          -o-transform: rotateY(-180deg);
+          -ms-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+          -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+          -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+          box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+      }
+      /* End of Cards */
+  }
+  /*responsive css*/
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {}
+  
+  @media only screen and (max-width: 767px) {
+      .navbar-inverse .navbar-brand {
+          font-size: 30px;
+          padding: 20px 15px;
+      }
+  }
+  /* Slide Animation */
+  /* reset */
+  
+  *,
+  *::before,
+  *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  /* body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }*/
+  /* other */
+  /* block-$ */
+  
+  .block-effect {
+      font-size: calc(8px + 6vw);
+  }
+  
+  .block-reveal {
+      --t: calc(var(--td) + var(--d));
+      color: transparent;
+      padding: 4px;
+      font-size: 25px;
+      right: 50px;
+      position: relative;
+      overflow: hidden;
+      animation: revealBlock 0s var(--t) forwards;
+  }
+  
+  .block-reveal::after {
+      content: '';
+      width: 0%;
+      height: 100%;
+      font-size: 25px;
+      padding-bottom: 4px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: var(--bc);
+      animation: revealingIn var(--td) var(--d) forwards, revealingOut var(--td) var(--t) forwards;
+  }
+  /* animations */
+  
+  @keyframes revealBlock {
+      100% {
+          color: #ffffff;
+      }
+  }
+  
+  @keyframes revealingIn {
+      0% {
+          width: 0;
+      }
+      100% {
+          width: 100%;
+      }
+  }
+  
+  @keyframes revealingOut {
+      0% {
+          transform: translateX(0);
+      }
+      100% {
+          transform: translateX(100%);
+      }
+  }
+  /* Toggler */
+  
+  .custom-toggler .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(31, 31, 31, 1) ' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+      font-size: small;
+  }
+  
+  .custom-toggler .navbar-toggler {
+      border-color: none !important;
+  }
+  /* Cards Order */
+  /* FontAwesome for working BootSnippet :> */
+  
+  @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+  #team {
+      background: #F8FEFF !important;
+  }
+  
+  section {
+      padding: 0px 0;
+  }
+  
+  section .section-title {
+      text-align: center;
+      color: #007b5e;
+      margin-bottom: 50px;
+      text-transform: uppercase;
+  }
+  
+  #team .card {
+      border: none;
+      background: #ffffff;
+  }
+  
+  .image-flip:hover .backside,
+  .image-flip.hover .backside {
+      -webkit-transform: rotateY(0deg);
+      -moz-transform: rotateY(0deg);
+      -o-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      transform: rotateY(0deg);
+      border-radius: .25rem;
+  }
+  
+  .image-flip:hover .frontside,
+  .image-flip.hover .frontside {
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+      -o-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+  }
+  
+  .mainflip {
+      -webkit-transition: 1s;
+      -webkit-transform-style: preserve-3d;
+      -ms-transition: 1s;
+      -moz-transition: 1s;
+      -moz-transform: perspective(1000px);
+      -moz-transform-style: preserve-3d;
+      -ms-transform-style: preserve-3d;
+      transition: 1s;
+      transform-style: preserve-3d;
+      position: relative;
+  }
+  
+  .frontside,
+  .backside {
+      -webkit-backface-visibility: hidden;
+      -moz-backface-visibility: hidden;
+      -ms-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -webkit-transition: 1s;
+      -webkit-transform-style: preserve-3d;
+      -moz-transition: 1s;
+      -moz-transform-style: preserve-3d;
+      -o-transition: 1s;
+      -o-transform-style: preserve-3d;
+      -ms-transition: 1s;
+      -ms-transform-style: preserve-3d;
+      transition: 1s;
+      transform-style: preserve-3d;
+  }
+  
+  .frontside .card,
+  .backside .card {
+      min-height: 312px;
+  }
+  
+  .backside .card a {
+      font-size: 18px;
+      color: #007b5e !important;
+  }
+  
+  .frontside .card .card-title,
+  .backside .card .card-title {
+      color: #007b5e !important;
+  }
+  
+  .frontside .card .card-body img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+  }
