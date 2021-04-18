@@ -143,6 +143,16 @@
             background-attachment: fixed;
 
         }
+
+        .picture-form {
+
+            background: url(./images/hero-mob-jpg-rendition.webp);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: relative;
+
+        }
     </style>
 
 </head>
@@ -196,7 +206,8 @@
                 <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
                     <ul class=" navbar-nav ff-header3 ml-auto ">
                         <li class="nav-item active ">
-                            <a style="font-weight: bolder !important; " class="text-uppercase nav-link " href="index.html">Home
+                            <a style="font-weight: bolder !important; " class="text-uppercase nav-link "
+                                href="index.html">Home
                                 <span class="sr-only ">(current)</span></a>
                         </li>
                         <li class="nav-item ">
@@ -230,21 +241,130 @@
         <div class="row picture" style="height: 350px !important;">
             <div style=" background-color: rgba(0, 0, 0, 0.665);font-size: small;" class="text-white p-5">
 
-                <div class="mt-5" style="margin-left: 100px;">
-                   
-                   <strong><h6 class="display-4 text-white" style="font-weight: bold;">Conduct Us</h6></strong> 
-                    <h6 class="text-left text-white pl-2"><i class="fas fa-home"></i><strong class="text-uppercase">&ensp;Home</strong> &ensp;  <span style="position: relative; display: inline; width: 2px; height: 5px; border-left: 1px solid white; font-weight: bold;"></span> <span class="info-color">&ensp;Contact Us</span></h6>
-                   
+                <div class="cond-in">
+
+                    <strong>
+                        <h6 class="text-white display-4 cond-header" style="font-weight: bold;">Conduct Us</h6>
+                    </strong>
+                    <h6 class="text-white cond-p"><i class="fas fa-home"></i><strong
+                            class="text-uppercase">&ensp;Home</strong> &ensp; <span
+                            style="position: relative; display: inline; width: 2px; height: 5px; border-left: 1px solid white; font-weight: bold;"></span>
+                        <span class="info-color">&ensp;Contact Us</span>
+                    </h6>
+
                 </div>
-
-
-
 
             </div>
 
         </div>
 
     </div>
+    <!-- Conduct header -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <div class="text-center">
+                    <br>
+                    <h6 class="text-uppercase  info-color mt-5 "><strong>Conduct Us</strong></h6>
+                    <h6 class="display-6 text-dark "><strong>Conduct Us If Need Help</strong></h6>
+                    <br>
+                    <div class="cond"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Form Section -->
+    <div class="container-fluid">
+
+        <div class="row no-gutters">
+            <div class="col-sm col-md-6 picture-form text-dark col-lg-6 ">
+           
+            </div>
+
+
+
+            <div style="font-family: 'Segoe UI';" class="col-md-6 bg-dark">
+                <div class="container">
+                    <div class="row justify-content-end ">
+                        <div style="background: #003366;" class="col-sm col-md col-lg-6 text-left text-white">
+                            <h2 class=" animated fadeInUp " style="font-weight: 600;animation-delay: 1s;">Drop Message
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm col-md col-lg p-5">
+                            <form action="mail.php" method="POST" class="">
+                                <label for="name" style="color:#A47E00;font-weight:normal;" class="">Full
+                                    Name/Organization Name</label>
+                                <div class="form-group">
+                                    <input type="text"
+                                        class="form-control text-white rounded-0 bg-dark w3-border w3-border-dark-gray"
+                                        name="firstname" id="" aria-describedby="firstname"
+                                        placeholder="Enter your name">
+                                </div>
+
+
+                                <label for="name" style="color:#A47E00;font-weight:normal;" class="">Email</label>
+                                <div class="form-group">
+                                    <input type="text"
+                                        class="form-control text-white rounded-0 bg-dark w3-border w3-border-dark-gray"
+                                        name="email" id="" aria-describedby="email"
+                                        placeholder="Enter your email address">
+                                </div>
+
+
+                                <label for="name" style="color:#A47E00;font-weight:normal;" class="">Phone
+                                    Number</label>
+                                <div class="form-group">
+                                    <input type="text"
+                                        class="form-control text-white rounded-0 bg-dark w3-border w3-border-dark-gray"
+                                        name="phone" id="" aria-describedby="phone"
+                                        placeholder="Enter your phone number">
+                                </div>
+
+
+                                <label for="name" style="color:#A47E00;font-weight:normal;" class="">Message</label>
+                                <div class="form-group">
+                                    <textarea name="message" id="message" cols="100" rows="4"
+                                        class="form-control text-white rounded-0 bg-dark w3-border w3-border-dark-gray"
+                                        placeholder=" Tell us about your business"></textarea>
+                                </div>
+
+
+                                <button type="submit" name="submit" id=""
+                                    class="btn rounded-0 p-2 text-uppercase w-50 text-light"
+                                    style="background: #003366;font-size: 20px;">Send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Form Section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!--JQuery-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js "
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0 "
