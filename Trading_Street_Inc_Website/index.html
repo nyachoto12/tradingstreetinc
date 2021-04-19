@@ -62,7 +62,6 @@
     <style>
         .header {
             background-color: #00d2ff;
-            background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 100%);
         }
         /*First Header Style*/
         
@@ -709,7 +708,7 @@
             color: #666;
         }
     </style>
-    <div class="container cc">
+    <div class="container p-5 cc">
         <div class="row">
             <div class="four col-md-3">
                 <div class="counter-box colored"> <i class="fas fa-3x  fa-handshake"></i><span class="counter">1113</span>
@@ -734,8 +733,96 @@
         </div>
     </div>
     <!-- End Of Counters -->
-
     <!-- End Of Services Section -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- Testmonies -->
+
+    <div style="width: 1230px;" id="carouselExampleCaptions2" class="carousel slide" data-bs-ride="carousel">
+
+        <div style="background-image: url(./images/map5-01.png);background-size: cover;">
+
+            <div class="carousel-inner carousel-inner2">
+                <div style="height:600px;" class="carousel-item active">
+                    <div class="animated fadeIn p-5" style="animation-delay: 1.5s">
+                        <h4 class="text-white">Testmonies</h4>
+                        <h1 class="w-50 text-white" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder;">Don’t Belive Us, Check Our Client Feedback</h1>
+                    </div>
+
+                    <div class="carousel-caption carousel-caption2 d-none d-md-block">
+                        <div class="text-center text-white">
+                            <h1><i class="fas fa-3x fa-user-circle"></i></h1>
+                        </div>
+                        <h5><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                        <h5 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder">Foreign Mutabhera</h5>
+                        <p>Designer</p>
+                    </div>
+                </div>
+                <div style="height:600px;" class="carousel-item">
+                    <div class="animated fadeInRight p-5" style="animation-delay: 1s">
+                        <h4 class="text-white">Testmonies</h4>
+                        <h1 class="w-50 text-white" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder;">Don’t Belive Us, Check Our Client Feedback</h1>
+                    </div>
+                    <div class="carousel-caption  carousel-caption2  d-none d-md-block">
+                        <div class="text-center text-white">
+                            <h1><i class="fas fa-3x fa-user-circle"></i></h1>
+                        </div>
+                        <h5><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                        <h5 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder">Uzumaki Naruto</h5>
+                        <p>Ninja</p>
+                    </div>
+                </div>
+                <div style="height:600px;" class="carousel-item">
+                    <div class="animated slideInLeft p-5" style="animation-delay: 1s">
+                        <h4 class="text-white">Testmonies</h4>
+                        <h1 class="w-50 text-white" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder;">Don’t Belive Us, Check Our Client Feedback</h1>
+                    </div>
+                    <div class="carousel-caption  carousel-caption2  d-none d-md-block">
+                        <div class="text-center text-white">
+                            <h1><i class="fas fa-3x fa-user-circle"></i></h1>
+                        </div>
+                        <h5><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                        <h5 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder">Hitman Agent47</h5>
+                        <p>FBI Police</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- End Of Testmonies -->
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
 
 
@@ -809,6 +896,24 @@
         }
     </script>
     <!-- End of Below is javascript code for readmore and readless functionality-->
+    <!-- Counters -->
+    <script>
+        $(document).ready(function() {
+            $('.counter').each(function() {
+                $(this).prop('Counter', 0).animate({
+                    Counter: $(this).text()
+                }, {
+                    duration: 4000,
+                    easing: 'swing',
+                    step: function(now) {
+                        $(this).text(Math.ceil(now));
+                    }
+                });
+            });
+        });
+    </script>
+    <!-- Counters -->
+
     <!-- Counters -->
     <script>
         $(document).ready(function() {
