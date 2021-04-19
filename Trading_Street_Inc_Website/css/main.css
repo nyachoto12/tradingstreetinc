@@ -245,8 +245,30 @@
           opacity: 0.6 !important;
           width: 700px;
       }
+      .carousel-inner2 {
+          height: 80vh !important;
+          min-height: 300px !important;
+          background: no-repeat scroll center scroll !important;
+          -webkit-background-size: cover !important;
+          background-size: cover !important;
+      }
+      .carousel-inner2::before {
+          content: "" !important;
+          display: block !important;
+          position: absolute !important;
+          top: 0 !important;
+          left: 100 !important;
+          bottom: 0 !important;
+          right: 0 !important;
+          background-color: #00bae4 !important;
+          opacity: 0.9 !important;
+          width: 100%;
+      }
       .carousel-caption {
           bottom: 220px !important;
+      }
+      .carousel-caption2 {
+          bottom: 150px !important;
       }
       .block-reveal .p1 {
           font-size: 17px;
