@@ -1,25 +1,24 @@
   @media (max-width: 575.98px) {
-        /* conduct us header */
-        .cond{
-            position: relative;
-            display:block;
-            border-bottom: 5px solid #00d2ff;
-            height:10px;
-            width:150px;
-            left: 70px;
-          }
-          .cond-in{
-            text-align: left;
-            position: relative;
-            top: 50px;
-          }
-          .cond-header{
-              font-size: 50px !important;
-          }
-          .cond-p{
-            padding-left: 8px;
-        }
-        
+      /* conduct us header */
+      .cond {
+          position: relative;
+          display: block;
+          border-bottom: 5px solid #00d2ff;
+          height: 10px;
+          width: 150px;
+          left: 70px;
+      }
+      .cond-in {
+          text-align: left;
+          position: relative;
+          top: 50px;
+      }
+      .cond-header {
+          font-size: 50px !important;
+      }
+      .cond-p {
+          padding-left: 8px;
+      }
       .mobile-off {
           visibility: hidden;
           display: none;
@@ -183,9 +182,6 @@
           left: 400px;
           display: block;
       }
-      .carousel-caption {
-          bottom: 100px;
-      }
   }
   
   @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -196,25 +192,31 @@
   }
   
   @media (min-width: 1200px) {
+      /* dominate market */
+      .d-m {
+          padding: 100px;
+      }
+      /* dominate market */
       /* conduct us header */
-       /* conduct us header */
-       .cond{
-        position: relative;
-        display:block;
-        border-bottom: 5px solid #00d2ff;
-        height:10px;
-        width:150px;
-        left: 150px;
+      /* conduct us header */
+      .cond {
+          position: relative;
+          display: block;
+          border-bottom: 3px solid #00d2ff;
+          height: 10px;
+          width: 150px;
+          left: 80px;
+          margin-top: 20px;
       }
-      .cond-in{
-       margin-left: 150px;
-        position: relative;
-        top: 50px;
+      .cond-in {
+          margin-left: 150px;
+          position: relative;
+          top: 50px;
       }
-      .cond-header{
+      .cond-header {
           font-size: 50px !important;
       }
-      .cond-p{
+      .cond-p {
           padding-left: 8px;
       }
       /* Slideshow */
@@ -244,7 +246,7 @@
           width: 700px;
       }
       .carousel-caption {
-          bottom: 220px;
+          bottom: 220px !important;
       }
       .block-reveal .p1 {
           font-size: 17px;
@@ -265,7 +267,7 @@
       }
       .s-1 {
           position: relative;
-          left: 100px;
+          left: 180px;
           display: block;
       }
       .carousel-item3 {
@@ -314,7 +316,6 @@
       }
       /* End of Cards */
       /* conduct us heading */
-      
   }
   /*responsive css*/
   
@@ -504,12 +505,11 @@
       border-radius: 50%;
   }
   /* inserting a background image */
- 
-.picture {
-
-    background: url(./images/Top_Forex_Trading_Tips_For_Beginners.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+  
+  .picture {
+      background: url(./images/Top_Forex_Trading_Tips_For_Beginners.jpeg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  }
