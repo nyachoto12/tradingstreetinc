@@ -166,10 +166,13 @@
                 <div class="cond-in">
 
                     <strong>
-                        <h6 class="text-white display-4 cond-header" style="font-weight: bold;">Conduct Us</h6>
+                    
+                    <h6 class="text-white display-4 cond-header" style="font-weight: bold;">Conduct Us</h6>
+                        
                     </strong>
-                    <h6 class="text-white cond-p"><i class="fas fa-home"></i><strong>&ensp;Home</strong>&ensp;<span style="position: relative; display: inline; height: 2px; border-left: 2px solid white; font-weight: bold;"></span>
-                        <span class="info-color">&ensp;&ensp;Contact Us</span>
+                    <a href="index.php" style="text-decoration: none; color: white" ><h6 class="text-white cond-p"><i class="fas fa-home"></i><strong>&ensp;Home</strong>&ensp;<span style="position: relative; display: inline; height: 2px; border-left: 2px solid white; font-weight: bold;"></span></a>
+                    <a href="#" style="text-decoration: none"><span class="info-color">&ensp;&ensp;Contact Us</span></a>
+                        
                     </h6>
 
                 </div>

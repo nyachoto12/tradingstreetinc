@@ -37,12 +37,12 @@
     <nav class="navbar  navbar-expand-lg navbar-white rounded-0 m-0 p-3 bg-white">
         <div class="container custom-header custom-toggler mb-0">
 
-            <a class="navbar-brand "><strong class="text-uppercase">Trading Street Inc</strong></a>
+            <a class="navbar-brand " href="index.php"><strong class="text-uppercase">Trading Street Inc</strong></a>
             <button id="nav-toggle-button" class="navbar-toggler rounded-0 navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
                 <ul class=" navbar-nav ff-header3 ml-auto ">
                     <li class="nav-item active ">
-                        <a style="font-weight: bolder !important; " class="text-uppercase nav-link " href="# ">Home <span class="sr-only ">(current)</span></a>
+                        <a style="font-weight: bolder !important; " class="text-uppercase nav-link " href="index.php">Home <span class="sr-only ">(current)</span></a>
                     </li>
                     <li class="nav-item ">
                         <a style="font-weight: bolder !important; " class="text-uppercase nav-link " href="# ">Services</a>

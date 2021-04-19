@@ -6636,6 +6636,9 @@ button.bg-dark:hover {
         display: -ms-inline-flexbox!important;
         display: inline-flex!important
     }
+    .footer-btn{
+       color : red;
+    }
 }
 
 @media (min-width:768px) {
