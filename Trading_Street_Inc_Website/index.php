@@ -63,35 +63,7 @@
         .header {
             background-color: #00d2ff;
         }
-<<<<<<< HEAD:Trading_Street_Inc_Website/index.php
 
-=======
-          /* readmore */
-          #more1 {
-            display: none;
-        }
-
-        #more2 {
-            display: none;
-        }
-        #more3 {
-            display: none;
-        }
-        #more4 {
-            display: none;
-        }
-        #more5 {
-            display: none;
-        }
-        #more6 {
-            display: none;
-        }
-        #more7 {
-            display: none;
-        }
-
-        /* readmore end */
->>>>>>> 9f7c2383ff85c2d067a5a4010d591fbcd8cddd02:Trading_Street_Inc_Website/index.html
         /*First Header Style*/
 
         .ff-header {
@@ -730,12 +702,12 @@
                         </div>
                         <h5><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
                         <p>“Avenue to financial freedom indeed, was all stressed out with my loan repayment crisis owing to the lockdown and all,
-                             got referred by a friend to try out these new guys in town @Trading Street and guess what l was able to repay my loan in time,
-                             <span id="dots1">....</span><span id="more1"> they made follow up calls on every trade and information they had passed through and it worked, thank you winning team”
-                        </span></p>
+                            got referred by a friend to try out these new guys in town @Trading Street and guess what l was able to repay my loan in time,
+                            <span id="dots1">....</span><span id="more1"> they made follow up calls on every trade and information they had passed through and it worked, thank you winning team”
+                            </span>
+                        </p>
                         <p class=" d-flex justify-content-end">
-                            <a onclick="myFunction1()" id="myBtn1" class="btn"
-                                style="text-decoration: underline; color:white !important;">Read more</a>
+                            <a onclick="myFunction1()" id="myBtn1" class="btn" style="text-decoration: underline; color:white !important;">Read more</a>
                         </p>
                         <h5 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder">Happy Client</h5>
                         <p>Trading Street Inc</p>
@@ -751,14 +723,14 @@
                             <h1><i class="fas fa-3x fa-user-circle"></i></h1>
                         </div>
                         <h5><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
-                        <p>“Ndakaenda kumaoffices with doubts ko mukandibira panoitwa sei, 
-                            vakanditi we enter into a contract asi kana musati mava ready then munodzoka mava shuwa kuti mukuda tishande tese, 
+                        <p>“Ndakaenda kumaoffices with doubts ko mukandibira panoitwa sei,
+                            vakanditi we enter into a contract asi kana musati mava ready then munodzoka mava shuwa kuti mukuda tishande tese,
                             <span id="dots2">....</span><span id="more2"> they made follow up calls on every trade and information they had passed through and it worked, thank you winning team”
-                            </span></p>
-                            <p class=" d-flex justify-content-end">
-                                <a onclick="myFunction2()" id="myBtn2" class="btn"
-                                    style="text-decoration: underline; color:white !important;">Read more</a>
-                            </p>
+                            </span>
+                        </p>
+                        <p class=" d-flex justify-content-end">
+                            <a onclick="myFunction2()" id="myBtn2" class="btn" style="text-decoration: underline; color:white !important;">Read more</a>
+                        </p>
                         <h5 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder">Happy Client</h5>
                         <p>Trading Street Inc Clients</p>
                     </div>
@@ -774,13 +746,13 @@
                         </div>
                         <h5><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
                         <p>“Got referred by my brother and at first was afraid of being scammed, but you guys take your mentorship programs really seriously,
-                             <span id="dots3">....</span><span id="more3"> 
-                            I have made some profits from some of my trades while still learning and I can only imagine where we are going,independence!!!!
+                            <span id="dots3">....</span><span id="more3">
+                                I have made some profits from some of my trades while still learning and I can only imagine where we are going,independence!!!!
 
-                        </span></p>
+                            </span>
+                        </p>
                         <p class=" d-flex justify-content-end">
-                            <a onclick="myFunction3()" id="myBtn3" class="btn"
-                                style="text-decoration: underline; color:white !important;">Read more</a>
+                            <a onclick="myFunction3()" id="myBtn3" class="btn" style="text-decoration: underline; color:white !important;">Read more</a>
                         </p>
                         <h5 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder">Happy Client</h5>
                         <p>Trading Street Inc Clients</p>
@@ -797,12 +769,12 @@
                         </div>
                         <h5><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
                         <p>“The best risk I have taken y’all, invested $10000 in April 2020, I wasn’t even sure it was gonna to work out,
-                             <span id="dots4">....</span><span id="more4"> then come November booooom I got my $33000 as promised and l got my house”
+                            <span id="dots4">....</span><span id="more4"> then come November booooom I got my $33000 as promised and l got my house”
 
-                        </span></p>
+                            </span>
+                        </p>
                         <p class=" d-flex justify-content-end">
-                            <a onclick="myFunction4()" id="myBtn4" class="btn"
-                                style="text-decoration: underline; color:white !important;">Read more</a>
+                            <a onclick="myFunction4()" id="myBtn4" class="btn" style="text-decoration: underline; color:white !important;">Read more</a>
                         </p>
                         <h5 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder">Happy Client</h5>
                         <p>Trading Street Inc Clients</p>
@@ -818,12 +790,12 @@
                             <h1><i class="fas fa-3x fa-user-circle"></i></h1>
                         </div>
                         <h5><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
-                        <p>“I m still active on my vehicle package plan and haven't bought it yet but I like what I am seeing, 
+                        <p>“I m still active on my vehicle package plan and haven't bought it yet but I like what I am seeing,
                             <span id="dots5">....</span><span id="more5"> I am hopeful of making it in the prescribed time frame and looking forward to go onto the building package”
-                        </span></p>
+                            </span>
+                        </p>
                         <p class=" d-flex justify-content-end">
-                            <a onclick="myFunction5()" id="myBtn5" class="btn"
-                                style="text-decoration: underline; color:white !important;">Read more</a>
+                            <a onclick="myFunction5()" id="myBtn5" class="btn" style="text-decoration: underline; color:white !important;">Read more</a>
                         </p>
                         <h5 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder">Happy Client</h5>
                         <p>Trading Street Inc Clients</p>
@@ -839,14 +811,13 @@
                             <h1><i class="fas fa-3x fa-user-circle"></i></h1>
                         </div>
                         <h5><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
-                        <p>“I had $12000 on me but the house I wanted was costing a whole $35000 and I knew I couldn’t purchase it in time otherwise someone was going to buy it before me, 
+                        <p>“I had $12000 on me but the house I wanted was costing a whole $35000 and I knew I couldn’t purchase it in time otherwise someone was going to buy it before me,
                             thats when l approached Trading street Inc. <span id="dots6">....</span><span id="more6">
-                                 . and the playing field turned in my favour,I collected my $27000 in 6 months and bought myself a beatiful home thanx to Trading Street Inc team.”
+                                . and the playing field turned in my favour,I collected my $27000 in 6 months and bought myself a beatiful home thanx to Trading Street Inc team.”
 
-                        </span></p>
+                            </span></p>
                         <p class=" d-flex justify-content-end">
-                            <a onclick="myFunction6()" id="myBtn6" class="btn"
-                                style="text-decoration: underline; color:white !important;">Read more</a>
+                            <a onclick="myFunction6()" id="myBtn6" class="btn" style="text-decoration: underline; color:white !important;">Read more</a>
                         </p>
                         <h5 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder">Happy Client</h5>
                         <p>Trading Street Inc Clients</p>
@@ -863,12 +834,11 @@
                         </div>
                         <h5><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
                         <p>“I had lost all hope on my planned vacation to Dubai last year in December but all thanks to Trading Street Inc. <span id="dots7">....</span><span id="more7">
-                            (holiday trip package) and their amazing work ethic I pulled through and it was a beautiful experience, thumps up guys” 
+                                (holiday trip package) and their amazing work ethic I pulled through and it was a beautiful experience, thumps up guys”
 
-                        </span></p>
+                            </span></p>
                         <p class=" d-flex justify-content-end">
-                            <a onclick="myFunction7()" id="myBtn7" class="btn"
-                                style="text-decoration: underline; color:white !important;">Read more</a>
+                            <a onclick="myFunction7()" id="myBtn7" class="btn" style="text-decoration: underline; color:white !important;">Read more</a>
                         </p>
                         <h5 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder">Happy Client</h5>
                         <p>Trading Street Inc Clients</p>
@@ -887,10 +857,10 @@
                         <p>“Thank you trading street for such a platform yakarongeka. Ndakapinda pabasic package trying to check out mastreets kuti how far semaghetto yuts vanenge vasina baggy rakakwana <span id="dots8">....</span>
                             <span id="more8">but so far I have made way more than mari yandakaisa , I am upgrading my package manje manje”
 
-                        </span></p>
+                            </span>
+                        </p>
                         <p class=" d-flex justify-content-end">
-                            <a onclick="myFunction8()" id="myBtn8" class="btn"
-                                style="text-decoration: underline; color:white !important;">Read more</a>
+                            <a onclick="myFunction8()" id="myBtn8" class="btn" style="text-decoration: underline; color:white !important;">Read more</a>
                         </p>
                         <h5 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder">Happy Client</h5>
                         <p>Trading Street Inc Clients</p>
@@ -906,12 +876,11 @@
                             <h1><i class="fas fa-3x fa-user-circle"></i></h1>
                         </div>
                         <h5><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
-                        <p>“I was one of those guys who just thought that forex trading was also about just guessing and I lost so much money that I regret not meeting this mentors from trading street earlier.<span id="dots9">....</span><span id="more9"> 
-                            I am on the premium package and I have more knowledge of forex trading than I ever thought I needed and have made profits thus far and I am still to enjoy those benefits for 8 more months” 
-                        </span></p>
+                        <p>“I was one of those guys who just thought that forex trading was also about just guessing and I lost so much money that I regret not meeting this mentors from trading street earlier.<span id="dots9">....</span><span id="more9">
+                                I am on the premium package and I have more knowledge of forex trading than I ever thought I needed and have made profits thus far and I am still to enjoy those benefits for 8 more months”
+                            </span></p>
                         <p class=" d-flex justify-content-end">
-                            <a onclick="myFunction9()" id="myBtn9" class="btn"
-                                style="text-decoration: underline; color:white !important;">Read more</a>
+                            <a onclick="myFunction9()" id="myBtn9" class="btn" style="text-decoration: underline; color:white !important;">Read more</a>
                         </p>
                         <h5 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder">Happy Client</h5>
                         <p>Trading Street Inc Clients</p>
@@ -983,7 +952,7 @@
         }
     </script>
     <!-- Below is javascript code for readmore and readless functionality-->
-   <script src="./js/readmore.js"></script>
+    <script src="./js/readmore.js"></script>
     <!-- End of Below is javascript code for readmore and readless functionality-->
     <!-- Counters -->
 

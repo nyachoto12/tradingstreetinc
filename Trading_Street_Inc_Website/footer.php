@@ -36,15 +36,15 @@
     </div>
 
     <div class="row">
-        <div class="col d-flex justify-content-center">
-            <form>
-                <div class="form-row align-items-center">
+        <div class="col ">
+            <form class="form-inline">
+                <div class="form-row ">
 
-                    <div class="col-auto">
-                        <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                    <div class="col p-5">
+
                         <div class="input-group mb-2">
-                            <input style="border-radius: 50px !important;" type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
-                            <button style="border-top-right-radius: 12px !important;border-bottom-right-radius: 12px !important;" class="btn btn-primary">submit</button>
+                            <input style="border-radius: 50px !important; width:100%;" type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                            <button style="border-radius: 50px !important;" class=" btn btn-primary"> &ensp;&ensp;submit&ensp;&ensp;</button>
                         </div>
                     </div>
 

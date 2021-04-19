@@ -51,10 +51,10 @@
                         <a style="font-weight: bolder !important; " class="text-uppercase nav-link " href="# ">News</a>
                     </li>
                     <li class="nav-item ">
-                        <a style="font-weight: bolder !important; " class="text-uppercase nav-link " href="contact_us.html">Contact</a>
+                        <a style="font-weight: bolder !important; " class="text-uppercase nav-link " href="contact.php">Contact</a>
                     </li>
                     <li class="nav-item ">
-                        <a style="font-weight: bolder !important; " class="text-uppercase nav-link " href="about_us.html">About</a>
+                        <a style="font-weight: bolder !important; " class="text-uppercase nav-link " href="about.php">About</a>
                     </li>
                 </ul>
 
