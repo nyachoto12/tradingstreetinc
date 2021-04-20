@@ -33,6 +33,7 @@
       <div style="border-bottom: 1px solid rgb(226, 226, 226);"></div>
       <br>
     </div>
+<<<<<<< HEAD
 
     <div class="row">
       <div class="col ">
@@ -136,5 +137,23 @@
           </div>
         </form>
       </div>
+=======
+    <div class="container-fluid p-3">
+    <div class="row">
+        <div class="col text-center foot" style="margin-left: 370px" >
+         <form  class="">
+           <input class="i form-control" type="search" placeholder="Your email address" style=" position : relative; width : 589px; height: 50px; top : 16px;  " > 
+           <span ><input style=" position : relative; top : -35px; left : 43%; width:150px; height: 51px; border-bottom-right-radius: 30px !important; border-top-right-radius: 30px !important; background-color : #17A2B8; color : white" type="submit" value="Submit" class="form-control"></span>
+         </form>
+         </div>
+     </div>
+
+</div>
+
+<div class="container-fluid bg-dark p-4">
+  <div class="row justify-content-center">
+    <div class="col d-flex justify-content-center text-white">
+      <h6>All Copy Rights Reserved &copy; Trading Street Inc.</h6>
+>>>>>>> 7a809e2dba190564711b3886c95ae08ff3aa2e2c
     </div>
   </div>
