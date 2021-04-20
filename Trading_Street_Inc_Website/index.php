@@ -58,12 +58,14 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/demo.css" />
     <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" href="./css/footer.css">
 
     <style>
         .header {
             background-color: #00d2ff;
         }
 
+      
         /*First Header Style*/
 
         .ff-header {
@@ -403,9 +405,8 @@
                     <h1 class="display-6 ff-header4 text-dark"><strong>Are You Ready To Dominate The Markets?</strong></h1>
 
                     <p class="first-section ff-header">Nemari Technologies exists to solve simple and complex problems in enhancing economic development.We acknowledge the power that software solutions offer to B2B customers in solving problems and making it easier to perform tasks/activities.
-                        <span id="dots"> &ensp;...</span>
+                    <span id="dots">....</span>
                         <span id="more" style="display: none;transition: 0.4s;">
-                            <br>
                             Our software solutions enhance efficiency, performance and ease of doing things in health-care,
                             banking, and insurance.
                             Nemari Technologies believes technology is the future we are building now, and has limitless

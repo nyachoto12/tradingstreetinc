@@ -33,6 +33,7 @@
       <div style="border-bottom: 1px solid rgb(226, 226, 226);"></div>
       <br>
     </div>
+<<<<<<< HEAD
   </div>
 
   <div class="row">
@@ -138,6 +139,17 @@
       </form>
     </div>
   </div>
+=======
+    <div class="container-fluid p-3">
+    <div class="row">
+        <div class="col text-center foot" style="margin-left: 370px" >
+         <form  class="">
+           <input class="i form-control" type="search" placeholder="Your email address" style=" position : relative; width : 589px; height: 50px; top : 16px;  " > 
+           <span ><input style=" position : relative; top : -35px; left : 43%; width:150px; height: 51px; border-bottom-right-radius: 30px !important; border-top-right-radius: 30px !important; background-color : #17A2B8; color : white" type="submit" value="Submit" class="form-control"></span>
+         </form>
+         </div>
+     </div>
+>>>>>>> 6ec89c93598ea8d0a155ecc09006a2a32bc06bb9
 </div>
 
 <div class="container-fluid bg-dark p-4">
