@@ -256,25 +256,11 @@
     <!-- End of Form Section -->
 
 
-
-
-
-
-
-
     <!-- footer -->
     <?php
     include('footer.php');
     ?>
     <!-- end of footer -->
-
-
-
-
-
-
-
-
 
 
 

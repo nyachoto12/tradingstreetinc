@@ -183,23 +183,25 @@
 
 
         }
+
         .partner {
-             
-             background: url(./images/Capture.PNG);
-             background-size: cover;
-             background-position: center;
-             background-repeat: no-repeat;
-             background-attachment: relative;
-     
+
+            background: url(./images/Capture.PNG);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: relative;
+
         }
+
         .partner2 {
-             
-             background: url(./images/Capture2.PNG);
-             background-size: cover;
-             background-position: center;
-             background-repeat: no-repeat;
-             background-attachment: relative;
-     
+
+            background: url(./images/Capture2.PNG);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: relative;
+
         }
 
         /* Style the sidenav links and the dropdown button */
@@ -224,7 +226,7 @@
             padding-left: 8px;
             margin-left: 30px;
         }
-       
+
 
         /* Optional: Style the caret down icon */
         .fa-caret-down {
@@ -289,7 +291,7 @@
                                 <ul>
                                     <li class="">
                                         <button class="dropdown-btn text-dark">General Mentorship Packages
-                                            <i class="fa fa-caret-down"></i>
+                                            <!-- <i class="fa fa-caret-down"></i> -->
                                         </button>
                                         <div class="dropdown-container ">
                                             <a class="text-dark" href="#basic">Basic package </a>
@@ -299,8 +301,8 @@
 
                                     </li>
                                     <li class="">
-                                        <button class="dropdown-btn text-dark">DEVELOPMENTAL PACKAGES
-                                            <i class="fa fa-caret-down"></i>
+                                        <button class="dropdown-btn text-dark">Developmental Packages
+                                            <!-- <i class="fa fa-caret-down"></i> -->
                                         </button>
                                         <div class="dropdown-container">
                                             <a class="text-dark" href="#house">The housing package </a>
@@ -327,7 +329,7 @@
                                     <li class="">
 
                                         <div class="container ">
-                                            <div class="row d-flex pb-5 ">
+                                            <div class="row d-flex pb-5 text-left">
                                                 <div class="col-3  w-25 newspic" style="position : static"></div>
                                                 <div class="col-9 w-25">
                                                     <div class="row">
@@ -344,14 +346,15 @@
                                     </li>
                                     <li class="">
                                         <div class="container">
-                                            <div class="row d-flex pb-5">
+                                            <div class="row d-flex pb-5 text-left">
                                                 <div class="col-3 bg-danger w-25 newspic"></div>
                                                 <div class="col-9 bg-success w-25">
                                                     <div class="row ">
                                                         <h5>12 Jan 2021</h5>
                                                     </div>
                                                     <div class="row">
-                                                        <p>Over 50% businesses adopted to stock market exchange in Africa</p>
+                                                        <p>Over 50% businesses adopted to stock market exchange in
+                                                            Africa</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -359,14 +362,15 @@
                                     </li>
                                     <li class="">
                                         <div class="container">
-                                            <div class="row d-flex pb-5">
+                                            <div class="row d-flex pb-5 text-left">
                                                 <div class="col-3  w-25 newspic"></div>
                                                 <div class="col-9 w-25">
                                                     <div class="row">
                                                         <h5 class="info-color">10 December 2020</h5>
                                                     </div>
                                                     <div class="row">
-                                                        <p class="text-dark">Solutions to finacial problems has been discovered</p>
+                                                        <p class="text-dark">Solutions to finacial problems has been
+                                                            discovered</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -379,20 +383,20 @@
 
 
                     </div>
-                     <!-- get in touch section -->
-                     <div class="widget make-me-sticky" style="background-color: white;">
+                    <!-- get in touch section -->
+                    <div class="widget make-me-sticky" style="background-color: white;">
                         <!-- Sidebar -->
                         <div id="sidebar" class="">
                             <header>
                                 <a href="#">Get in Touch</a>
                             </header>
-                            <ul class="nav p-3">
+                            <ul class="nav ">
                                 <div class="container ">
                                     <div class="row d-flex pb-5 ">
-                                        <div class="col-3 w-25">
+                                        <div class="col-3 w-25 mt-4">
                                             <i class="fas fa-map-marker-alt fa-3x info-color"></i>
                                         </div>
-                                        <div class="col-9 w-25 pt-4">
+                                        <div class="col-9 w-25 pt-4 text-left">
                                             <span>Digital Office Business. Borrowdale Harare, Zimbabwe</span>
                                         </div>
                                     </div>
@@ -400,30 +404,30 @@
 
                                 <div class="container">
                                     <div class="row d-flex pb-5">
-                                        <div class="col-3 w-25">
+                                        <div class="col-3 w-25 mt-2">
                                             <i class="fas fa-envelope fa-3x info-color"></i>
                                         </div>
-                                        <div class="col-9 w-25 pt-4">
-                                        sales@tradingstreet.co.zw 
+                                        <div class="col-9 w-25 pt-3 text-left">
+                                            sales@tradingstreet.co.zw
                                         </div>
                                     </div>
                                 </div>
                                 <div class="container">
                                     <div class="row d-flex pb-5">
-                                        <div class="col-3 w-25">
+                                        <div class="col-3 w-25 mt-2">
                                             <i class="fas fa-phone-alt fa-2x info-color"></i>
                                         </div>
-                                        <div class="col-9  w-25 pt-4">
-                                        Phone: +263 77 175 7160
+                                        <div class="col-9  w-25 pt-3 text-left">
+                                            Phone: +263 77 175 7160
                                         </div>
                                     </div>
                                 </div>
                                 <div class="container">
                                     <div class="row d-flex pb-5">
-                                        <div class="col-3 w-25">
+                                        <div class="col-3 w-25 mt-2">
                                             <i class="fas fa-clock fa-3x info-color"></i>
                                         </div>
-                                        <div class="col-9 w-25 pt-5">
+                                        <div class="col-9 w-25 pt-3 text-left">
                                             <span><strong>Open Hours: </strong>Mon - Sun 9:00 - 17:00</span>
                                         </div>
                                     </div>
@@ -435,14 +439,15 @@
                     </div>
                 </div>
             </div>
+            <!-- Right Content starts here -->
             <div class="col-lg-8">
+                <!-- Container for right content -->
                 <div class="content-section">
                     <div class="container">
                         <div class="row pt-5">
                             <div class="picturebg " style="height : 570px; background-color: rgba(0, 0, 0, 0.6);">
                             </div>
                         </div>
-
                         <div class="row p-3">
                             <h1 style="font-weight: bolder;" class="text-dark">Our Partners</h1>
 
@@ -459,16 +464,17 @@
                             </p>
 
                         </div>
+                        <!-- Partners Images -->
                         <div class="row p-5">
 
                             <div class="col partner" style="height : 200px">
-                                
+
                             </div>
                             <div class="col partner2" style="height : 200px">
-                                
+
                             </div>
-                            <div class="col partner2"style="height : 200px">
-                                
+                            <div class="col partner2" style="height : 200px">
+
                             </div>
                         </div>
                         <div class="row">
@@ -496,9 +502,11 @@
                                 where the client can use the profits as they deem necessary</p>
                         </div>
                         <div class="row  p-md-5 p-lg-5">
-                            <div class="col-sm col-md-7 col-lg" >
+                            <div class="col-sm col-md-7 col-lg">
 
-                                <h3 class="text-dark text-capitalize text-center p-2 " style="font-weight: bolder; background-color : #17A2B8" id="basic">Basic Package</h3>
+                                <h3 class="text-dark text-capitalize text-center p-2 "
+                                    style="font-weight: bolder; background-color : #17A2B8" id="basic">Basic Package
+                                </h3>
                                 <p>
                                 <div class="row">
                                     <h5 class="text-danger text-center">Can i get a slideshow here..with an animation of
@@ -523,7 +531,9 @@
                                     </li>
 
                                 </ul>
-                                <h3 class="text-dark text-capitalize text-center p-2" style="font-weight: bolder;background-color : #17A2B8" id="proff">Professional Package
+                                <h3 class="text-dark text-capitalize text-center p-2"
+                                    style="font-weight: bolder;background-color : #17A2B8" id="proff">Professional
+                                    Package
                                 </h3>
                                 <p>
                                 <div class="row">
@@ -547,7 +557,9 @@
                                     </li>
 
                                 </ul>
-                                <h3 class="text-dark text-capitalize text-center p-2" style="font-weight: bolder; background-color : #17A2B8" id="prem">Premium Package</h3>
+                                <h3 class="text-dark text-capitalize text-center p-2"
+                                    style="font-weight: bolder; background-color : #17A2B8" id="prem">Premium Package
+                                </h3>
                                 <p>
                                 <div class="row">
                                     <h5 class="text-danger text-center">Can i get a slideshow here..with an animation of
@@ -580,8 +592,8 @@
                                     </li>
 
                                 </ul>
-                               
-                                
+
+
 
                             </div>
 
@@ -609,7 +621,9 @@
                         <div class="row  p-md-5 p-lg-5">
                             <div class="col-sm col-md-7 col-lg">
 
-                                <h3 class="text-dark text-capitalize text-center p-2" style="font-weight: bolder; background-color : #17A2B8" id="house">Housing Package</h3>
+                                <h3 class="text-dark text-capitalize text-center p-2"
+                                    style="font-weight: bolder; background-color : #17A2B8" id="house">Housing Package
+                                </h3>
                                 <p>
                                 <div class="row">
                                     <h5 class="text-danger text-center">Can i get a slideshow here..with an animation of
@@ -636,7 +650,9 @@
                                     </li>
 
                                 </ul>
-                                <h3 class="text-dark text-capitalize text-center p-2" style="font-weight: bolder;background-color : #17A2B8" id="vehicle">Vehicle Platform</h3>
+                                <h3 class="text-dark text-capitalize text-center p-2"
+                                    style="font-weight: bolder;background-color : #17A2B8" id="vehicle">Vehicle Platform
+                                </h3>
                                 <p>
                                 <div class="row">
                                     <h5 class="text-danger text-center">Can i get a slideshow here..with an animation of
@@ -667,7 +683,9 @@
                                     </li>
 
                                 </ul>
-                                <h3 class="text-dark text-capitalize text-center p-2" style="font-weight: bolder; background-color : #17A2B8" id="holiday">Holiday trip packages
+                                <h3 class="text-dark text-capitalize text-center p-2"
+                                    style="font-weight: bolder; background-color : #17A2B8" id="holiday">Holiday trip
+                                    packages
                                 </h3>
                                 <p>
                                 <div class="row">
@@ -698,7 +716,8 @@
                                     </li>
 
                                 </ul>
-                                <h3 class="text-dark text-capitalize text-center p-2" style="font-weight: bolder; background-color : #17A2B8" id="loan">Loan repayment
+                                <h3 class="text-dark text-capitalize text-center p-2"
+                                    style="font-weight: bolder; background-color : #17A2B8" id="loan">Loan repayment
                                     package
                                 </h3>
                                 <p>
@@ -732,12 +751,33 @@
                             </div>
 
                         </div>
+                        <!-- Summary of Packages Container -->
+                        <div class="row" >
+                            <h3 class="p-2 text-center" style="font-weight: bolder; background-color : #17A2B8"
+                                id="summary">Special note about our packages</h3>
+                            <p class="text-dark pl-1 pt-4" style="font-family: 'Segoe UI'; font-size :20px">
+                                The deposit amounts and target returns can be adjusted to suit the client’s needs if
+                                they are more than the minimum required which is listed in the packages.
+                                A client is allowed to invest in two or more packages simultaneously
+                                <br>
+                                <br>
+                                In summary, the packages can be customized to suit client targets
+                                which also influences the time frame, below are minimum requirements per desired
+                                package.
+                            </p>
+                            <ul class="pl-2" style="list-style-type: none">
+                                <h4 class=" text-dark p-3 " style="font-weight: bolder; background-color : #17A2B8 ; width : 40%" >Summary of the packages</h4>
+                                <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Vehicle purchase package $500&ensp;  <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i>     $5900 (in 7 months) </li>
+                                <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Housing package $10 000 &ensp;&ensp;&ensp;&ensp;&ensp; <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i>    $30 000 (in 6 months) </li>
+                                <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Holiday trip package $ 1000&ensp;&ensp;&ensp;&ensp;  <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i>     $5000 (5 months)  </li>
+                                <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Loan repayment package $10000  <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i>     $30000 (6months) </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-
             </div>
             <!-- end of side bar and content -->
-
+         
             <!-- footer -->
             <?php
                include('footer.php');
