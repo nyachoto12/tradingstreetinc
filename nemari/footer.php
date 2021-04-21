@@ -35,6 +35,7 @@
 <body class="p-0 m-0">
 
     <!-- Footer -->
+    <footer>
     <div style="background-color: #A47E00 ;font-family: 'Segoe UI';" class="container-fluid small text-white">
         <!-- 1st Row -->
         <div class="row  p-0">
@@ -128,6 +129,8 @@
         </div>
         <!-- End of 4th Row -->
     </div>
+    </footer>
+   
 
 
     <!-- End Of Footer -->

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <!-- Footer -->
+<footer>
 <div style="background-color: #F8FEFF;" class="container-fluid">
   <br>
   <div class="row">
@@ -51,3 +52,4 @@
           <h6>All Copy Rights Reserved &copy; Trading Street Inc.</h6>
         </div>
       </div>
+</footer>

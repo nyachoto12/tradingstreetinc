@@ -45,7 +45,7 @@
                         <a style="font-weight: bolder !important; " class="text-uppercase nav-link " href="index.php">Home <span class="sr-only ">(current)</span></a>
                     </li>
                     <li class="nav-item ">
-                        <a style="font-weight: bolder !important; " class="text-uppercase nav-link " href="# ">Services</a>
+                        <a style="font-weight: bolder !important; " class="text-uppercase nav-link " href="services.php">Services</a>
                     </li>
                     <li class="nav-item ">
                         <a style="font-weight: bolder !important; " class="text-uppercase nav-link " href="# ">News</a>

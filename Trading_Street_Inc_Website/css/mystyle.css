@@ -1,10 +1,4 @@
-.title-section h1{
-    color: thistle;
-   }
-   *{
-   margin: 0;
-   padding: 0;
-}
+
 .content-section {
  min-height: 2000px;
 }
@@ -37,17 +31,10 @@
 }
 
 /* Ignore This, just coloring */
-body {
- background: #fff;
-}
 
-article {
- background: #f1f1f1;
- border-radius: 12px;
- padding: 25px;
-}
 
-.title-section, .content-section, .sidebar-section {
+
+.title-section, .content-section{
  background: #fff;
 }
 
@@ -65,11 +52,45 @@ article {
 
 .sidebar-item {
  text-align: center;
+ 
 }
-.sidebar-item h3 {
- background: gold;
- max-width: 100%;
- margin: 0 auto;
- padding: 50px 0 100px;
- border-bottom: solid 1px #fff;
+
+#sidebar {
+   width: 320px;
+ 
+}
+#sidebar header {
+   padding: 10px;
+   background-color: #263238;
+   font-size: 20px;
+   line-height: 52px;
+   text-align: center;
+}
+
+#sidebar header a {
+   color: #fff;
+   display: block;
+   text-decoration: none;
+}
+
+#sidebar header a:hover {
+   color: #fff;
+}
+
+#sidebar .nav a {
+background: none;
+margin: 5px;
+padding: 3px;
+color: #CFD8DC;
+font-size: 14px;
+
+}
+
+#sidebar .nav a:hover {
+background: none;
+color: #ECEFF1;
+}
+
+#sidebar .nav a i {
+margin-right: 16px;
 }
