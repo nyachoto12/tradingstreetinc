@@ -336,7 +336,7 @@
         <div class="row">
             <div class="col d-flex justify-content-center">
                 <div class="text-center">
-                    <<<<<<< HEAD <h6 class="text-uppercase  info-color mt-5 "><strong>Our team</strong></h6>
+                 <h6 class="text-uppercase  info-color mt-5 "><strong>Our team</strong></h6>
                         <div class="text-center">
                             <h1 style="font-family: 'Segoe UI';font-weight:bolder;" class="text-white"><strong>Discover Our
                                     Team And
@@ -344,12 +344,12 @@
                                 </strong></h1>
                             <div style="position: relative;display:block;border-bottom: 7px solid #00d2ff;height:10px;width:150px;left: 560px;">
                             </div>
-                            =======
+                        
                             <h1 style="font-family: 'Segoe UI';font-weight:bolder;" class="dark"><strong>Discover Our Team And
                                     Experts
                                 </strong></h1>
                             <div style="position: relative;display:block;border-bottom: 7px solid #00d2ff;height:10px;width:150px;left: 560px;">
-                                >>>>>>> 9f7c2383ff85c2d067a5a4010d591fbcd8cddd02
+                              
                             </div>
                         </div>
                 </div>
@@ -357,16 +357,6 @@
         </div>
     </div>
     <!-- End of teams header -->
-
-
-
-
-
-
-
-
-
-
 
     <!-- footer -->
     <?php
