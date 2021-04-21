@@ -52,11 +52,13 @@
 
 .sidebar-item {
  text-align: center;
+ position: relative;
+ top: 10px;
  
 }
 
 #sidebar {
-   width: 320px;
+   
  
 }
 #sidebar header {
@@ -72,6 +74,13 @@
    display: block;
    text-decoration: none;
 }
+#sidebar ul li{
+   color: #fff;
+   display: block;
+   text-decoration: none;
+   padding-right: 5px;
+}
+
 
 #sidebar header a:hover {
    color: #fff;
@@ -87,7 +96,7 @@ font-size: 14px;
 }
 
 #sidebar .nav a:hover {
-background: none;
+background: #17A2B8 ;
 color: #ECEFF1;
 }
 

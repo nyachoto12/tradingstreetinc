@@ -34,7 +34,7 @@
       <div style="border-bottom: 1px solid rgb(226, 226, 226);"></div>
       <br>
     </div>
-    <div class="container-fluid p-3">
+    <!-- <div class="container-fluid p-3">
       <div class="row">
         <div class="col text-center foot" style="margin-left: 370px">
           <form class="">
@@ -44,7 +44,7 @@
         </div>
       </div>
 
-    </div>
+    </div> -->
 
     <div class="container-fluid bg-dark p-4">
       <div class="row justify-content-center">
