@@ -180,15 +180,16 @@
 
                                                 <div style="animation-delay: 1.5s" class="animated slideInRight">
                                                     <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder;" class="display-5">FINANCIAL FREEDOM</h1>
-                                                    <p class="p3 mt-2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius natus quasi doloremque tempore corrupti officia eaque ab, illo quo iste consequatur, unde, in magni aspernatur sequi aperiam provident a
-                                                        vel.
+                                                    <p class="p3 mt-2 " style="font-size : 10px">Trading Street Inc is readily available to help you to able to do whatever you 
+                                                    like whilst living a good life and having enough money to cover your expenses easily, affordable and happily
+                                                    
                                                     </p>
                                                 </div>
 
                                             </div>
                                             <div style="margin-left: -45px; ">
-                                                <button type="button" class="btn  btn-outline-secondary text-white small rounded-0 btn-lg text-uppercase"><strong>Our Services</strong></button>
-                                                <button type="button" class="btn btn-info rounded-0 small text-uppercase text-white  btn-lg"><strong>Contact Us</strong></button>
+                                              <a href="services.php"> <button type="button" class="btn  btn-outline-secondary text-white small rounded-0 btn-lg text-uppercase"><strong>Our Services</strong></button></a> 
+                                               <a href="contact.php"><button type="button" class="btn btn-info rounded-0 small text-uppercase text-white  btn-lg"><strong>Contact Us</strong></button></a> 
                                             </div>
                                         </div>
                                     </div>
@@ -200,12 +201,17 @@
                 </div>
             </div>
             <div class="carousel-item carousel-item3  your-slider-item ">
-                <img src="./images/Top_Forex_Trading_Tips_For_Beginners.jpeg" class="d-block w-100 " alt="... ">
-                <div class="carousel-caption d-none d-md-block ">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                </div>
+                <img src="./images/forex-news.jpg" class="d-block w-100 " alt="... ">
+                <div class="carousel-caption d-none d-md-block " >
+                    <h3 class="p-3 m-0 text-capitalize">Latest Market News</h3>
+                    <p>We give you the trending news to keep you updated each and everytime so that you wont miss anything that is happening 
+                    in the world of trading and forex all around the world</p>
+                    <div>
+                     <a href="services.php"> <button type="button" class="btn  btn-outline-secondary text-white small rounded-0 btn-lg text-uppercase"><strong>Explore our news</strong></button></a>  
+                    </div>
             </div>
+                </div>
+             
 
 
 
@@ -213,8 +219,12 @@
             <div class="carousel-item carousel-item3 your-slider-item ">
                 <img src="./images/Top_Forex_Trading_Tips_For_Beginners.jpeg " class="d-block w-100 " alt="... ">
                 <div class="carousel-caption d-none d-md-block ">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <h3 class=" p-3 m-0 text-capitalize">Explore Our Packages</h3>
+                    <p>The deposit amounts and target returns can be adjusted to suit the client’s needs if they are more than the minimum required which is listed in the packages. 
+                    A client is allowed to invest in two or more packages simultaneously.</p>
+                    <div>
+                     <a href="services.php"> <button type="button" class="btn  btn-info text-white small rounded-0 btn-lg text-uppercase"><strong>Our Packages Summary</strong></button></a>  
+                    </div>
                 </div>
             </div>
         </div>
@@ -237,44 +247,49 @@
                                     <div class="card-body text-center">
                                         <br>
 
-                                        <p><i class="fas fa-4x fa-dollar-sign"></i></p>
-                                        <h4 class="card-title">Sunlimetech</h4>
-                                        <p class="card-text text-left">This is basic card with image on top, title, description and button.</p>
+                                        <p><i class="fas fa-box fa-3x info-color"></i></p>
+                                        <h4 class="card-title">General Mentorship Packages</h4>
+                                        <p class="card-text text-left">We have inclusive mentorship packages which cater for all types of traders from Newbies, 
+                                        Enthusiasts to Professionals on a general basis without any specific target from the profits </p>
 
                                     </div>
                                     <div class="d-flex justify-content-end">
-                                        <a style="text-decoration: none;" href="https://www.fiverr.com/share/qb8D02" class="info-color pb-2 pr-3 small text-uppercase">Find More</a>
+                                        <a style="text-decoration: none;" href="#" class="info-color pb-2 pr-3 small text-uppercase">Find More</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="backside">
                                 <div class="card">
                                     <div class="card-body text-center mt-4">
-                                        <h4 class="card-title">Sunlimetech</h4>
-                                        <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                        <h4 class="card-title">Trading Street Inc | 2021</h4>
+                                        <p class="card-text">The client can use the profits as they deem necessary.
+                                        These packages are classified into three main packages which include the basic package, proffessional package and the premium package</p>
                                         <ul class="list-inline">
                                             <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
-                                                    <i class="fa fa-facebook"></i>
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-facebook-square"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
-                                                    <i class="fa fa-twitter"></i>
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-twitter"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
-                                                    <i class="fa fa-skype"></i>
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-linkedin"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
-                                                    <i class="fa fa-google"></i>
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-whatsapp"></i>
                                                 </a>
                                             </li>
                                         </ul>
                                     </div>
+                                </div>
+                                <div class="d-flex justify-content-end">
+                                    <a style="text-decoration: none;" href="services.php" class="info-color pb-2 pr-3 small text-uppercase">Find More</a>
                                 </div>
                             </div>
                         </div>
@@ -290,44 +305,51 @@
                                     <span class="p-2 info-bg text-white small w-50 text-center">Our Package</span>
                                     <div class="card-body text-center">
                                         <br>
-                                        <p><i class="fas fa-4x fa-dollar-sign"></i></p>
-                                        <h4 class="card-title">Sunlimetech</h4>
-                                        <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                                        <p><i class="fas fa-box fa-3x info-color"></i></p>
+                                        <h4 class="card-title">Developmental Packages</h4>
+                                        <p class="card-text">Trading street also provides phenomenal packages which have had huge 
+                                        successes over time, classified as target specific developmental packages </p>
 
                                     </div>
                                     <div class="d-flex justify-content-end">
-                                        <a style="text-decoration: none;" href="https://www.fiverr.com/share/qb8D02" class="info-color pb-2 pr-3 small text-uppercase">Find More</a>
+                                        <a style="text-decoration: none;" href="#" class="info-color pb-2 pr-3 small text-uppercase">Find More</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="backside">
                                 <div class="card">
                                     <div class="card-body text-center mt-4">
-                                        <h4 class="card-title">Sunlimetech</h4>
-                                        <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                        <h4 class="card-title">Trading Street Inc | 2021</h4>
+                                        <p class="card-text">
+                                        We can help you build that home, help you buy that car,
+                                         help you payback that bank loan and also help you have that holiday trip you have always wanted through these packages. 
+                                        This package includes the housing package, vehicle purchase, holiday trip and the loan repayment package</p>
                                         <ul class="list-inline">
                                             <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
-                                                    <i class="fa fa-facebook"></i>
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-facebook-square"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
-                                                    <i class="fa fa-twitter"></i>
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-twitter"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
-                                                    <i class="fa fa-skype"></i>
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-linkedin"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
-                                                    <i class="fa fa-google"></i>
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-whatsapp"></i>
                                                 </a>
                                             </li>
                                         </ul>
                                     </div>
+                                </div>
+                                <div class="d-flex justify-content-end">
+                                    <a style="text-decoration: none;" href="services.php" class="info-color pb-2 pr-3 small text-uppercase">Find More</a>
                                 </div>
                             </div>
                         </div>
@@ -343,51 +365,62 @@
                                     <span class="p-2 info-bg text-white small w-50 text-center">Our Package</span>
                                     <div class="card-body text-center">
                                         <br>
-                                        <p><i class="fas fa-4x fa-dollar-sign"></i></p>
-                                        <h4 class="card-title">Sunlimetech</h4>
-                                        <p class="card-text">This is basic card with image on top, title, description and button.</p>
-
+                                        <p><i class="fas fa-box fa-3x info-color"></i></p>
+                                        <h4 class="card-title">Packages Summary</h4>
+                                        <p class="card-text">
+                                        In summary, the packages can be customized to suit client targets which also influences the
+                                         time frame, at the back are minimum requirements per desired package.
+                                        </p>
                                     </div>
                                     <div class="d-flex justify-content-end">
-                                        <a style="text-decoration: none;" href="https://www.fiverr.com/share/qb8D02" class="info-color pb-2 pr-3 small text-uppercase">Find More</a>
+                                        <a style="text-decoration: none;" href="#" class="info-color pb-2 pr-3 small text-uppercase">Find More</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="backside">
                                 <div class="card">
                                     <div class="card-body text-center mt-4">
-                                        <h4 class="card-title">Sunlimetech</h4>
-                                        <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
-                                        <ul class="list-inline">
+                                        <h4 class="card-title">Trading Street Inc | 2021</h4>
+                                        <p class="card-text"> 
+                                         <ul class="text-left" style="list-style-type: none">
+                                             <li class="pb-2" style="font-family: 'Segoe UI'; font-size :12px"></i>Vehicle  package $500&ensp;  <i class="fas fa-arrow-right fa-2x   info-color "></i>     $5900 (in 7 months) </li>
+                                             <li class="pb-2" style="font-family: 'Segoe UI'; font-size :12px"></i>Housing package $10 000  <i class="fas fa-arrow-right fa-2x    info-color "></i>    $30 000 (in 6 months) </li>
+                                             <li class="pb-2" style="font-family: 'Segoe UI'; font-size :12px"></i>Holiday  package $ 1000 <i class="fas fa-arrow-right fa-2x   info-color "></i>     $5000 (5 months)  </li>
+                                             <li style="font-family: 'Segoe UI'; font-size :12px"></i>Loan  package $10000  <i class="fas fa-arrow-right fa-2x   info-color "></i>     $30000 (6months) </li>
+                                       </ul></p>
+                                       <ul class="list-inline">
                                             <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
-                                                    <i class="fa fa-facebook"></i>
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-facebook-square"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
-                                                    <i class="fa fa-twitter"></i>
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-twitter"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
-                                                    <i class="fa fa-skype"></i>
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-linkedin"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
-                                                <a class="social-icon text-xs-center" target="_blank" href="https://www.fiverr.com/share/qb8D02">
-                                                    <i class="fa fa-google"></i>
+                                                <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                <i class="fab fa-whatsapp"></i>
                                                 </a>
                                             </li>
                                         </ul>
                                     </div>
+                                </div>
+                                <div class="d-flex justify-content-end">
+                                    <a style="text-decoration: none;" href="services.php" class="info-color pb-2 pr-3 small text-uppercase">Find More</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- ./Package 3 -->
-                <p style="position: relative;display:block;bottom: 60px;" class="text-muted text-center m-0 p-0">Don’t hesitate, contact us for better help and services. <a href="#" class="info-color">Explore all services</a></p>
+                <p style="position: relative;display:block;bottom: 60px;" class="text-muted text-center m-0 p-0">Don’t hesitate, contact us for better help and services. <a href="services.php" class="info-color">Explore all services</a></p>
             </div>
 
         </div>
@@ -403,19 +436,18 @@
                 <div class="col-sm col-md col-lg">
                     <h6 class="info-color ff-header text-uppercase">Trading Street Inc</h6>
                     <h1 class="display-6 ff-header4 text-dark"><strong>Are You Ready To Dominate The Markets?</strong></h1>
-
-                    <p class="first-section ff-header">Nemari Technologies exists to solve simple and complex problems in enhancing economic development.We acknowledge the power that software solutions offer to B2B customers in solving problems and making it easier to perform tasks/activities.
+                    Trading Street Inc is a business dedicated to help people make money. Yes. We are only aimed at helping our clients generate income 
+                    at their own time. We equip people with knowledge to gain financial independence. We are champions nurturing champions.
                     <span id="dots">....</span>
                         <span id="more" style="display: none;transition: 0.4s;">
-                            Our software solutions enhance efficiency, performance and ease of doing things in health-care,
-                            banking, and insurance.
-                            Nemari Technologies believes technology is the future we are building now, and has limitless
-                            opportunities in making the world a better place. <br> <br> Nemari Technologies offers solutions
-                            in the following niche markets: start-ups, health-care, banking, and insurance.
-                            Nemari Technologies offers web and mobile based software products and services to meet B2B needs
-                            in advancing digitization and Artificial intelligence systems.
-                            The mode of business is changing fast from brick-mortar to a blended model with digitization
-                            becoming a competitive advantage for most.
+                        <br>
+                        <br>
+                        Trading street is in partnership with Deriv limited, an international forex brokerage 
+                        firm highly reputable in their service across the financial services market. 
+                        <br>
+                        <br>
+                        Trading Street is now an affiliate of the highly efficient Deriv Group Limited. The company is a member of the Financial Commission. The company boasts of a total trade turnover in excess of 8Billion USD,
+                         2.9Million plus opened trading accounts from clients across the world
                         </span>
                     </p>
                     <!-- Readmore button with an onclick function-->
@@ -423,7 +455,7 @@
                 </div>
                 <div class="col-sm col-md col-lg">
                     <div style="float: right;display:block;position:relative;right:40px;top:-10px;" class="info-bg w-25 p-2 d-flex justify-content-center">
-                        <span class="text-center text-white">photo</span>
+                        <span class="text-center text-white">Brand</span>
                     </div>
 
                     <div>
@@ -467,8 +499,8 @@
                                             <p style="display: block;position:relative;left:100px;top:50px;"><i class="fas info-color fa-5x fa-balance-scale"></i></p>
                                             <br><br> <br><br> <br><br> <br>
                                             <div class="p-2">
-                                                <h4>Fores Trading Courses</h4>
-                                                <p class="small">Lorem Ipsum is simply dummy Text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                                                <h4>Forex Trading Courses</h4>
+                                                <p class="small">An exclusive full basic-enthusiast-expert Forex trading course.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -492,7 +524,7 @@
                                             <br><br> <br><br> <br><br> <br>
                                             <div class="p-2">
                                                 <h4>Signals</h4>
-                                                <p class="small">Lorem Ipsum is simply dummy Text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                                                <p class="small">Ultra-profitable signals on the premium to platinum packages.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -515,7 +547,7 @@
                                             <br><br> <br><br> <br><br> <br>
                                             <div class="p-2">
                                                 <h4>Consultation</h4>
-                                                <p class="small">Lorem Ipsum is simply dummy Text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                                                <p class="small">Consultation on digital money systems, covering everything stock and forex markets related as well as e-commerce.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -540,7 +572,7 @@
                                             <br><br> <br><br> <br><br> <br>
                                             <div class="p-2">
                                                 <h4>Cash Withdrawals</h4>
-                                                <p class="small">Lorem Ipsum is simply dummy Text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                                                <p class="small">We facilitate cash withdrawals at trader-friendly rates.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -564,7 +596,7 @@
                                             <br><br> <br><br> <br><br> <br>
                                             <div class="p-2">
                                                 <h4>Referral Benefits</h4>
-                                                <p class="small">Lorem Ipsum is simply dummy Text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                                                <p class="small">Referral program which allows you to earn 10% in cash for each client you refer to us.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -587,7 +619,7 @@
                                             <br><br> <br><br> <br><br> <br>
                                             <div class="p-2">
                                                 <h4>Updates</h4>
-                                                <p class="small">Lorem Ipsum is simply dummy Text of the printing and typesetting industry. Lorem Ipsum has been the industry.</p>
+                                                <p class="small">Get updates on significant events that have an effect on the market.</p>
                                             </div>
                                         </div>
                                     </div>

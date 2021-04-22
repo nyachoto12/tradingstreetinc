@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | Trading Street Inc</title>
+    <title>About Us | Trading Street Inc</title>
     <!--Bootsrap 4 CDN-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -224,14 +224,17 @@
                 <h1 class="text-dark " style="font-weight: bolder; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">We Work With You To Address Your Most Critical Business Priorities
                 </h1>
                 <br>
-                <p class="text-dark">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-                    book. <span id="dots">....</span>
-                    <span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget,
-                        auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed
-                        ullamcorper ipsum dignissim ac.
-                        In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida
-                        venenatis.
-                        Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.
+                <p class="text-dark">Trading Street Inc. is a registered forex trading company in Zimbabwe,the first of 
+                    its kind that seeks to empower and mentor willing would be traders in Zimbabwe and beyond to earn from 
+                    forex Trading, providing a scam free forex trading experience to its clients.  <span id="dots">....</span>
+                    <span id="more">
+                    <br>
+                    <br>
+                    The company has over 1330 
+                    local clients and over 45 international clients, a sign of the efficiency and reliable nature the company 
+                    has shown since 2019
+
+
                     </span>
                 </p>
                 <p class=" d-flex justify-content-end">
@@ -259,14 +262,15 @@
                 </h4>
 
                 <br>
-                <p class="text-dark">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-                    book. <span id="dots2">....</span>
-                    <span id="more2">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget,
-                        auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed
-                        ullamcorper ipsum dignissim ac.
-                        In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida
-                        venenatis.
-                        Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.
+                <p class="text-dark">We are a Zimbabwean based forex trading firm which prides itself in leading growth in the industry.
+                     We produce profitable forex traders  and promote adaptation to the fast changing digital money systems.
+                     <span id="dots2">....</span>
+                     <br>
+                     <br>
+                    <span id="more2"> 
+                     We are your ultra modern forex trading academy with no physical offices but a digital office setup, 
+                     open and available 24/7. We lead in transparency and results.
+                     And we are your one stop hub for all your valuable stock market insight. We are here to empower. 
                     </span>
                 </p>
                 <p class=" d-flex justify-content-end">
@@ -296,7 +300,8 @@
                         </span> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
                         <span style="font-size: 24px; font-weight: bolder;">Our Mission</span> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
                         <div class=" pl-5 pr-3 pt-3" style="height: 90px; border-left: 1px solid gray; position: relative; left: 400px; top: -60px;">
-                            <p class="text-white w-50" style="position: relative; left: 150px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam atque odio sit animi voluptate. Voluptatibus at molestiae corrupti, esse nemo reprehenderit. Qui ipsum molestias veniam quidem, voluptatibus iure consequuntur ipsam!</p>
+                            <p class="text-white w-50" style="position: relative; left: 150px;">The company seeks to grow the forex & commodities market legitimately while promoting financial literacy in our clients,
+                             empowering and advocating for financial freedom to our clients and the public at large</p>
                         </div>
 
                     </div>
@@ -308,7 +313,8 @@
                         </span> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
                         <span style="font-size: 24px; font-weight: bolder;"> Our Vision</span> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
                         <div class=" pl-5 pr-3 pt-3" style="height: 90px; border-left: 1px solid gray; position: relative; left: 400px; top: -60px;">
-                            <p class="text-white w-50" style="position: relative; left: 150px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam atque odio sit animi voluptate. Voluptatibus at molestiae corrupti, esse nemo reprehenderit. Qui ipsum molestias veniam quidem, voluptatibus iure consequuntur ipsam!</p>
+                            <p class="text-white w-50" style="position: relative; left: 150px;">The company seeks to grow the forex & commodities market legitimately while promoting financial literacy in our clients,
+                             empowering and advocating for financial freedom to our clients and the public at large</p>
                         </div>
 
                     </div>
@@ -319,7 +325,8 @@
                         </span> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
                         <span style="font-size: 24px; font-weight: bolder;"> Our Values</span> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
                         <div class=" pl-5 pr-3 pt-3" style="height: 90px; border-left: 1px solid gray; position: relative; left: 382px; top: -60px;">
-                            <p class="text-white w-50" style="position: relative; left: 150px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam atque odio sit animi voluptate. Voluptatibus at molestiae corrupti, esse nemo reprehenderit. Qui ipsum molestias veniam quidem, voluptatibus iure consequuntur ipsam!</p>
+                            <p class="text-white w-50" style="position: relative; left: 150px;">The company seeks to grow the forex & commodities market legitimately while promoting financial literacy in our clients,
+                             empowering and advocating for financial freedom to our clients and the public at large</p>
                         </div>
                     </div>
                 </div>

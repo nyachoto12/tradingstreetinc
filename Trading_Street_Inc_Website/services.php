@@ -485,7 +485,7 @@
 
                         </div>
                         <div class="row p-3" id="row5">
-                            <h1 style="font-weight: bolder;" class="text-dark">General Mentorship Packages </h1>
+                            <h1 style="font-weight: bolder;" class="text-dark" id="general">General Mentorship Packages </h1>
 
                         </div>
                         <div class="row p-5">
@@ -599,7 +599,7 @@
 
                         </div>
                         <div class="row p-3">
-                            <h1 style="font-weight: bolder;" class="text-dark">Developmental Packages</h1>
+                            <h1 style="font-weight: bolder;" class="text-dark" id="devs">Developmental Packages</h1>
                         </div>
                         <div class="row p-5">
                             <div class="col dev " style="height : 470px; background-color: rgba(0, 0, 0, 0.9);">
@@ -766,7 +766,7 @@
                                 package.
                             </p>
                             <ul class="pl-2" style="list-style-type: none">
-                                <h4 class=" text-dark p-3 " style="font-weight: bolder; background-color : #17A2B8 ; width : 40%" >Summary of the packages</h4>
+                                <h4 class=" text-dark p-3 " style="font-weight: bolder; background-color : #17A2B8 ; width : 40%" id="summary" >Summary of the packages</h4>
                                 <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Vehicle purchase package $500&ensp;  <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i>     $5900 (in 7 months) </li>
                                 <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Housing package $10 000 &ensp;&ensp;&ensp;&ensp;&ensp; <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i>    $30 000 (in 6 months) </li>
                                 <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Holiday trip package $ 1000&ensp;&ensp;&ensp;&ensp;  <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i>     $5000 (5 months)  </li>
