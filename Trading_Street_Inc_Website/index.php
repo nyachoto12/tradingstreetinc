@@ -35,6 +35,9 @@
     <!-- Fonts Family -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap" rel="stylesheet">
+
 
     <!-- Custom styles for this template -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
@@ -65,11 +68,11 @@
             background-color: #00d2ff;
         }
 
-      
+
         /*First Header Style*/
 
         .ff-header {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Poppins', sans-serif;
             font-weight: 400;
         }
 
@@ -82,16 +85,17 @@
         }
 
         .ff-header2 {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Poppins', sans-serif;
             font-weight: 300;
         }
 
         .ff-header3 {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Poppins', sans-serif;
+
         }
 
         .ff-header4 {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Poppins', sans-serif;
             font-weight: 700;
         }
 
@@ -405,7 +409,7 @@
                     <h1 class="display-6 ff-header4 text-dark"><strong>Are You Ready To Dominate The Markets?</strong></h1>
 
                     <p class="first-section ff-header">Nemari Technologies exists to solve simple and complex problems in enhancing economic development.We acknowledge the power that software solutions offer to B2B customers in solving problems and making it easier to perform tasks/activities.
-                    <span id="dots">....</span>
+                        <span id="dots">....</span>
                         <span id="more" style="display: none;transition: 0.4s;">
                             Our software solutions enhance efficiency, performance and ease of doing things in health-care,
                             banking, and insurance.

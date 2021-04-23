@@ -160,8 +160,8 @@
     <!-- End Of Header -->
     <!-- Conduct header -->
     <div style="font-family: 'Segoe UI';" class="container-fluid">
-        <div class="row picture" style="height: 350px !important;">
-            <div style=" background-color: rgba(0, 0, 0, 0.8);font-size: small;" class="text-white p-5">
+        <div class="row picture" style="height: 250px !important;">
+            <div style=" background-color: rgba(0, 0, 0, 0.8);font-size: small;" class="text-white p-3">
 
                 <div class="cond-in">
 

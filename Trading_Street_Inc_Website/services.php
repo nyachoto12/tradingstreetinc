@@ -14,10 +14,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!--Bootstrap 5 Css-->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
     <!-- Font Awesome -->
     <script src="./js/all.js"></script>
@@ -28,8 +26,7 @@
     <!-- W3School Css -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- AnimateCss -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" type="" href="css/main.css">
@@ -54,8 +51,7 @@
     <!------ Include the above in your HEAD tag ---------->
 
     <!-- AnimateCss -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
     <link rel="stylesheet" href="./css/mystyle.css">
@@ -141,7 +137,7 @@
         }
 
         .myfont {
-            style="font-family: 'Segoe UI';"
+            font-family: 'Segoe UI';
             font-size: 24px;
         }
 
@@ -249,8 +245,8 @@
     <!-- End Of Header -->
     <!-- Conduct header -->
     <div style="font-family: 'Segoe UI';" class="container-fluid">
-        <div class="row picture" style="height: 350px !important;">
-            <div style=" background-color: rgba(0, 0, 0, 0.6);font-size: small;" class="text-white p-5">
+        <div class="row picture" style="height: 250px !important;">
+            <div style=" background-color: rgba(0, 0, 0, 0.6);font-size: small;" class="text-white p-3">
 
                 <div class="cond-in">
 
@@ -260,8 +256,7 @@
 
                     </strong>
                     <a href="index.php" style="text-decoration: none; color: white">
-                        <h6 class="text-white cond-p"><i class="fas fa-home"></i><strong>&ensp;Home</strong>&ensp;<span
-                                style="position: relative; display: inline; height: 2px; border-left: 2px solid white; font-weight: bold;"></span>
+                        <h6 class="text-white cond-p"><i class="fas fa-home"></i><strong>&ensp;Home</strong>&ensp;<span style="position: relative; display: inline; height: 2px; border-left: 2px solid white; font-weight: bold;"></span>
                     </a>
                     <a href="#" style="text-decoration: none"><span class="info-color">&ensp;&ensp;Services</span></a>
 
@@ -428,7 +423,7 @@
                                             <i class="fas fa-clock fa-3x info-color"></i>
                                         </div>
                                         <div class="col-9 w-25 pt-3 text-left">
-                                            <span><strong>Open Hours: </strong>Mon - Sun 9:00 - 17:00</span>
+                                            <span>Open Hours: Mon - Sun 9:00 - 17:00</span>
                                         </div>
                                     </div>
                                 </div>
@@ -504,8 +499,7 @@
                         <div class="row  p-md-5 p-lg-5">
                             <div class="col-sm col-md-7 col-lg">
 
-                                <h3 class="text-dark text-capitalize text-center p-2 "
-                                    style="font-weight: bolder; background-color : #17A2B8" id="basic">Basic Package
+                                <h3 class="text-dark text-capitalize text-center p-2 " style="font-weight: bolder; background-color : #17A2B8" id="basic">Basic Package
                                 </h3>
                                 <p>
                                 <div class="row">
@@ -531,8 +525,7 @@
                                     </li>
 
                                 </ul>
-                                <h3 class="text-dark text-capitalize text-center p-2"
-                                    style="font-weight: bolder;background-color : #17A2B8" id="proff">Professional
+                                <h3 class="text-dark text-capitalize text-center p-2" style="font-weight: bolder;background-color : #17A2B8" id="proff">Professional
                                     Package
                                 </h3>
                                 <p>
@@ -557,8 +550,7 @@
                                     </li>
 
                                 </ul>
-                                <h3 class="text-dark text-capitalize text-center p-2"
-                                    style="font-weight: bolder; background-color : #17A2B8" id="prem">Premium Package
+                                <h3 class="text-dark text-capitalize text-center p-2" style="font-weight: bolder; background-color : #17A2B8" id="prem">Premium Package
                                 </h3>
                                 <p>
                                 <div class="row">
@@ -621,8 +613,7 @@
                         <div class="row  p-md-5 p-lg-5">
                             <div class="col-sm col-md-7 col-lg">
 
-                                <h3 class="text-dark text-capitalize text-center p-2"
-                                    style="font-weight: bolder; background-color : #17A2B8" id="house">Housing Package
+                                <h3 class="text-dark text-capitalize text-center p-2" style="font-weight: bolder; background-color : #17A2B8" id="house">Housing Package
                                 </h3>
                                 <p>
                                 <div class="row">
@@ -650,8 +641,7 @@
                                     </li>
 
                                 </ul>
-                                <h3 class="text-dark text-capitalize text-center p-2"
-                                    style="font-weight: bolder;background-color : #17A2B8" id="vehicle">Vehicle Platform
+                                <h3 class="text-dark text-capitalize text-center p-2" style="font-weight: bolder;background-color : #17A2B8" id="vehicle">Vehicle Platform
                                 </h3>
                                 <p>
                                 <div class="row">
@@ -683,8 +673,7 @@
                                     </li>
 
                                 </ul>
-                                <h3 class="text-dark text-capitalize text-center p-2"
-                                    style="font-weight: bolder; background-color : #17A2B8" id="holiday">Holiday trip
+                                <h3 class="text-dark text-capitalize text-center p-2" style="font-weight: bolder; background-color : #17A2B8" id="holiday">Holiday trip
                                     packages
                                 </h3>
                                 <p>
@@ -716,8 +705,7 @@
                                     </li>
 
                                 </ul>
-                                <h3 class="text-dark text-capitalize text-center p-2"
-                                    style="font-weight: bolder; background-color : #17A2B8" id="loan">Loan repayment
+                                <h3 class="text-dark text-capitalize text-center p-2" style="font-weight: bolder; background-color : #17A2B8" id="loan">Loan repayment
                                     package
                                 </h3>
                                 <p>
@@ -752,9 +740,8 @@
 
                         </div>
                         <!-- Summary of Packages Container -->
-                        <div class="row" >
-                            <h3 class="p-2 text-center" style="font-weight: bolder; background-color : #17A2B8"
-                                id="summary">Special note about our packages</h3>
+                        <div class="row">
+                            <h3 class="p-2 text-center" style="font-weight: bolder; background-color : #17A2B8" id="summary">Special note about our packages</h3>
                             <p class="text-dark pl-1 pt-4" style="font-family: 'Segoe UI'; font-size :20px">
                                 The deposit amounts and target returns can be adjusted to suit the client’s needs if
                                 they are more than the minimum required which is listed in the packages.
@@ -766,77 +753,64 @@
                                 package.
                             </p>
                             <ul class="pl-2" style="list-style-type: none">
-                                <h4 class=" text-dark p-3 " style="font-weight: bolder; background-color : #17A2B8 ; width : 40%" >Summary of the packages</h4>
-                                <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Vehicle purchase package $500&ensp;  <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i>     $5900 (in 7 months) </li>
-                                <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Housing package $10 000 &ensp;&ensp;&ensp;&ensp;&ensp; <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i>    $30 000 (in 6 months) </li>
-                                <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Holiday trip package $ 1000&ensp;&ensp;&ensp;&ensp;  <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i>     $5000 (5 months)  </li>
-                                <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Loan repayment package $10000  <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i>     $30000 (6months) </li>
+                                <h4 class=" text-dark p-3 " style="font-weight: bolder; background-color : #17A2B8 ; width : 40%">Summary of the packages</h4>
+                                <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Vehicle purchase package $500&ensp; <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i> $5900 (in 7 months) </li>
+                                <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Housing package $10 000 &ensp;&ensp;&ensp;&ensp;&ensp; <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i> $30 000 (in 6 months) </li>
+                                <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Holiday trip package $ 1000&ensp;&ensp;&ensp;&ensp; <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i> $5000 (5 months) </li>
+                                <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Loan repayment package $10000 <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i> $30000 (6months) </li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- end of side bar and content -->
-         
+
             <!-- footer -->
             <?php
-               include('footer.php');
-             ?>
+            include('footer.php');
+            ?>
             <!-- end of footer -->
 
             <!--JQuery-->
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js "
-                integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0 "
-                crossorigin="anonymous "></script>
-            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js "
-                integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi "
-                crossorigin="anonymous "></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js "
-                integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG "
-                crossorigin="anonymous "></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js " integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0 " crossorigin="anonymous "></script>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js " integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi " crossorigin="anonymous "></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js " integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG " crossorigin="anonymous "></script>
             <script src="./js/jquery-3.5.1.min.js "></script>
-            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js "
-                integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
-                crossorigin="anonymous ">
-                </script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js "
-                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
-                crossorigin="anonymous ">
-                </script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js "
-                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
-                crossorigin="anonymous ">
-                </script>
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous ">
+            </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous ">
+            </script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous ">
+            </script>
             <!--Bootstrap JavaScript-->
             <script src="./js/bootstrap.bundle.min.js "></script>
-            <script src="https://code.jquery.com/jquery-3.4.1.min.js "
-                integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=" anonymous "></script>
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js " integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=" anonymous "></script>
             <script src="js/jquery.carousel-line-arrow.js "></script>
             <script src="js/main.js "></script>
             <script src="js/readmore.js"></script>
             <script type="text/javascript ">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-36251023-1']);
-        _gaq.push(['_setDomainName', 'jqueryscript.net']);
-        _gaq.push(['_trackPageview']);
+                var _gaq = _gaq || [];
+                _gaq.push(['_setAccount', 'UA-36251023-1']);
+                _gaq.push(['_setDomainName', 'jqueryscript.net']);
+                _gaq.push(['_trackPageview']);
 
-        (function() {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
+                (function() {
+                    var ga = document.createElement('script');
+                    ga.type = 'text/javascript';
+                    ga.async = true;
+                    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(ga, s);
+                })();
+            </script>
             <script>
                 try {
                     fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js ", {
                         method: 'HEAD',
                         mode: 'no-cors'
-                    })).then(function (response) {
+                    })).then(function(response) {
                         return true;
-                    }).catch(function (e) {
+                    }).catch(function(e) {
                         var carbonScript = document.createElement("script ");
                         carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet ";
                         carbonScript.id = "_carbonads_js ";

@@ -5,13 +5,13 @@
 <!-- First Header -->
 <div class="container-fluid mobile-off  bg-dark">
     <div class="row">
-        <div class="col-md-3 col-lg-3 info-bg" style="padding:11px;">
+        <div class="col-md-3 col-lg-3 info-bg" style="padding:10px;">
             <div class=" text-right pr-3 ">
-                <span><strong><i class="far fa-clock text-white small"></i></strong></span>
-                <span class="ff-header text-white small"> <strong>Open Hours: </strong>Mon - Sun 9:00 - 17:00</span>
+                <span><strong><i class="far text-white small fa-clock"></i></strong></span>
+                <span class="ff-header text-white small"> <strong>Open Hours: Mon - Sun 9:00 - 17:00</strong></span>
             </div>
         </div>
-        <div class="col d-flex justify-content-end" style="padding:11px;">
+        <div class="col d-flex justify-content-end" style="padding:10px;">
             <div class="pr-5 mr-5">
                 <span><strong><i class="far text-white small fa-envelope"></i></strong></span>
                 <span class="ff-header2 text-white small">example@gmail.com.zw &ensp;</span>
@@ -37,24 +37,24 @@
     <nav class="navbar  navbar-expand-lg navbar-white rounded-0 m-0 p-3 bg-white">
         <div class="container custom-header custom-toggler mb-0">
 
-            <a class="navbar-brand " href="index.php"><strong class="text-uppercase">Trading Street Inc</strong></a>
+            <span class="navbar-brand " href="index.php"><strong class="text-uppercase ff-header4">Trading Street Inc</strong></span>
             <button id="nav-toggle-button" class="navbar-toggler rounded-0 navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
-                <ul class=" navbar-nav ff-header3 ml-auto ">
+                <ul class=" navbar-nav ff-header ml-auto ">
                     <li class="nav-item active ">
-                        <a style="font-weight: bolder !important; " class="text-uppercase nav-link " href="index.php">Home <span class="sr-only ">(current)</span></a>
+                        <a style="font-weight: bolder !important;font-size:small !important; " class="text-uppercase nav-link " href="index.php">Home <span class="sr-only ">(current)</span></a>
                     </li>
                     <li class="nav-item ">
-                        <a style="font-weight: bolder !important; " class="text-uppercase nav-link " href="services.php">Services</a>
+                        <a style="font-weight: bolder !important;font-size:small !important;  " class="text-uppercase nav-link " href="services.php">Services</a>
                     </li>
                     <li class="nav-item ">
-                        <a style="font-weight: bolder !important; " class="text-uppercase nav-link " href="# ">News</a>
+                        <a style="font-weight: bolder !important;font-size:small !important;  " class="text-uppercase nav-link " href="news.php">News</a>
                     </li>
                     <li class="nav-item ">
-                        <a style="font-weight: bolder !important; " class="text-uppercase nav-link " href="contact.php">Contact</a>
+                        <a style="font-weight: bolder !important;font-size:small !important;  " class="text-uppercase nav-link " href="contact.php">Contact</a>
                     </li>
                     <li class="nav-item ">
-                        <a style="font-weight: bolder !important; " class="text-uppercase nav-link " href="about.php">About</a>
+                        <a style="font-weight: bolder !important;font-size:small !important;  " class="text-uppercase nav-link " href="about.php">About</a>
                     </li>
                 </ul>
 
