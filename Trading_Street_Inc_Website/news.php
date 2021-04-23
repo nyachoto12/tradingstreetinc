@@ -309,7 +309,7 @@
                     <div class="card-container-fluid ">
                         <div class="card card-1 ">
                             <div class="card-img"></div>
-                            <a href="" class="card-link">
+                            <a href="<?php echo $news->url; ?>" class="card-link">
                                 <div style="background-image: var(--card-img-hovered-overlay), url(<?php echo $news->urlToImage; ?>);" class="card-img-hovered">
                                     <p class="bg-warning w-50 text-center text-dark "> <small style="font-weight:bold;"><?php echo $news->source->name; ?></small></p>
                                 </div>
