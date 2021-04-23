@@ -157,6 +157,53 @@
     <?php
     include('header.php');
     ?>
+    <?php
+          // define variables and set to empty values
+      $nameErr = $emailErr = $subjectErr = $messageErr = "";
+      $name = $email = $subject = $message = "";
+      if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        if (empty($_POST["name"])) {
+          $nameErr = "Name is required";
+        } else {
+          $name = test_input($_POST["name"]);
+          // check if name only contains letters and whitespace
+          if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
+            $nameErr = "Only letters and white space allowed";
+          }
+        }
+        
+        if (empty($_POST["email"])) {
+          $emailErr = "Email is required";
+        } else {
+          $email = test_input($_POST["email"]);
+          // check if e-mail address is well-formed
+          if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            $emailErr = "Invalid email format";
+          }
+        }
+        if (empty($_POST["subject"])) {
+            $subjectErr = "Subject is required";
+          } else {
+            $subject = test_input($_POST["subject"]);
+          }
+        }
+      
+        if (empty($_POST["message"])) {
+          $genderErr = "Message is required";
+        } else {
+          $message = test_input($_POST["message"]);
+        }
+      
+      
+      function test_input($data) {
+        $data = trim($data);
+        $data = stripslashes($data);
+        $data = htmlspecialchars($data);
+        return $data;
+      }
+      ?>
+      
+    ?>
     <!-- End Of Header -->
     <!-- Conduct header -->
     <div style="font-family: 'Segoe UI';" class="container-fluid">
@@ -219,24 +266,30 @@
                             <h2 style="font-weight: 600;">Get In Touch
                             </h2>
                             <br>
-                            <form action="mail.php " method="POST " class=" ">
+                            <p><span class="error text-danger">* Required field</span></p>
+                            <form action="mail.php
+                            " method="POST " class=" ">
 
                                 <div class="form-inline ml-3">
                                     <div class="form-group pr-3">
-                                        <input type="email " class="form-control rounded-0" id="exampleInputEmail3 " placeholder="Your Name">
+                                        <input type="text" class="form-control rounded-0" id="exampleInputEmail3 " value="<?php echo $name;?>" name = "name" placeholder="Your Name">
+                                        <span class="error pr-2 text-danger pl-2">* <?php echo $nameErr;?></span>
                                     </div>
                                     <div class="form-group ">
-                                        <input type="password " class="form-control  rounded-0" id="exampleInputPassword3 " placeholder="Your Email">
+                                        <input type="email" class="form-control  rounded-0" id="exampleInputPassword3 " value="<?php echo $email;?>" name ="email" placeholder="Your Email">
+                                        <span class="error pr-2 text-danger pl-2">* <?php echo $emailErr;?></span>
                                     </div>
 
                                 </div>
                                 <div>
                                     <div class="form-group p-3 pb-0">
-                                        <input type="text " class="form-control text-gray rounded-0 " name="phone " aria-describedby=" phone " placeholder="Subject">
+                                        <input type="text " class="form-control text-gray rounded-0 " name="phone " aria-describedby=" phone " value="<?php echo $subject;?>" placeholder="Subject">
+                                        <span class="error pr-2 text-danger pl-2">* <?php echo $subjectErr;?></span>
                                     </div>
 
                                     <div class="form-group p-3 pt-0">
-                                        <textarea name="message " id="message " cols="100 " rows="4 " class="form-control  rounded-0 text-gray " placeholder="Your Message"></textarea>
+                                        <textarea name="message " id="message " cols="100 " rows="4 " class="form-control  rounded-0 text-gray " value="<?php echo $message;?>" placeholder="Your Message"></textarea>
+                                        <span class="error pr-2 text-danger pl-2">* <?php echo $messageErr;?></span>
                                     </div>
                                     <div class="form-group ">
                                         <button type="submit " name="submit " class="btn rounded-0 text-uppercase w-50 text-light info-bg " style="font-size: 20px; margin-left: 10px; ">Send</button>

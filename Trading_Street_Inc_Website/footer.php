@@ -17,17 +17,17 @@
       <div class="container-fluid p-3">
         <div class="row">
           <div class="col border-end">
-            <h6 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;font-weight:bolder;" class="text-center text-dark">Our Address</h6>
-            <p class="text-center">5364 Harare Road Streer 7</p>
+            <h6 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;font-weight:bolder;" class="text-center text-dark">Our Physical Address</h6>
+            <p class="text-center">Digital Office Business. Borrowdale Harare, Zimbabwe</p>
           </div>
 
           <div class="col border-end">
-            <h6 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;font-weight:bolder;" class="text-center text-dark">Talk To Expert</h6>
-            <p class="text-center">+263 774 546 0030 or +263 713 674 9737</p>
+            <h6 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;font-weight:bolder;" class="text-center text-dark">Talk To An Expert</h6>
+            <p class="text-center">Phone: +263 77 175 7160</p>
           </div>
           <div class="col">
             <h6 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;font-weight:bolder;" class="text-center text-dark">Email Us</h6>
-            <p class="text-center">email@gmail.co.zw</p>
+            <p class="text-center"> sales@tradingstreet.co.zw</p>
           </div>
         </div>
       </div>
