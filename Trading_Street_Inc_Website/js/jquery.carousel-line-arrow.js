@@ -6,7 +6,7 @@
             heightIsProportional: true, // height of slider is proportional to the width when resized, defaultl is true
             linePosition: 'top', // position of line-time: 'bottom' or 'top', default is 'bottom'
             lineHeight: '3px', // height of line-time (px, em, rem, %), default is '5px';
-            lineColor: '#00d0ff74'
+            lineColor: ' #17A2B8' // color of line-time, default is 'red'
         }, options);
 
         let make = function() {
@@ -25,38 +25,38 @@
             let proportial = imgHeight / imgWidth; //соотн. сторон
 
             // костыль с padding-bottom для получения пропорционального слайдера
-            $(this).wrap("<div class='carousel-wrapper-middle'></div>");
-            $('.carousel-wrapper-middle').wrap("<div class='carousel-wrapper-outer'></div>");
-            $('.carousel-wrapper-outer').css('width', '100%');
-            $('.carousel-wrapper-middle').css('width', '100%');
+            // $(this).wrap("<div class='carousel-wrapper-middle'></div>");
+            // $('.carousel-wrapper-middle').wrap("<div class='carousel-wrapper-outer'></div>");
+            // $('.carousel-wrapper-outer').css('width', '100%');
+            // $('.carousel-wrapper-middle').css('width', '100%');
 
-            if (options.heightIsProportional) {
-                $('.carousel-wrapper-middle').css('padding-bottom', (proportial * 100) + '%');
-            } else {
-                wrapperWidth = $('.carousel-wrapper-outer').width();
-                $('.carousel-wrapper-middle').css('padding-bottom', imgHeight * wrapperWidth / imgWidth);
-            }
+            // if (options.heightIsProportional) {
+            //     $('.carousel-wrapper-middle').css('padding-bottom', (proportial * 100) + '%');
+            // } else {
+            //     wrapperWidth = $('.carousel-wrapper-outer').width();
+            //     $('.carousel-wrapper-middle').css('padding-bottom', imgHeight * wrapperWidth / imgWidth);
+            // }
 
-            $('.carousel-wrapper-middle').css('position', 'relative');
+            //    $('.carousel-wrapper-middle').css('position', 'relative');
 
             // устанавливаем абсолютное позиционирование для слайдов
-            $(this).css('position', 'absolute');
-            $(this).css('width', '100%');
-            $(this).css('height', '100%');
-            $(this).css('top', '0%');
-            $(this).css('left', '0%');
+            // $(this).css('position', 'absolute');
+            // $(this).css('width', '100%');
+            // $(this).css('height', '100%');
+            // $(this).css('top', '0%');
+            // $(this).css('left', '0%');
             // items.css('position', 'absolute');
             // items.css('width', '100%');
             // items.css('height', '100%');
             // items.css('top', '0%');
             // items.css('left', '0%');
-            // //imgsItem.css('max-width', '100%');
+            //imgsItem.css('max-width', '100%');
             // imgsItem.css('width', '100%');
             // imgsItem.css('height', '100%');
-            // imgsItem.css('object-fit', 'cover');
+            imgsItem.css('object-fit', 'cover');
 
-            // items.css('display', 'none');
-            // items.eq(0).css('display', 'block');
+            items.css('display', 'none');
+            items.eq(0).css('display', 'block');
 
             ///////////////////////////////////////////
             //создаем полосу длительности показа слайда
@@ -76,11 +76,11 @@
 
             //////////////////////////////////////////////
             /////////  создаем стрелки ///////////////////
-            //////////////////////////////////////////////
-            //   $(this).append('<div class="carouselLineArrow-arrow carouselLineArrow-arrow-right"><div class="carouselLineArrow-arrow-inner"></div></div>');
+            // //////////////////////////////////////////////
+            // $(this).append('<div class="carouselLineArrow-arrow carouselLineArrow-arrow-right"><div class="carouselLineArrow-arrow-inner"></div></div>');
             // $(this).append('<div class="carouselLineArrow-arrow carouselLineArrow-arrow-left"><div class="carouselLineArrow-arrow-inner"></div></div>')
-            //let arrowLeft = $this.children('.carouselLineArrow-arrow-left');
-            //let arrowRight = $this.children('.carouselLineArrow-arrow-right');
+            // let arrowLeft = $this.children('.carouselLineArrow-arrow-left');
+            // let arrowRight = $this.children('.carouselLineArrow-arrow-right');
 
             // параметры
             let iLast = items.length - 1; // индекс последнего слайда
@@ -247,56 +247,43 @@
             /////////////////////////////////////////
             //////// мышка входит на slide/////////
             /////////////////////////////////////////
-            /* $(this).on('mouseenter', function() {
-                 sliderHover = true;
-                 //console.log('stop');
-                 if (lineIsAnim) { // если линия анимирована
-                     // удалить анимацию на линии
-                     innerLine.stop();
-                     innerLine.css('width', '0%');
-                     lineIsAnim = false;
-                 }
-             });*/
+            // $(this).on('mouseenter', function() {
+            //     sliderHover = true;
+            //     //console.log('stop');
+            //     if (lineIsAnim) { // если линия анимирована
+            //         // удалить анимацию на линии
+            //         innerLine.stop();
+            //         innerLine.css('width', '0%');
+            //         lineIsAnim = false;
+            //     }
+            // });
 
             /////////////////////////////////////////
             //////// мышка уходит из slide/////////
             /////////////////////////////////////////
-            /* $(this).on('mouseleave', function() {
-                 sliderHover = false;
-                 // если вывели мышку после того как ввели ее во время анимации линии
-                 // или после того как ввели ее во время анимации слайда и она закончилась
-                 // в этих двух случаях нет анимации слайда
+            // $(this).on('mouseleave', function() {
+            //     sliderHover = false;
+            //     // если вывели мышку после того как ввели ее во время анимации линии
+            //     // или после того как ввели ее во время анимации слайда и она закончилась
+            //     // в этих двух случаях нет анимации слайда
 
-                 if (!slideIsAnim) {
-                     // тоже что и первый запуск анимации линии
-                     //console.log('запускаем заново')
-                     lineIsAnim = true;
-                     //console.log(`lineIsAnim = ${lineIsAnim}`);
-                     if (!sliderHover) {
-                         innerLine.animate({
-                             'width': '100%'
-                         }, options.lineDur, afterLineAnimateLeft);
-                     }
-                 }
-             });*/
+            //     if (!slideIsAnim) {
+            //         // тоже что и первый запуск анимации линии
+            //         //console.log('запускаем заново')
+            //         lineIsAnim = true;
+            //         //console.log(`lineIsAnim = ${lineIsAnim}`);
+            //         if (!sliderHover) {
+            //             innerLine.animate({
+            //                 'width': '100%'
+            //             }, options.lineDur, afterLineAnimateLeft);
+            //         }
+            //     }
+            // });
 
             ////////////////////////////////
             ////// СТРЕЛКА ВЛЕВО //////////
             ////////////////////////////////
-            arrowLeft.on('click', function() {
-                if (!slideIsAnim) {
-                    afterLineAnimateLeft();
-                }
-            });
 
-            ////////////////////////////////
-            ////// СТРЕЛКА ВПРАВО //////////
-            ////////////////////////////////
-            arrowRight.on('click', function() {
-                if (!slideIsAnim) {
-                    afterLineAnimateRight();
-                }
-            });
 
         };
         return this.each(make);

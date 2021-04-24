@@ -5,6 +5,6 @@ $(function() {
         heightIsProportional: true, // height of slider is proportional to the width when resized, defaultl is true
         linePosition: 'top', // position of line-time: 'bottom' or 'top', default is 'bottom'
         lineHeight: '3px', // height of line-time (px, em, rem, %), default is '5px';
-        lineColor: '#00d0ff74' // color of line-time, default is 'red'
+        lineColor: ' #17A2B8' // color of line-time, default is 'red'
     });
 })

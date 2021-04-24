@@ -239,7 +239,6 @@
             color: #17A2B8;
             font-size: 50px;
         }
-        
     </style>
 
 </head>
@@ -294,12 +293,12 @@
             <!-- Side Bar -->
 
             <?php
-    
-                $url = "https://newsapi.org/v2/everything?q=trading-markets-africa&from=2021-04-23&to=2021-04-23&sortBy=date&apiKey=d1ab4131a93b4ca3bcda10cd56bbf08b";
-                $response = file_get_contents($url);
-                $newsData = json_decode($response);
-            
-            
+
+            $url = "https://newsapi.org/v2/everything?q=zimbabwe&from=2021-04-24&to=2021-04-24&sortBy=date&apiKey=d1ab4131a93b4ca3bcda10cd56bbf08b";
+            $response = file_get_contents($url);
+            $newsData = json_decode($response);
+
+
 
             foreach ($newsData->articles as $news) { ?> <div class="col-sm col-md  m-0 col-lg">
 
