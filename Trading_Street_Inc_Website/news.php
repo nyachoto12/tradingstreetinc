@@ -300,6 +300,9 @@
                 $a = "". date("Y/m/d");
                 ?>
             <?php
+<<<<<<< HEAD
+         
+=======
             if (file_exists('news.json')) {
                 $api_url = 'news.json';
                 $newlist = json_decode(file_get_contents($api_url));
@@ -310,7 +313,11 @@
                 file_put_contents('news.json', $newlist);
                 $newlist = json_decode($newlist);
             }
+>>>>>>> 8122081b16bb47acbd366b2761dacb395d5b0f1f
 
+            $api_url = "https://newsapi.org/v2/everything?q=trade-africa&from=2021-04-24&to=2021-04-24&sortBy=date&apiKey=d1ab4131a93b4ca3bcda10cd56bbf08b";
+            $newlist = file_get_contents($api_url);
+            $newlist = json_decode($newlist);
 
 
             $break_out   = 12;

@@ -69,31 +69,14 @@
    text-align: center;
 }
 
-#sidebar header a {
-   color: #fff;
-   display: block;
-   text-decoration: none;
-}
-#sidebar ul li{
-   color: #fff;
-   display: block;
-   text-decoration: none;
-   padding-right: 5px;
-}
+
 
 
 #sidebar header a:hover {
    color: #fff;
 }
 
-#sidebar .nav a {
-background: none;
-margin: 5px;
-padding: 3px;
-color: #CFD8DC;
-font-size: 14px;
 
-}
 
 #sidebar .nav a:hover {
 background: #17A2B8 ;
