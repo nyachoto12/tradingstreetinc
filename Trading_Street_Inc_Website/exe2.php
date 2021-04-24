@@ -293,26 +293,16 @@
             <!-- Side Bar -->
             <?php
                 $a = "". date("Y/m/d");
-
+                $date = new DateTime();
+                $n = $date->modify("-1 days")->format('Y/m/d');
                 ?>
             <?php
-<<<<<<< HEAD
-
-            $url = "https://newsapi.org/v2/everything?q=zimbabwe&from=2021-04-24&to=2021-04-24&sortBy=date&apiKey=d1ab4131a93b4ca3bcda10cd56bbf08b";
-            $response = file_get_contents($url);
-            $newsData = json_decode($response);
-
-
-=======
                 
-                $url = "https://newsapi.org/v2/everything?q=trade-africa&from=$a&to=$a&sortBy=date&apiKey=d1ab4131a93b4ca3bcda10cd56bbf08b";
+                $url = "https://newsapi.org/v2/everything?q=trade-africa&from=$n&to=$a&sortBy=date&apiKey=d1ab4131a93b4ca3bcda10cd56bbf08b";
                 $response = file_get_contents($url);
                 $newsData = json_decode($response);
-            
-            
->>>>>>> 8122081b16bb47acbd366b2761dacb395d5b0f1f
 
-            foreach ($newsData->articles as $news) { ?> <div class="col-sm col-md  m-0 col-lg">
+               foreach ($newsData->articles as $news) { ?> <div class="col-sm col-md  m-0 col-lg">
 
                     <div class="card-container-fluid ">
                         <div class="card card-1 ">

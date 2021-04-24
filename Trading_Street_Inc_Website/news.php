@@ -297,6 +297,7 @@
         <div class="row no-gutters p-0 m-0">
             <!-- Side Bar -->
             <?php
+<<<<<<< HEAD
             $a = "" . date("Y/m/d");
             ?>
             <?php
@@ -310,8 +311,15 @@
                 file_put_contents('news.json', $newlist);
                 $newlist = json_decode($newlist);
             }
+=======
+                $a = "". date("Y/m/d");
+                $date = new DateTime();
+                $n = $date->modify("-1 days")->format('Y/m/d');
+                ?>
+            <?php
+>>>>>>> 058ec5d3b6904bbb8a43cc0a9fe1aa8a31c54856
 
-            $api_url = "https://newsapi.org/v2/everything?q=trade-africa&from=2021-04-24&to=2021-04-24&sortBy=date&apiKey=d1ab4131a93b4ca3bcda10cd56bbf08b";
+            $api_url = "https://newsapi.org/v2/everything?q=trading&from=$n&to=$a&sortBy=date&apiKey=d1ab4131a93b4ca3bcda10cd56bbf08b";
             $newlist = file_get_contents($api_url);
             $newlist = json_decode($newlist);
 
