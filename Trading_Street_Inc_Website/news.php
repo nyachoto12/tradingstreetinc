@@ -97,8 +97,13 @@
         }
 
         .info-bg {
-            background-color: #17A2B8;
+            background-color: #17A2B8 !important;
         }
+
+        .info-bg1 {
+            background-color: red !important;
+        }
+
 
         .info-color {
             color: #17A2B8;
@@ -136,6 +141,7 @@
         .navbar .nav-item.active .nav-link,
         .navbar .nav-item:hover .nav-link {
             color: #17A2B8 !important;
+            transition: 0.2s;
         }
 
         /*End Of Second Header*/
@@ -150,7 +156,7 @@
         }
 
         .myfont {
-            font-family: 'Segoe UI';
+            font-family: 'Poppins', sans-serif;
             font-size: 24px;
         }
 
@@ -243,23 +249,25 @@
 
 </head>
 
-<body class="">
-
-
+<body style="background-color: black;">
     <!-- Header -->
     <?php
-    include('header.php');
+    include('news_header.php');
     ?>
     <!-- End Of Header -->
-
-
-
-
     <!-- News header -->
-    <div style="font-family: 'Segoe UI';" class="container-fluid">
+    <div class="container-fluid">
+        <style>
+            :root {
+                --primary: hsl(0, 0%, 7%, 0.4);
+                --secondary: hsl(0, 0%, 5%, 1);
+            }
+        </style>
         <div class="row picture" style="height: 250px !important;">
-            <div style=" background-color: rgba(0, 0, 0, 0.8);font-size: small;" class="text-white p-3">
-
+            <div style="background: linear-gradient(90deg,var(--secondary), var(--primary));font-size: small;" class="col text-white">
+                <marquee style="background-color: rgba(0, 0, 0, 0.2);color: white;" behavior="" direction="">
+                    <span style="background-color: red;color: white; font-family: 'Poppins', sans-serif;font-weight: 700;" class="text-uppercase p-2">&ensp;&ensp;News&ensp;&ensp;</span> Get latest daily forex news from the whole world, and enjoy the news. Please maskup, sanitaise, avoid gatherings and maintain social distance. Together we can fight COVID-19.
+                </marquee>
                 <div class="cond-in">
 
                     <strong>
@@ -270,7 +278,7 @@
                     <a href="index.php" style="text-decoration: none; color: white">
                         <h6 class="text-white cond-p"><i class="fas fa-home"></i><strong>&ensp;Home</strong>&ensp;<span style="position: relative; display: inline; height: 2px; border-left: 2px solid white; font-weight: bold;"></span>
                     </a>
-                    <a href="#" style="text-decoration: none"><span class="info-color">&ensp;&ensp;News</span></a>
+                    <a href="#" style="text-decoration: none"><span style="color:red;">&ensp;&ensp;News</span></a>
 
                     </h6>
 
@@ -281,13 +289,10 @@
         </div>
 
     </div>
-    <!-- End of Nwes header -->
-
-
+    <!-- End of News header -->
     <br>
     <br>
-
-    <!-- Body -->
+    <!-- News Content -->
     <div class="container-fluid">
         <div class="row no-gutters p-0 m-0">
             <!-- Side Bar -->
@@ -298,25 +303,34 @@
                 $newlist = json_decode(file_get_contents($api_url));
             } else {
                 $news_key = 'forex'; // we will be fetching only sports news related
-                $api_url = 'https://newsapi.org/v2/everything?q=' . $news_key . '&from=2021-04-23&to=2021-04-22&sortBy=popularity&apiKey=e13ea32f8a5344e7bce102118a253256';
+                $api_url = 'https://newsapi.org/v2/everything?q=' . $news_key . '&from=2021-04-24&to=2021-04-23&sortBy=popularity&apiKey=e13ea32f8a5344e7bce102118a253256';
                 $newlist = file_get_contents($api_url);
                 file_put_contents('news.json', $newlist);
                 $newlist = json_decode($newlist);
             }
 
-            foreach ($newlist->articles as $news) { ?> <div class="col-sm col-md  m-0 col-lg">
 
-                    <div class="card-container-fluid ">
-                        <div class="card card-1 ">
+
+            $break_out   = 12;
+            $counter     = 0;
+
+            foreach ($newlist->articles as $news) {
+                $counter++;
+                if ($counter > $break_out)
+                    break; ?>
+                <div class="col-sm col-md  m-0 col-lg">
+
+                    <div class="card-container-fluid  rounded-0 border-0">
+                        <div class="card card-1  bg-dark rounded-0 border-0">
                             <div class="card-img"></div>
                             <a href="<?php echo $news->url; ?>" class="card-link">
                                 <div style="background-image: var(--card-img-hovered-overlay), url(<?php echo $news->urlToImage; ?>);" class="card-img-hovered">
-                                    <p class="bg-warning w-50 text-center text-dark "> <small style="font-weight:bold;"><?php echo $news->source->name; ?></small></p>
+                                    <p style="background-color: red;" class=" w-50 text-center text-white "> <small style="font-weight:400;"><?php echo $news->source->name; ?></small></p>
                                 </div>
                             </a>
-                            <div class="card-info">
+                            <div class="card-info text-white">
                                 <div class="card-about">
-                                    <a class="card-tag tag-news">NEWS</a>
+                                    <a class="card-tag info-bg tag-news">NEWS</a>
                                     <div class="card-time"> <small><?php echo $news->publishedAt; ?></small></div>
                                 </div>
                                 <h1 class="card-title"><?php echo $news->title; ?></h1>
@@ -333,7 +347,69 @@
         </div>
     </div>
 
-    <!-- News Content -->
+
+    <!--End News Content -->
+
+    <!-- News List -->
+    <!-- Button trigger modal -->
+    <button type="button" style="background-color: red;  font-family: 'Poppins', sans-serif;font-weight: 400;" class="btn w-50 text-white rounded-0" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Read More
+    </button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div style="max-width: 50%;" class=" modal-dialog modal-fullscreen-xxl-down">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">All News list</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+
+
+                    <div class="container">
+                        <div class="list-wrapper">
+
+
+                            <?php
+                            if (file_exists('news.json')) {
+                                $api_url = 'news.json';
+                                $newlist = json_decode(file_get_contents($api_url));
+                            } else {
+                                $news_key = 'forex'; // we will be fetching only sports news related
+                                $api_url = 'https://newsapi.org/v2/everything?q=' . $news_key . '&from=2021-04-21&to=2021-04-20&sortBy=popularity&apiKey=e13ea32f8a5344e7bce102118a253256';
+                                $newlist = file_get_contents($api_url);
+                                file_put_contents('news.json', $newlist);
+                                $newlist = json_decode($newlist);
+                            }
+
+                            foreach ($newlist->articles as $news) { ?> <div class="row w-100 signle-news">
+
+                                    <div class="col-lg-7">
+
+                                        <h6><?php echo $news->title; ?></h6>
+                                        <small class="text-muted"><?php echo $news->publishedAt; ?></small>
+                                        <small class="text-muted"><?php echo $news->source->name; ?></small>
+
+                                    </div>
+
+                                    <div class="col-lg-5">
+
+                                        <?php if ($news->author && $news->author != "") { ?>
+                                            <small>By <?php echo $news->author; ?></small>
+                                        <?php } ?>
+                                        <a href="<?php echo $news->url; ?>" target="_blank">Read More</a>
+                                    </div>
+                                </div>
+                            <?php } ?>
+                        </div>
+                    </div>
 
 
 
@@ -344,28 +420,21 @@
 
 
 
+                </div>
+            </div>
+        </div>
 
-
-
-
-
-
-
-
-
-
-
-
+    </div>
+    </div>
+    </div>
+    <!-- End Of News list -->
 
 
     <!-- footer -->
     <?php
-    // include('footer.php');
+    include('footer.php');
     ?>
     <!-- end of footer -->
-
-
-
     <!--JQuery-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>

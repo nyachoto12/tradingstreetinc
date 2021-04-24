@@ -1,35 +1,34 @@
 <!DOCTYPE html>
 <html>
 
-
+<style>
+    .navbar .nav-item.active .nav-link,
+    .navbar .nav-item:hover .nav-link {
+        color: red !important;
+    }
+</style>
 <!-- First Header -->
 <div class="container-fluid mobile-off  bg-dark">
     <div class="row">
-        <div class="col-md-3 col-lg-3 info-bg" style="padding:10px;">
+        <div class="col-md-3 col-lg-3 info-bg1" style="padding:10px;">
             <div class=" text-right pr-3 ">
-                <span><strong><i class="fas text-white small fa-clock"></i></strong></span>
-                <span class="ff-header text-white small"> <strong>Open Hours:</strong> Mon - Sun 9:00 - 17:00</span>
+                <span><strong><i class="far text-white small fa-clock"></i></strong></span>
+                <span class="ff-header text-white small"> <strong>Open Hours: Mon - Sun 9:00 - 17:00</strong></span>
             </div>
         </div>
         <div class="col d-flex justify-content-end" style="padding:10px;">
             <div class="pr-5 mr-5">
-                <style>
-                    a:hover {
-                        color: #17A2B8 !important;
-                        transition: 0.2s;
-                    }
-                </style>
-                <span><a href="##"><i class="fas text-white small fa-envelope"></i></a></span>
-                <span class="ff-header2 text-white small">sales@tradingstreet.co.zw &ensp;</span>
+                <span><strong><i class="far text-white small fa-envelope"></i></strong></span>
+                <span class="ff-header2 text-white small">sales@tradingstreet.co.zw  &ensp;</span>
                 <span style="height:20px;display:inline-block;width:1px; background-color:rgba(146, 142, 142, 0.33);position:relative;top:7px;"></span>
 
                 <span>&ensp;<strong><i class="fas text-white small fa-phone-alt"></i></strong></span>
                 <span class="ff-header2 text-white small">+263 773 467 4737&ensp;</span>
                 <span style="height:20px;display:inline-block;width:1px; background-color:rgba(146, 142, 142, 0.33);position:relative;top:7px;"></span>
 
-                <span>&ensp; <a href="http://"><i class="fab text-white small fa-facebook-f"></i></a> </span>
-                <span>&ensp; <a href="http://"><i class="fab text-white small fa-twitter"></i></a> </span>
-                <span>&ensp; <a href="http://"><i class="fab text-white small fa-linkedin-in"></i></a> </span>
+                <span>&ensp;<strong><i class="fab text-white small fa-facebook-f"></i></strong></span>
+                <span>&ensp;<strong><i class="fab text-white small fa-twitter"></i></strong></span>
+                <span>&ensp;<strong><i class="fab text-white small fa-linkedin-in"></i></strong></span>
 
             </div>
         </div>
@@ -47,13 +46,13 @@
             <button id="nav-toggle-button" class="navbar-toggler rounded-0 navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
                 <ul class=" navbar-nav ff-header ml-auto ">
-                    <li class="nav-item active ">
+                    <li class="nav-item">
                         <a style="font-weight: bolder !important;font-size:small !important; " class="text-uppercase nav-link " href="index.php">Home <span class="sr-only ">(current)</span></a>
                     </li>
                     <li class="nav-item ">
                         <a style="font-weight: bolder !important;font-size:small !important;  " class="text-uppercase nav-link " href="services.php">Services</a>
                     </li>
-                    <li class="nav-item ">
+                    <li class="nav-item  active ">
                         <a style="font-weight: bolder !important;font-size:small !important;  " class="text-uppercase nav-link " href="news.php">News</a>
                     </li>
                     <li class="nav-item ">

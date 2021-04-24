@@ -64,22 +64,24 @@
     <style>
         /*First Header Style*/
 
+
         .ff-header {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Poppins', sans-serif;
             font-weight: 400;
         }
 
         .ff-header2 {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Poppins', sans-serif;
             font-weight: 300;
         }
 
         .ff-header3 {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Poppins', sans-serif;
+
         }
 
         .ff-header4 {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Poppins', sans-serif;
             font-weight: 700;
         }
 
@@ -149,14 +151,7 @@
             background-attachment: relative;
         }
 
-        .newspic {
-            background: url(./images/best_forex_traders.jpeg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: relative;
-            object-fit: scale-down;
-        }
+
 
         .mentor {
 
@@ -246,7 +241,13 @@
     <!-- Conduct header -->
     <div style="font-family: 'Segoe UI';" class="container-fluid">
         <div class="row picture" style="height: 250px !important;">
-            <div style=" background-color: rgba(0, 0, 0, 0.6);font-size: small;" class="text-white p-3">
+            <style>
+                :root {
+                    --primary: hsl(0, 0%, 7%, 0.4);
+                    --secondary: hsl(0, 0%, 5%, 1);
+                }
+            </style>
+            <div style="background: linear-gradient(90deg,var(--secondary), var(--primary));font-size: small;" class="text-white p-3">
 
                 <div class="cond-in">
 
@@ -271,39 +272,41 @@
     </div>
     <!-- End of Conduct header -->
     <!-- Start of side bar and right content -->
-    <div class="container-fluid">
+    <div class="container-fluid widget make-me-sticky">
         <div class="row pb-5">
-            <div class="col-lg-4 mt-5 mb-5" style="background-color: #F8FEFF;">
+            <div class="col p-0 m-0">&ensp;</div>
+            <div class="col-lg mt-5 mb-5" style="background-color: #F8FEFF;">
 
                 <div class="sidebar-item">
 
-                    <div class="widget make-me-sticky" style="background-color: white;">
-                        <div id="sidebar">
-                            <header>
-                                <a href="#">Our Packages</a>
+                    <div class="">
+                        <div class="bg-white text-white">
+                            <header style="font-family: 'Poppins', sans-serif;font-size: 20px;border-left: 5px solid #17A2B8;" class="bg-dark p-3 text-left text-uppercase">
+                                <strong>&ensp;&ensp;&ensp;&ensp;Our Packages</strong>
                             </header>
                             <div class="nav">
-                                <ul>
+                                <ul style="list-style-type: none;">
                                     <li class="">
-                                        <button class="dropdown-btn text-dark">General Mentorship Packages
+
+                                        <button style="font-family: 'Poppins';font-weight: bold;font-size:medium;" class="btn btnn text-dark">&ensp;General Mentorship Packages
                                             <!-- <i class="fa fa-caret-down"></i> -->
                                         </button>
-                                        <div class="dropdown-container ">
-                                            <a class="text-dark" href="#basic">Basic package </a>
-                                            <a class="text-dark" href="#proff">Professional package</a>
-                                            <a class="text-dark" href="#prem">Premium package </a>
+                                        <div class="pl-5">
+                                            <a style="font-family: 'Poppins';font-weight: 300;font-size:small;" class="text-muted p-0" href="#basic">Basic package </a>
+                                            <a style="font-family: 'Poppins';font-weight: 300;font-size:small;" class="text-muted p-0" href="#proff">Professional package</a>
+                                            <a style="font-family: 'Poppins';font-weight: 300;font-size:small;" class="text-muted p-0" href="#prem">Premium package </a>
                                         </div>
 
                                     </li>
                                     <li class="">
-                                        <button class="dropdown-btn text-dark">Developmental Packages
+                                        <button style="font-family: 'Poppins';font-weight: bold;font-size:medium;" class="btn btnn text-dark">Developmental Packages&ensp;&ensp;&ensp;&ensp;
                                             <!-- <i class="fa fa-caret-down"></i> -->
                                         </button>
-                                        <div class="dropdown-container">
-                                            <a class="text-dark" href="#house">The housing package </a>
-                                            <a class="text-dark" href="#vehicle">Vehicle purchase package</a>
-                                            <a class="text-dark" href="#holiday">Holiday trip packages </a>
-                                            <a class="text-dark" href="#loan">Loan repayment package</a>
+                                        <div class="pl-5">
+                                            <a style="font-family: 'Poppins';font-weight: 300;font-size:small;" class="text-muted p-0" href="#house">The housing package </a>
+                                            <a style="font-family: 'Poppins';font-weight: 300;font-size:small;" class="text-muted p-0" href="#vehicle">Vehicle purchase package</a>
+                                            <a style="font-family: 'Poppins';font-weight: 300;font-size:small;" class="text-muted p-0" href="#holiday">Holiday trip packages </a>
+                                            <a style="font-family: 'Poppins';font-weight: 300;font-size:small;" class="text-muted p-0" href="#loan">Loan repayment package</a>
                                         </div>
 
                                     </li>
@@ -312,65 +315,65 @@
                             </div>
                         </div>
                     </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
                     <!-- news updates section -->
-                    <div class="widget make-me-sticky" style="background-color: white;">
+                    <div class="">
                         <!-- Sidebar -->
-                        <div id="sidebar">
-                            <header>
-                                <a href="#">Latest News</a>
+                        <div class="bg-white text-dark">
+                            <header style="font-family: 'Poppins', sans-serif;font-size: 20px;" class=" p-3 text-left text-uppercase">
+                                <strong>&ensp;&ensp;&ensp;&ensp;Latest Daily News</strong>
                             </header>
-                            <div class="nav pt-3">
-                                <ul>
+                            <div class="pt-3">
+                                <ul style="list-style-type: none;">
                                     <li class="">
-
                                         <div class="container ">
                                             <div class="row d-flex pb-5 text-left">
-                                                <div class="col-3  w-25 newspic" style="position : static"></div>
-                                                <div class="col-9 w-25">
-                                                    <div class="row">
-                                                        <h5 class="info-color">18 April 2021</h5 class="info-color">
+
+                                                <?php
+                                                if (file_exists('news1.json')) {
+                                                    $api_url = 'news1.json';
+                                                    $newlist = json_decode(file_get_contents($api_url));
+                                                } else {
+                                                    $news_key = 'forex'; // we will be fetching only sports news related
+                                                    $api_url = 'https://newsapi.org/v2/everything?q=' . $news_key . '&from=2021-04-24&to=2021-04-23&sortBy=popularity&apiKey=e13ea32f8a5344e7bce102118a253256';
+                                                    $newlist = file_get_contents($api_url);
+                                                    file_put_contents('news1.json', $newlist);
+                                                    $newlist = json_decode($newlist);
+                                                }
+
+
+
+                                                $break_out   = 4;
+                                                $counter     = 0;
+
+                                                foreach ($newlist->articles as $news) {
+                                                    $counter++;
+                                                    if ($counter > $break_out)
+                                                        break; ?>
+                                                    <div class="col-sm col-md  m-0 col-lg-12">
+                                                        <ol class="p-0 m-0" style="list-style-type: none;">
+                                                            <li class="p-0 m-0">
+                                                                <img style="width: 50px;" src="<?php echo $news->urlToImage; ?>" alt="News">
+                                                                <span class="text-muted" style="font-size:smaller;"><?php echo $news->publishedAt; ?></span>
+                                                                <p><strong><a class="text-dark" style="font-family: 'Poppins', sans-serif;" href="<?php echo $news->url; ?>"><?php echo $news->title; ?></a></strong></p>
+                                                            </li>
+                                                        </ol>
                                                     </div>
-                                                    <div class="row">
-                                                        <p class="text-dark">Stock markets increases by 70% in the past
-                                                            4 months </p>
-                                                    </div>
-                                                </div>
+                                                <?php } ?>
                                             </div>
                                         </div>
 
                                     </li>
-                                    <li class="">
-                                        <div class="container">
-                                            <div class="row d-flex pb-5 text-left">
-                                                <div class="col-3 bg-danger w-25 newspic"></div>
-                                                <div class="col-9 bg-success w-25">
-                                                    <div class="row ">
-                                                        <h5>12 Jan 2021</h5>
-                                                    </div>
-                                                    <div class="row">
-                                                        <p>Over 50% businesses adopted to stock market exchange in
-                                                            Africa</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <li>
+                                        <a href="news.php">Read more</a>
                                     </li>
-                                    <li class="">
-                                        <div class="container">
-                                            <div class="row d-flex pb-5 text-left">
-                                                <div class="col-3  w-25 newspic"></div>
-                                                <div class="col-9 w-25">
-                                                    <div class="row">
-                                                        <h5 class="info-color">10 December 2020</h5>
-                                                    </div>
-                                                    <div class="row">
-                                                        <p class="text-dark">Solutions to finacial problems has been
-                                                            discovered</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
+
 
                                 </ul>
                             </div>
@@ -382,8 +385,8 @@
                     <div class="widget make-me-sticky" style="background-color: white;">
                         <!-- Sidebar -->
                         <div id="sidebar" class="">
-                            <header>
-                                <a href="#">Get in Touch</a>
+                            <header style="font-family: 'Poppins', sans-serif;font-size: 20px;border-left: 5px solid #17A2B8;" class="bg-dark p-3 text-left text-uppercase">
+                                <strong>&ensp;&ensp;&ensp;&ensp;Get In Touch</strong>
                             </header>
                             <ul class="nav ">
                                 <div class="container ">
@@ -434,6 +437,7 @@
                     </div>
                 </div>
             </div>
+            <div class="col p-0 m-0">&ensp;</div>
             <!-- Right Content starts here -->
             <div class="col-lg-8">
                 <!-- Container for right content -->
@@ -753,19 +757,11 @@
                                 package.
                             </p>
                             <ul class="pl-2" style="list-style-type: none">
-<<<<<<< HEAD
-                                <h4 class=" text-dark p-3 " style="font-weight: bolder; background-color : #17A2B8 ; width : 40%">Summary of the packages</h4>
+                                <h4 class=" text-dark p-3 " style="font-weight: bolder; background-color : #17A2B8 ; width : 40%" id="summary">Summary of the packages</h4>
                                 <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Vehicle purchase package $500&ensp; <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i> $5900 (in 7 months) </li>
                                 <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Housing package $10 000 &ensp;&ensp;&ensp;&ensp;&ensp; <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i> $30 000 (in 6 months) </li>
                                 <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Holiday trip package $ 1000&ensp;&ensp;&ensp;&ensp; <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i> $5000 (5 months) </li>
                                 <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Loan repayment package $10000 <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i> $30000 (6months) </li>
-=======
-                                <h4 class=" text-dark p-3 " style="font-weight: bolder; background-color : #17A2B8 ; width : 40%" id="summary" >Summary of the packages</h4>
-                                <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Vehicle purchase package $500&ensp;  <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i>     $5900 (in 7 months) </li>
-                                <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Housing package $10 000 &ensp;&ensp;&ensp;&ensp;&ensp; <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i>    $30 000 (in 6 months) </li>
-                                <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Holiday trip package $ 1000&ensp;&ensp;&ensp;&ensp;  <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i>     $5000 (5 months)  </li>
-                                <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Loan repayment package $10000  <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i>     $30000 (6months) </li>
->>>>>>> b290308f0a43ab27cb30fcf8de05a3bb4b804fca
                             </ul>
                         </div>
                     </div>

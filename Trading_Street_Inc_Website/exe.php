@@ -1,5 +1,4 @@
 <div class="container">
-    <h1 class="text-center">Free News API</h1>
     <div class="list-wrapper">
 
 

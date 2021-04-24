@@ -139,6 +139,7 @@
         .navbar .nav-item.active .nav-link,
         .navbar .nav-item:hover .nav-link {
             color: #17A2B8 !important;
+            transition: 0.2s;
         }
 
         /*End Of Second Header*/
@@ -184,16 +185,16 @@
 
                                                 <div style="animation-delay: 1.5s" class="animated slideInRight">
                                                     <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder;" class="display-5">FINANCIAL FREEDOM</h1>
-                                                    <p class="p3 mt-2 " style="font-size : 10px">Trading Street Inc is readily available to help you to able to do whatever you 
-                                                    like whilst living a good life and having enough money to cover your expenses easily, affordable and happily
-                                                    
+                                                    <p class="p3 mt-2 " style="font-size : 10px">Trading Street Inc is readily available to help you to able to do whatever you
+                                                        like whilst living a good life and having enough money to cover your expenses easily, affordable and happily
+
                                                     </p>
                                                 </div>
 
                                             </div>
                                             <div style="margin-left: -45px; ">
-                                              <a href="services.php"> <button type="button" class="btn  btn-outline-secondary text-white small rounded-0 btn-lg text-uppercase"><strong>Our Services</strong></button></a> 
-                                               <a href="contact.php"><button type="button" class="btn btn-info rounded-0 small text-uppercase text-white  btn-lg"><strong>Contact Us</strong></button></a> 
+                                                <a href="services.php"> <button type="button" class="btn  btn-outline-secondary text-white small rounded-0 btn-lg text-uppercase"><strong>Our Services</strong></button></a>
+                                                <a href="contact.php"><button type="button" class="btn btn-info rounded-0 small text-uppercase text-white  btn-lg"><strong>Contact Us</strong></button></a>
                                             </div>
                                         </div>
                                     </div>
@@ -205,33 +206,37 @@
                 </div>
             </div>
             <div class="carousel-item carousel-item3  your-slider-item ">
-                <img src="./images/forex-news.jpg" class="d-block w-100 " alt="... ">
-                <div class="carousel-caption d-none d-md-block " >
-                    <h3 class="p-3 m-0 text-capitalize">Latest Market News</h3>
-                    <p>We give you the trending news to keep you updated each and everytime so that you wont miss anything that is happening 
-                    in the world of trading and forex all around the world</p>
-                    <div>
-                     <a href="services.php"> <button type="button" class="btn  btn-outline-secondary text-white small rounded-0 btn-lg text-uppercase"><strong>Explore our news</strong></button></a>  
-                    </div>
+                <!-- <img src="./images/forex-news.jpg" class="d-block w-100 " alt="... "> -->
+
+                <video class="video-fluid w-100" autoplay loop muted>
+                    <source src="./video/Market Loop Background Video - High Resolution (2).mp4" type="video/mp4">
+                </video>
+                 <div class="carousel-caption d-none d-md-block ">
+                        <h3 class="p-3 m-0 text-capitalize">Latest Market News</h3>
+                        <p>We give you the trending news to keep you updated each and everytime so that you wont miss anything that is happening
+                            in the world of trading and forex all around the world</p>
+                        <div>
+                            <a href="services.php"> <button type="button" class="btn  btn-outline-secondary text-white small rounded-0 btn-lg text-uppercase"><strong>Explore our news</strong></button></a>
+                        </div>
             </div>
-                </div>
-             
+        </div>
 
 
 
 
-            <div class="carousel-item carousel-item3 your-slider-item ">
-                <img src="./images/Top_Forex_Trading_Tips_For_Beginners.jpeg " class="d-block w-100 " alt="... ">
-                <div class="carousel-caption d-none d-md-block ">
-                    <h3 class=" p-3 m-0 text-capitalize">Explore Our Packages</h3>
-                    <p>The deposit amounts and target returns can be adjusted to suit the client’s needs if they are more than the minimum required which is listed in the packages. 
+
+        <div class="carousel-item carousel-item3 your-slider-item ">
+            <img src="./images/Top_Forex_Trading_Tips_For_Beginners.jpeg " class="d-block w-100 " alt="... ">
+            <div class="carousel-caption d-none d-md-block ">
+                <h3 class=" p-3 m-0 text-capitalize">Explore Our Packages</h3>
+                <p>The deposit amounts and target returns can be adjusted to suit the client’s needs if they are more than the minimum required which is listed in the packages.
                     A client is allowed to invest in two or more packages simultaneously.</p>
-                    <div>
-                     <a href="services.php"> <button type="button" class="btn  btn-info text-white small rounded-0 btn-lg text-uppercase"><strong>Our Packages Summary</strong></button></a>  
-                    </div>
+                <div>
+                    <a href="services.php"> <button type="button" class="btn  btn-info text-white small rounded-0 btn-lg text-uppercase"><strong>Our Packages Summary</strong></button></a>
                 </div>
             </div>
         </div>
+    </div>
 
     </div>
     <!--End of  Carousel -->
@@ -253,8 +258,8 @@
 
                                         <p><i class="fas fa-box fa-3x info-color"></i></p>
                                         <h4 class="card-title">General Mentorship Packages</h4>
-                                        <p class="card-text text-left">We have inclusive mentorship packages which cater for all types of traders from Newbies, 
-                                        Enthusiasts to Professionals on a general basis without any specific target from the profits </p>
+                                        <p class="card-text text-left">We have inclusive mentorship packages which cater for all types of traders from Newbies,
+                                            Enthusiasts to Professionals on a general basis without any specific target from the profits </p>
 
                                     </div>
                                     <div class="d-flex justify-content-end">
@@ -267,26 +272,26 @@
                                     <div class="card-body text-center mt-4">
                                         <h4 class="card-title">Trading Street Inc | 2021</h4>
                                         <p class="card-text">The client can use the profits as they deem necessary.
-                                        These packages are classified into three main packages which include the basic package, proffessional package and the premium package</p>
+                                            These packages are classified into three main packages which include the basic package, proffessional package and the premium package</p>
                                         <ul class="list-inline">
                                             <li class="list-inline-item">
                                                 <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fab fa-facebook-square"></i>
+                                                    <i class="fab fa-facebook-square"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
                                                 <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fab fa-twitter"></i>
+                                                    <i class="fab fa-twitter"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
                                                 <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fab fa-linkedin"></i>
+                                                    <i class="fab fa-linkedin"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
                                                 <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fab fa-whatsapp"></i>
+                                                    <i class="fab fa-whatsapp"></i>
                                                 </a>
                                             </li>
                                         </ul>
@@ -311,8 +316,8 @@
                                         <br>
                                         <p><i class="fas fa-box fa-3x info-color"></i></p>
                                         <h4 class="card-title">Developmental Packages</h4>
-                                        <p class="card-text">Trading street also provides phenomenal packages which have had huge 
-                                        successes over time, classified as target specific developmental packages </p>
+                                        <p class="card-text">Trading street also provides phenomenal packages which have had huge
+                                            successes over time, classified as target specific developmental packages </p>
 
                                     </div>
                                     <div class="d-flex justify-content-end">
@@ -325,28 +330,28 @@
                                     <div class="card-body text-center mt-4">
                                         <h4 class="card-title">Trading Street Inc | 2021</h4>
                                         <p class="card-text">
-                                        We can help you build that home, help you buy that car,
-                                         help you payback that bank loan and also help you have that holiday trip you have always wanted through these packages. 
-                                        This package includes the housing package, vehicle purchase, holiday trip and the loan repayment package</p>
+                                            We can help you build that home, help you buy that car,
+                                            help you payback that bank loan and also help you have that holiday trip you have always wanted through these packages.
+                                            This package includes the housing package, vehicle purchase, holiday trip and the loan repayment package</p>
                                         <ul class="list-inline">
                                             <li class="list-inline-item">
                                                 <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fab fa-facebook-square"></i>
+                                                    <i class="fab fa-facebook-square"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
                                                 <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fab fa-twitter"></i>
+                                                    <i class="fab fa-twitter"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
                                                 <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fab fa-linkedin"></i>
+                                                    <i class="fab fa-linkedin"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
                                                 <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fab fa-whatsapp"></i>
+                                                    <i class="fab fa-whatsapp"></i>
                                                 </a>
                                             </li>
                                         </ul>
@@ -372,8 +377,8 @@
                                         <p><i class="fas fa-box fa-3x info-color"></i></p>
                                         <h4 class="card-title">Packages Summary</h4>
                                         <p class="card-text">
-                                        In summary, the packages can be customized to suit client targets which also influences the
-                                         time frame, at the back are minimum requirements per desired package.
+                                            In summary, the packages can be customized to suit client targets which also influences the
+                                            time frame, at the back are minimum requirements per desired package.
                                         </p>
                                     </div>
                                     <div class="d-flex justify-content-end">
@@ -385,32 +390,33 @@
                                 <div class="card">
                                     <div class="card-body text-center mt-4">
                                         <h4 class="card-title">Trading Street Inc | 2021</h4>
-                                        <p class="card-text"> 
-                                         <ul class="text-left" style="list-style-type: none">
-                                             <li class="pb-2" style="font-family: 'Segoe UI'; font-size :12px"></i>Vehicle  package $500&ensp;  <i class="fas fa-arrow-right fa-2x   info-color "></i>     $5900 (in 7 months) </li>
-                                             <li class="pb-2" style="font-family: 'Segoe UI'; font-size :12px"></i>Housing package $10 000  <i class="fas fa-arrow-right fa-2x    info-color "></i>    $30 000 (in 6 months) </li>
-                                             <li class="pb-2" style="font-family: 'Segoe UI'; font-size :12px"></i>Holiday  package $ 1000 <i class="fas fa-arrow-right fa-2x   info-color "></i>     $5000 (5 months)  </li>
-                                             <li style="font-family: 'Segoe UI'; font-size :12px"></i>Loan  package $10000  <i class="fas fa-arrow-right fa-2x   info-color "></i>     $30000 (6months) </li>
-                                       </ul></p>
-                                       <ul class="list-inline">
+                                        <p class="card-text">
+                                        <ul class="text-left" style="list-style-type: none">
+                                            <li class="pb-2" style="font-family: 'Segoe UI'; font-size :12px"></i>Vehicle package $500&ensp; <i class="fas fa-arrow-right fa-2x   info-color "></i> $5900 (in 7 months) </li>
+                                            <li class="pb-2" style="font-family: 'Segoe UI'; font-size :12px"></i>Housing package $10 000 <i class="fas fa-arrow-right fa-2x    info-color "></i> $30 000 (in 6 months) </li>
+                                            <li class="pb-2" style="font-family: 'Segoe UI'; font-size :12px"></i>Holiday package $ 1000 <i class="fas fa-arrow-right fa-2x   info-color "></i> $5000 (5 months) </li>
+                                            <li style="font-family: 'Segoe UI'; font-size :12px"></i>Loan package $10000 <i class="fas fa-arrow-right fa-2x   info-color "></i> $30000 (6months) </li>
+                                        </ul>
+                                        </p>
+                                        <ul class="list-inline">
                                             <li class="list-inline-item">
                                                 <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fab fa-facebook-square"></i>
+                                                    <i class="fab fa-facebook-square"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
                                                 <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fab fa-twitter"></i>
+                                                    <i class="fab fa-twitter"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
                                                 <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fab fa-linkedin"></i>
+                                                    <i class="fab fa-linkedin"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
                                                 <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fab fa-whatsapp"></i>
+                                                    <i class="fab fa-whatsapp"></i>
                                                 </a>
                                             </li>
                                         </ul>
@@ -440,25 +446,19 @@
                 <div class="col-sm col-md col-lg">
                     <h6 class="info-color ff-header text-uppercase">Trading Street Inc</h6>
                     <h1 class="display-6 ff-header4 text-dark"><strong>Are You Ready To Dominate The Markets?</strong></h1>
-<<<<<<< HEAD
-
-                    <p class="first-section ff-header">Nemari Technologies exists to solve simple and complex problems in enhancing economic development.We acknowledge the power that software solutions offer to B2B customers in solving problems and making it easier to perform tasks/activities.
-                        <span id="dots">....</span>
-=======
-                    Trading Street Inc is a business dedicated to help people make money. Yes. We are only aimed at helping our clients generate income 
+                    Trading Street Inc is a business dedicated to help people make money. Yes. We are only aimed at helping our clients generate income
                     at their own time. We equip people with knowledge to gain financial independence. We are champions nurturing champions.
                     <span id="dots">....</span>
->>>>>>> b290308f0a43ab27cb30fcf8de05a3bb4b804fca
-                        <span id="more" style="display: none;transition: 0.4s;">
+                    <span id="more" style="display: none;transition: 0.4s;">
                         <br>
                         <br>
-                        Trading street is in partnership with Deriv limited, an international forex brokerage 
-                        firm highly reputable in their service across the financial services market. 
+                        Trading street is in partnership with Deriv limited, an international forex brokerage
+                        firm highly reputable in their service across the financial services market.
                         <br>
                         <br>
                         Trading Street is now an affiliate of the highly efficient Deriv Group Limited. The company is a member of the Financial Commission. The company boasts of a total trade turnover in excess of 8Billion USD,
-                         2.9Million plus opened trading accounts from clients across the world
-                        </span>
+                        2.9Million plus opened trading accounts from clients across the world
+                    </span>
                     </p>
                     <!-- Readmore button with an onclick function-->
                     <a onclick="myFunction()" id="myBtn" class=" bg-white rounded-0 p-md-3 p-lg-3" style="width: 30%;color:#17A2B8 !important;cursor: pointer; ">Read more</a>

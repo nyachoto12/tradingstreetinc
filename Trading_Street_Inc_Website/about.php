@@ -190,7 +190,13 @@
     <!-- Conduct header -->
     <div style="font-family: 'Segoe UI';" class="container-fluid">
         <div class="row picture" style="height: 250px !important;">
-            <div style=" background-color: rgba(0, 0, 0, 0.8);font-size: small;" class="text-white p-2">
+        <style>
+            :root {
+                --primary: hsl(0, 0%, 7%, 0.4);
+                --secondary: hsl(0, 0%, 5%, 1);
+            }
+        </style>
+            <div style="background: linear-gradient(90deg,var(--secondary), var(--primary));font-size: small;" class="text-white p-2">
 
                 <div class="cond-in">
 
