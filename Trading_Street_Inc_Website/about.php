@@ -306,8 +306,8 @@
                         </span> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
                         <span style="font-size: 24px; font-weight: bolder;">Our Mission</span> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
                         <div class=" pl-5 pr-3 pt-3" style="height: 90px; border-left: 1px solid gray; position: relative; left: 400px; top: -60px;">
-                            <p class="text-white w-50" style="position: relative; left: 150px;">The company seeks to grow the forex & commodities market legitimately while promoting financial literacy in our clients,
-                             empowering and advocating for financial freedom to our clients and the public at large</p>
+                            <p class="text-white w-50" style="position: relative; left: 150px;">To promote financial freedom through stock, financial
+                            technologies and crypto currency trading knowledge and aided trading on behalf of cooporates</p>
                         </div>
 
                     </div>
@@ -330,9 +330,17 @@
                         <span style="position: relative; top: 15px; "> <i class="fas fa-bookmark fa-3x info-color"></i>
                         </span> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
                         <span style="font-size: 24px; font-weight: bolder;"> Our Values</span> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
-                        <div class=" pl-5 pr-3 pt-3" style="height: 90px; border-left: 1px solid gray; position: relative; left: 382px; top: -60px;">
-                            <p class="text-white w-50" style="position: relative; left: 150px;">The company seeks to grow the forex & commodities market legitimately while promoting financial literacy in our clients,
-                             empowering and advocating for financial freedom to our clients and the public at large</p>
+                        <div class=" pl-5 pr-3 pt-3" style="height: 90px; border-left: 1px solid gray; position: relative; left: 382px; top: -100px;">
+                            <p class="text-white w-50" >
+                            <ul style="position: relative; left: 130px; list-style-type : none; "  >
+                            <li> <strong>Honesty </strong>  - To offer service in all honesty and in the best interest of all our valued customers</li>
+                            <li> <strong>Procedure</strong>  -We value all ( even in uniqueness), institutional, legal and business processes in our service delivery</li>
+                            <li> <strong>Results and Targets</strong>  - We  value our clients words and we honor our words, working deligently to meet all targets at all times</li>
+                            <li> <strong>Growth </strong>  - We value growth & freedom.
+                             <li>Growth of the client through financial freedom.</li>
+                             <li>Growth of a more investment oriented population group</li> </li>
+                            </ul>
+                            </p>
                         </div>
                     </div>
                 </div>
