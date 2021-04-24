@@ -297,6 +297,7 @@
         <div class="row no-gutters p-0 m-0">
             <!-- Side Bar -->
             <?php
+<<<<<<< HEAD
             $a = "" . date("Y/m/d");
             $date = new DateTime();
             $n = $date->modify("-1 days")->format('Y/m/d');
@@ -304,6 +305,15 @@
             ?>
             <?php
             $api_url = "https://newsapi.org/v2/everything?q=forex&from=$a&to=$a&sortBy=date&apiKey=d1ab4131a93b4ca3bcda10cd56bbf08b";
+=======
+                $a = "". date("Y/m/d");
+                $date = new DateTime();
+                $n = $date->modify("-1 days")->format('Y/m/d');
+                 echo $n;
+                ?>
+            <?php
+            $api_url = "https://newsapi.org/v2/everything?q=forex&from=$a&to=$n&sortBy=date&apiKey=d1ab4131a93b4ca3bcda10cd56bbf08b";
+>>>>>>> 88ad734132594deb2ffa0a182d6b45c9691532a7
             $newlist = file_get_contents($api_url);
             $newlist = json_decode($newlist);
 
@@ -315,7 +325,6 @@
                 if ($counter > $break_out)
                     break; ?>
                 <div class="col-sm col-md  m-0 col-lg">
-
                     <div class="card-container-fluid  rounded-0 border-0">
                         <div class="card card-1  bg-dark rounded-0 border-0">
                             <div class="card-img"></div>

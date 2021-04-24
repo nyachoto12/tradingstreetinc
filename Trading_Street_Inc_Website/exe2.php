@@ -298,7 +298,7 @@
                 ?>
             <?php
                 
-                $url = "https://newsapi.org/v2/everything?q=trade-africa&from=$n&to=$a&sortBy=date&apiKey=d1ab4131a93b4ca3bcda10cd56bbf08b";
+                $url = "https://newsapi.org/v2/everything?q=trade-africa&from=$a&to=$n&sortBy=date&apiKey=d1ab4131a93b4ca3bcda10cd56bbf08b";
                 $response = file_get_contents($url);
                 $newsData = json_decode($response);
 
