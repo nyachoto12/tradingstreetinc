@@ -239,6 +239,7 @@
             color: #17A2B8;
             font-size: 50px;
         }
+        
     </style>
 
 </head>
@@ -293,18 +294,14 @@
             <!-- Side Bar -->
 
             <?php
-            if (file_exists('news.json')) {
-                $api_url = 'news.json';
-                $newlist = json_decode(file_get_contents($api_url));
-            } else {
-                $news_key = 'forex'; // we will be fetching only sports news related
-                $api_url = 'https://newsapi.org/v2/everything?q=' . $news_key . '&from=2021-04-23&to=2021-04-22&sortBy=popularity&apiKey=e13ea32f8a5344e7bce102118a253256';
-                $newlist = file_get_contents($api_url);
-                file_put_contents('news.json', $newlist);
-                $newlist = json_decode($newlist);
-            }
+    
+                $url = "https://newsapi.org/v2/everything?q=trading-markets-africa&from=2021-04-23&to=2021-04-23&sortBy=date&apiKey=d1ab4131a93b4ca3bcda10cd56bbf08b";
+                $response = file_get_contents($url);
+                $newsData = json_decode($response);
+            
+            
 
-            foreach ($newlist->articles as $news) { ?> <div class="col-sm col-md  m-0 col-lg">
+            foreach ($newsData->articles as $news) { ?> <div class="col-sm col-md  m-0 col-lg">
 
                     <div class="card-container-fluid ">
                         <div class="card card-1 ">
@@ -334,29 +331,6 @@
     </div>
 
     <!-- News Content -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- footer -->
     <?php
