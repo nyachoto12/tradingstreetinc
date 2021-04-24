@@ -297,32 +297,14 @@
         <div class="row no-gutters p-0 m-0">
             <!-- Side Bar -->
             <?php
-<<<<<<< HEAD
-            $a = "" . date("Y/m/d");
-            ?>
-            <?php
-            if (file_exists('news.json')) {
-                $api_url = 'news.json';
-                $newlist = json_decode(file_get_contents($api_url));
-            } else {
-                $news_key = 'forex'; // we will be fetching only sports news related
-                $api_url = 'https://newsapi.org/v2/everything?q=' . $news_key . '&from=$a&to=$a&sortBy=popularity&apiKey=e13ea32f8a5344e7bce102118a253256';
-                $newlist = file_get_contents($api_url);
-                file_put_contents('news.json', $newlist);
-                $newlist = json_decode($newlist);
-            }
-=======
                 $a = "". date("Y/m/d");
                 $date = new DateTime();
                 $n = $date->modify("-1 days")->format('Y/m/d');
                 ?>
             <?php
->>>>>>> 058ec5d3b6904bbb8a43cc0a9fe1aa8a31c54856
-
             $api_url = "https://newsapi.org/v2/everything?q=trading&from=$n&to=$a&sortBy=date&apiKey=d1ab4131a93b4ca3bcda10cd56bbf08b";
             $newlist = file_get_contents($api_url);
             $newlist = json_decode($newlist);
-
 
             $break_out   = 12;
             $counter     = 0;
