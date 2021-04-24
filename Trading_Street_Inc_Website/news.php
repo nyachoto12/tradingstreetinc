@@ -296,14 +296,16 @@
     <div class="container-fluid">
         <div class="row no-gutters p-0 m-0">
             <!-- Side Bar -->
-
+            <?php
+                $a = "". date("Y/m/d");
+                ?>
             <?php
             if (file_exists('news.json')) {
                 $api_url = 'news.json';
                 $newlist = json_decode(file_get_contents($api_url));
             } else {
                 $news_key = 'forex'; // we will be fetching only sports news related
-                $api_url = 'https://newsapi.org/v2/everything?q=' . $news_key . '&from=2021-04-24&to=2021-04-23&sortBy=popularity&apiKey=e13ea32f8a5344e7bce102118a253256';
+                $api_url = 'https://newsapi.org/v2/everything?q=' . $news_key . '&from=$a&to=$a&sortBy=popularity&apiKey=e13ea32f8a5344e7bce102118a253256';
                 $newlist = file_get_contents($api_url);
                 file_put_contents('news.json', $newlist);
                 $newlist = json_decode($newlist);

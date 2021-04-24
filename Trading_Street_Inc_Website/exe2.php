@@ -292,10 +292,13 @@
     <div class="container-fluid">
         <div class="row no-gutters p-0 m-0">
             <!-- Side Bar -->
-
             <?php
-    
-                $url = "https://newsapi.org/v2/everything?q=trading-markets-africa&from=2021-04-23&to=2021-04-23&sortBy=date&apiKey=d1ab4131a93b4ca3bcda10cd56bbf08b";
+                $a = "". date("Y/m/d");
+
+                ?>
+            <?php
+                
+                $url = "https://newsapi.org/v2/everything?q=trade-africa&from=$a&to=$a&sortBy=date&apiKey=d1ab4131a93b4ca3bcda10cd56bbf08b";
                 $response = file_get_contents($url);
                 $newsData = json_decode($response);
             
@@ -313,6 +316,7 @@
                             </a>
                             <div class="card-info">
                                 <div class="card-about">
+                               
                                     <a class="card-tag tag-news">NEWS</a>
                                     <div class="card-time"> <small><?php echo $news->publishedAt; ?></small></div>
                                 </div>
