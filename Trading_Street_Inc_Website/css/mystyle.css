@@ -1,88 +1,70 @@
-
 .content-section {
- min-height: 2000px;
+    min-height: 2000px;
 }
 
 .sidebar-section {
- position: absolute;
- height: 100%;
- width: 100%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
 
 .sidebar-item {
- position: absolute;
- top: 0;
- left: 0;
- width: 100%;
- height: 100%;
- /* Position the items */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Position the items */
 }
 
-.widget{
-   padding: 0 15px;
-   margin: 15px 0;
+.widget {
+    padding: 0 15px;
+    margin: 15px 0;
 }
 
 .make-me-sticky {
- position: -webkit-sticky;
- position: sticky;
- top: 0;
- 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
+
 
 /* Ignore This, just coloring */
 
-
-
-.title-section, .content-section{
- background: #fff;
+.title-section,
+.content-section {
+    background: #fff;
 }
 
 .title-section {
- text-align: center;
- padding: 50px 15px;
- margin-bottom: 30px;
-}
-
-.content-section h2 {
- text-align: center;
- margin: 0;
- padding-top: 200px;
+    text-align: center;
+    padding: 50px 15px;
+    margin-bottom: 30px;
 }
 
 .sidebar-item {
- text-align: center;
- position: relative;
- top: 10px;
- 
+    text-align: center;
+    position: relative;
+    top: 10px;
 }
 
-#sidebar {
-   
- 
-}
 #sidebar header {
-   padding: 10px;
-   background-color: #263238;
-   font-size: 20px;
-   line-height: 52px;
-   text-align: center;
+    padding: 10px;
+    background-color: #263238;
+    font-size: 20px;
+    line-height: 52px;
+    text-align: center;
 }
-
-
-
 
 #sidebar header a:hover {
-   color: #fff;
+    color: #fff;
 }
 
-
-
 #sidebar .nav a:hover {
-background: #17A2B8 ;
-color: #ECEFF1;
+    background: #17A2B8;
+    color: #ECEFF1;
 }
 
 #sidebar .nav a i {
-margin-right: 16px;
+    margin-right: 16px;
 }

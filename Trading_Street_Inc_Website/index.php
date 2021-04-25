@@ -185,16 +185,16 @@
 
                                                 <div style="animation-delay: 1.5s" class="animated slideInRight">
                                                     <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder;" class="display-5">FINANCIAL FREEDOM</h1>
-                                                    <p class="p3 mt-2 " style="font-size : 10px">Trading Street Inc is readily available to help you to able to do whatever you
+                                                    <p class="p3 mt-2 " style="font-size : 10px;font-family: 'Poppins', sans-serif !important;font-weight:300 !important;font-size:12px;">Trading Street Inc is readily available to help you to able to do whatever you
                                                         like whilst living a good life and having enough money to cover your expenses easily, affordable and happily
-
                                                     </p>
                                                 </div>
 
                                             </div>
                                             <div style="margin-left: -45px; ">
-                                                <a href="services.php"> <button type="button" class="btn  btn-outline-secondary text-white small rounded-0 btn-lg text-uppercase"><strong>Our Services</strong></button></a>
-                                                <a href="contact.php"><button type="button" class="btn btn-info rounded-0 small text-uppercase text-white  btn-lg"><strong>Contact Us</strong></button></a>
+                                                <a style=" font-family: 'Poppins', sans-serif;font-size:15px;text-decoration:none;" href="services.php" class="border p-3 text-white small rounded-0 text-uppercase">&ensp;&ensp;&ensp;&ensp;Our Services&ensp;&ensp;&ensp;&ensp;</a>
+                                                <a style=" font-family: 'Poppins', sans-serif;font-size:15px;text-decoration:none;" href="contact.php" class="p-3 rounded-0 info-bg small text-uppercase text-white ">&ensp;&ensp;&ensp;&ensp;Contact Us&ensp;&ensp;&ensp;&ensp;
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -206,37 +206,35 @@
                 </div>
             </div>
             <div class="carousel-item carousel-item3  your-slider-item ">
-                <!-- <img src="./images/forex-news.jpg" class="d-block w-100 " alt="... "> -->
-
                 <video class="video-fluid w-100" autoplay loop muted>
                     <source src="./video/Market Loop Background Video - High Resolution (2).mp4" type="video/mp4">
                 </video>
-                 <div class="carousel-caption d-none d-md-block ">
-                        <h3 class="p-3 m-0 text-capitalize">Latest Market News</h3>
-                        <p>We give you the trending news to keep you updated each and everytime so that you wont miss anything that is happening
-                            in the world of trading and forex all around the world</p>
-                        <div>
-                            <a href="services.php"> <button type="button" class="btn  btn-outline-secondary text-white small rounded-0 btn-lg text-uppercase"><strong>Explore our news</strong></button></a>
-                        </div>
+                <div style="bottom: 380px !important;" class="carousel-caption d-none d-md-block ">
+                    <h3 style="animation-delay: 0.5s;font-family: 'Poppins', sans-serif;font-weight: bolder;"  class="p-3 display-4 m-0 animated fadeInLeft text-capitalize">Latest Market News</h3>
+                    <p>We give you the trending news to keep you updated each and everytime so that you wont miss anything that is happening
+                        in the world of trading and forex all around the world</p>
+                    <div>
+                        <a href="news.php"> <button type="button" class="btn  btn-outline-secondary text-white small rounded-0 btn-lg ">&ensp;&ensp;Explore our news&ensp;&ensp;</button></a>
+                    </div>
+                </div>
             </div>
-        </div>
 
 
 
 
 
-        <div class="carousel-item carousel-item3 your-slider-item ">
-            <img src="./images/Top_Forex_Trading_Tips_For_Beginners.jpeg " class="d-block w-100 " alt="... ">
-            <div class="carousel-caption d-none d-md-block ">
-                <h3 class=" p-3 m-0 text-capitalize">Explore Our Packages</h3>
-                <p>The deposit amounts and target returns can be adjusted to suit the client’s needs if they are more than the minimum required which is listed in the packages.
-                    A client is allowed to invest in two or more packages simultaneously.</p>
-                <div>
-                    <a href="services.php"> <button type="button" class="btn  btn-info text-white small rounded-0 btn-lg text-uppercase"><strong>Our Packages Summary</strong></button></a>
+            <div class="carousel-item carousel-item3 your-slider-item ">
+                <img src="./images/Top_Forex_Trading_Tips_For_Beginners.jpeg " class="d-block w-100 " alt="... ">
+                <div style="bottom: 380px !important;" class="carousel-caption d-none d-md-block ">
+                    <h3 style="animation-delay: 0.5s;font-family: 'Poppins', sans-serif;font-weight: bolder;"  class="p-3 display-4 m-0 animated zoomIn  text-left text-uppercase">Explore Our Packages</h3>
+                    <p class=" text-left p-3">The deposit amounts and target returns can be adjusted to suit the client’s needs if they are more than the minimum required which is listed in the packages.
+                        A client is allowed to invest in two or more packages simultaneously.</p>
+                    <div>
+                        <a href="services.php"> <button type="button" class="btn  btn-info text-white small rounded-0 btn-lg text-uppercase"><strong>Our Packages Summary</strong></button></a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
     </div>
     <!--End of  Carousel -->

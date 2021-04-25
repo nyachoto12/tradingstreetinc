@@ -143,58 +143,6 @@
             font-size: 24px;
         }
 
-        .picturebg {
-            background: url(./images/best_forex_traders.jpeg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: relative;
-        }
-
-
-
-        .mentor {
-
-            background: url(./images/Nadya-Khan-Kenya.jpeg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: relative;
-
-
-        }
-
-        .dev {
-
-            background: url(./images/devs.jpg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: relative;
-
-
-        }
-
-        .partner {
-
-            background: url(./images/Capture.PNG);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: relative;
-
-        }
-
-        .partner2 {
-
-            background: url(./images/Capture2.PNG);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: relative;
-
-        }
-
         /* Style the sidenav links and the dropdown button */
         .nav a,
         .dropdown-btn {
@@ -326,8 +274,10 @@
                     <div class="">
                         <!-- Sidebar -->
                         <div class="bg-white text-dark">
+                            <br>
                             <header style="font-family: 'Poppins', sans-serif;font-size: 20px;" class=" p-3 text-left text-uppercase">
                                 <strong>&ensp;&ensp;&ensp;&ensp;Latest Daily News</strong>
+                                <div style="border-bottom: 3px solid #17A2B8;position: relative;display:block;width:100px;height: 10px;left:40px;"></div>
                             </header>
                             <div class="pt-3">
                                 <ul style="list-style-type: none;">
@@ -341,7 +291,7 @@
                                                     $newlist = json_decode(file_get_contents($api_url));
                                                 } else {
                                                     $news_key = 'forex'; // we will be fetching only sports news related
-                                                    $api_url = 'https://newsapi.org/v2/everything?q=' . $news_key . '&from=2021-04-24&to=2021-04-23&sortBy=popularity&apiKey=e13ea32f8a5344e7bce102118a253256';
+                                                    $api_url = 'https://newsapi.org/v2/everything?q=' . $news_key . '&from=2021-04-25&to=2021-04-25&sortBy=popularity&apiKey=e13ea32f8a5344e7bce102118a253256';
                                                     $newlist = file_get_contents($api_url);
                                                     file_put_contents('news1.json', $newlist);
                                                     $newlist = json_decode($newlist);
@@ -370,10 +320,10 @@
                                         </div>
 
                                     </li>
-                                    <li>
+                                    <li class="text-left">
                                         <a href="news.php">Read more</a>
                                     </li>
-
+                                    <br>
 
                                 </ul>
                             </div>
@@ -381,56 +331,27 @@
 
 
                     </div>
+
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
                     <!-- get in touch section -->
-                    <div class="widget make-me-sticky" style="background-color: white;">
+                    <div class="widget make-me-sticky">
                         <!-- Sidebar -->
-                        <div id="sidebar" class="">
-                            <header style="font-family: 'Poppins', sans-serif;font-size: 20px;border-left: 5px solid #17A2B8;" class="bg-dark p-3 text-left text-uppercase">
+                        <div class="bg-white text-dark pb-5">
+                            <br>
+                            <header style="font-family: 'Poppins', sans-serif;font-size: 20px;" class=" p-3 text-left text-uppercase">
                                 <strong>&ensp;&ensp;&ensp;&ensp;Get In Touch</strong>
+                                <div style="border-bottom: 3px solid #17A2B8;position: relative;display:block;width:100px;height: 10px;left:40px;"></div>
                             </header>
-                            <ul class="nav ">
-                                <div class="container ">
-                                    <div class="row d-flex pb-5 ">
-                                        <div class="col-3 w-25 mt-4">
-                                            <i class="fas fa-map-marker-alt fa-3x info-color"></i>
-                                        </div>
-                                        <div class="col-9 w-25 pt-4 text-left">
-                                            <span>Digital Office Business. Borrowdale Harare, Zimbabwe</span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="container">
-                                    <div class="row d-flex pb-5">
-                                        <div class="col-3 w-25 mt-2">
-                                            <i class="fas fa-envelope fa-3x info-color"></i>
-                                        </div>
-                                        <div class="col-9 w-25 pt-3 text-left">
-                                            sales@tradingstreet.co.zw
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="container">
-                                    <div class="row d-flex pb-5">
-                                        <div class="col-3 w-25 mt-2">
-                                            <i class="fas fa-phone-alt fa-2x info-color"></i>
-                                        </div>
-                                        <div class="col-9  w-25 pt-3 text-left">
-                                            Phone: +263 77 175 7160
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="container">
-                                    <div class="row d-flex pb-5">
-                                        <div class="col-3 w-25 mt-2">
-                                            <i class="fas fa-clock fa-3x info-color"></i>
-                                        </div>
-                                        <div class="col-9 w-25 pt-3 text-left">
-                                            <span>Open Hours: Mon - Sun 9:00 - 17:00</span>
-                                        </div>
-                                    </div>
-                                </div>
-
+                            <ul style="font-family: 'Poppins', sans-serif;font-size:small;list-style-type: none;" class="text-left">
+                                <li class="p-2"><i class="fas fa-map-marker-alt fa-1x info-color"></i><span>&ensp; Digital Office Business. Borrowdale Harare, Zimbabwe</span></li>
+                                <li class="p-2"><i class="fas fa-envelope fa-1x info-color"></i><span>&ensp; sales@tradingstreet.co.zw</span></li>
+                                <li class="p-2"><i class="fas fa-phone-alt fa-1x info-color"></i><span>&ensp; Phone: +263 77 175 7160</span></li>
+                                <li class="p-2"><i class="fas fa-clock fa-1x info-color"></i><span>&ensp; Open Hours: Mon - Sun 9:00 - 17:00</span></li>
                             </ul>
                         </div>
 
@@ -444,75 +365,76 @@
                 <div class="content-section">
                     <div class="container">
                         <div class="row pt-5">
-                            <div class="picturebg " style="height : 570px; background-color: rgba(0, 0, 0, 0.6);">
+                            <div class="col">
+                                <img class="img-fluid" src="./images/best_forex_traders.jpeg" alt="Forex">
                             </div>
                         </div>
-                        <div class="row p-3">
-                            <h1 style="font-weight: bolder;" class="text-dark">Our Partners</h1>
-
+                        <div class="row">
+                            <div class="col pt-5">
+                                <h2 style="font-weight: bolder;font-family: 'Poppins', sans-serif;" class="text-dark">Our Partners</h2>
+                            </div>
                         </div>
                         <div class="row">
-                            <p class="text-dark pl-4" style="font-family: 'Segoe UI'; font-size :20px">Trading street is
-                                in partnership with Deriv limited, an international forex brokerage firm highly
-                                reputable in their service across the financial services market.
-                                Trading Street is now an affiliate of the highly efficient Deriv Group Limited.
+                            <div class="col">
+                                <p class="text-dark pt-3 pr-5" style="font-family: 'Poppins', sans-serif;font-size :small;">Trading street is
+                                    in partnership with Deriv limited, an international forex brokerage firm highly
+                                    reputable in their service across the financial services market.
+                                    Trading Street is now an affiliate of the highly efficient Deriv Group Limited.
+                                    <br>
+                                    The company is a member of the Financial Commission. The company boasts of a total trade
+                                    turnover in excess of 8Billion USD, 2.9Million plus opened trading accounts from clients
+                                    across the world
+                                </p>
+                            </div>
+                            <div class="col">
+                                <marquee behavior="" direction="">
+                                    <span><img class="img-fluid" src="./images/Capture.PNG" alt="Partners"></span>
+                                    <span><img class="img-fluid" src="./images/Capture2.PNG" alt="Partners"></span>
+                                </marquee>
+
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col">
+                                <p class="text-dark pt-3 pr-5" style="font-family: 'Poppins', sans-serif;font-size :small;">
+                                    Deriv.com adds Contracts for Difference (CFDs), the most popular form of derivative
+                                    trading for retail traders and makes it possible to monitor multiple trade activities,
+                                    market movements, and charts with this full-screen trading interface on Deriv.com. </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
                                 <br>
-                                The company is a member of the Financial Commission. The company boasts of a total trade
-                                turnover in excess of 8Billion USD, 2.9Million plus opened trading accounts from clients
-                                across the world
-                            </p>
-
+                                <h2 style="font-weight: bolder;font-family: 'Poppins', sans-serif;" class="text-dark" id="general">General Mentorship Packages </h2>
+                            </div>
                         </div>
-                        <!-- Partners Images -->
-                        <div class="row p-5">
-
-                            <div class="col partner" style="height : 200px">
-
-                            </div>
-                            <div class="col partner2" style="height : 200px">
-
-                            </div>
-                            <div class="col partner2" style="height : 200px">
-
+                        <div class="row p-2">
+                            <div class="col">
+                                <br>
+                                <img class="img-fluid" src="./images/Nadya-Khan-Kenya.jpeg" alt="Mentor">
                             </div>
                         </div>
                         <div class="row">
-                            <p class="text-dark pl-4" style="font-family: 'Segoe UI'; font-size :20px">
-                                Deriv.com adds Contracts for Difference (CFDs), the most popular form of derivative
-                                trading for retail traders and makes it possible to monitor multiple trade activities,
-                                market movements, and charts with this full-screen trading interface on Deriv.com. </p>
-
-                        </div>
-                        <div class="row p-3" id="row5">
-                            <h1 style="font-weight: bolder;" class="text-dark" id="general">General Mentorship Packages </h1>
-
-                        </div>
-                        <div class="row p-5">
-                            <div class="col mentor " style="height : 470px; background-color: rgba(0, 0, 0, 0.6);">
-
+                            <div class="col">
+                                <p class="text-dark pt-3 pr-5" style="font-family: 'Poppins', sans-serif;font-size :small;"> The company has
+                                    inclusive mentorship packages which cater for all types of traders from Newbies,
+                                    Enthusiasts to Professionals on a general basis without any specific target from the
+                                    profits,
+                                    where the client can use the profits as they deem necessary</p>
                             </div>
                         </div>
+                        <br>
+                        <br>
                         <div class="row">
-
-                            <p class="text-dark pl-4" style="font-family: 'Segoe UI'; font-size :20px"> The company has
-                                inclusive mentorship packages which cater for all types of traders from Newbies,
-                                Enthusiasts to Professionals on a general basis without any specific target from the
-                                profits,
-                                where the client can use the profits as they deem necessary</p>
-                        </div>
-                        <div class="row  p-md-5 p-lg-5">
-                            <div class="col-sm col-md-7 col-lg">
-
-                                <h3 class="text-dark text-capitalize text-center p-2 " style="font-weight: bolder; background-color : #17A2B8" id="basic">Basic Package
+                            <div class="col-sm col-md-7 bg-light m-0 p-0 col-lg-8 ">
+                                <h3 class="text-white text-capitalize p-2 m-0 text-center" style="font-family: 'Poppins', sans-serif;font-weight: bolder; background-color : #17A2B8" id="basic">Basic Package
                                 </h3>
-                                <p>
-                                <div class="row">
-                                    <h5 class="text-danger text-center">Can i get a slideshow here..with an animation of
-                                        images kuti zviite nice </h5>
-                                </div>
-                                <ul class="text-dark" style="list-style-type: none;">
+                                <br>
+                                <ul class="text-dark" style="list-style-type: none;font-family: 'Poppins', sans-serif;font-size:small;">
                                     <li>
-                                        <p class="text-dark " style="font-family: 'Segoe UI'; font-size :20px">This
+                                        <p class="text-dark ">This
                                             package starts from $60 and provides the client with introduction to forex
                                             trading, introduction to Trading Street Inc.
                                             Trading strategy and normal profit making trade signals as well as zoom
@@ -529,17 +451,16 @@
                                     </li>
 
                                 </ul>
-                                <h3 class="text-dark text-capitalize text-center p-2" style="font-weight: bolder;background-color : #17A2B8" id="proff">Professional
+                                <br>
+                                <br>
+                                <h3 class="text-white text-capitalize p-2 m-0 text-center" style="font-family: 'Poppins', sans-serif;font-weight: bolder; background-color : #17A2B8" id="proff">Professional
                                     Package
                                 </h3>
-                                <p>
-                                <div class="row">
-                                    <h5 class="text-danger text-center">Can i get a slideshow here..with an animation of
-                                        images kuti zviite nice </h5>
-                                </div>
-                                <ul class="text-dark" style="list-style-type: none;">
+                                <br>
+
+                                <ul class="text-dark" style="list-style-type: none;font-family: 'Poppins', sans-serif;font-size:small;">
                                     <li>
-                                        <p class="text-dark" style="font-family: 'Segoe UI'; font-size :20px">
+                                        <p class="text-dark pr-3">
 
                                             Clients qualify to this package by paying a fee of $180 and it includes all
                                             services on the basic package with extra benefits to the client
@@ -554,16 +475,17 @@
                                     </li>
 
                                 </ul>
-                                <h3 class="text-dark text-capitalize text-center p-2" style="font-weight: bolder; background-color : #17A2B8" id="prem">Premium Package
+                                <br>
+                                <br>
+                                <h3 class="text-white text-capitalize p-2 m-0 text-center" style="font-family: 'Poppins', sans-serif;font-weight: bolder; background-color : #17A2B8" id="prem">Premium
+                                    Package
                                 </h3>
-                                <p>
-                                <div class="row">
-                                    <h5 class="text-danger text-center">Can i get a slideshow here..with an animation of
-                                        images kuti zviite nice </h5>
-                                </div>
-                                <ul class="text-dark" style="list-style-type: none;">
+                                <br>
+
+
+                                <ul class="text-dark" style="list-style-type: none;font-family: 'Poppins', sans-serif;font-size:small;">
                                     <li>
-                                        <p class="text-dark pl-1" style="font-family: 'Segoe UI'; font-size :20px">
+                                        <p class="text-dark pr-3">
 
                                             This package is the best and highly recommended package for fully committed
                                             would be traders costing $300.
@@ -594,39 +516,46 @@
                             </div>
 
                         </div>
-                        <div class="row p-3">
-                            <h1 style="font-weight: bolder;" class="text-dark" id="devs">Developmental Packages</h1>
-                        </div>
-                        <div class="row p-5">
-                            <div class="col dev " style="height : 470px; background-color: rgba(0, 0, 0, 0.9);">
-
+                        <br>
+                        <br>
+                        <div class="row">
+                            <div class="col">
+                                <h1 style="font-family: 'Poppins', sans-serif;font-weight: bolder;" class="text-dark" id="devs">Developmental Packages</h1>
                             </div>
                         </div>
+                        <br>
+                        <br>
                         <div class="row">
-                            <p class="text-dark pl-4" style="font-family: 'Segoe UI'; font-size :20px">
-                                Trading street also provides phenomenal packages which have had huge successes over
-                                time, classified as target specific developmental packages.
-                                <br>
-                                <br>
-                                We can help you build that home,
-                                help you buy that car, help you payback that bank loan and also help you have that
-                                holiday trip you have always wanted through these packages.
-                                These packages are classified into four main packages which include the;
-                            </p>
+                            <div class="col">
+                                <img class="img-fluid" src="./images/devs.jpg" alt="Development">
+                            </div>
                         </div>
-                        <div class="row  p-md-5 p-lg-5">
-                            <div class="col-sm col-md-7 col-lg">
+                        <br>
+                        <br>
+                        <div class="row">
+                            <div class="col">
+                                <p class="text-dark" style="list-style-type: none;font-family: 'Poppins', sans-serif;font-size:small;">
+                                    Trading street also provides phenomenal packages which have had huge successes over
+                                    time, classified as target specific developmental packages.
 
-                                <h3 class="text-dark text-capitalize text-center p-2" style="font-weight: bolder; background-color : #17A2B8" id="house">Housing Package
-                                </h3>
-                                <p>
-                                <div class="row">
-                                    <h5 class="text-danger text-center">Can i get a slideshow here..with an animation of
-                                        images kuti zviite nice </h5>
-                                </div>
-                                <ul class="text-dark" style="list-style-type: none;">
+                                    We can help you build that home,
+                                    help you buy that car, help you payback that bank loan and also help you have that
+                                    holiday trip you have always wanted through these packages.
+                                    These packages are classified into four main packages which include the;
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm col-md-7 bg-light m-0 p-0 col-lg-8">
+
+                                <h3 class="text-white text-capitalize p-2 m-0 text-center" id="house" style="font-family: 'Poppins', sans-serif;font-weight: bolder; background-color : #17A2B8">Housing Package</h3>
+                                <br>
+
+                                <ul class="text-dark" style="list-style-type: none;font-family: 'Poppins', sans-serif;font-size:small;">
                                     <li>
-                                        <p class="text-dark pl-1" style="font-family: 'Segoe UI'; font-size :20px">The
+                                        <p class="pr-4">The
                                             housing package caters for clients who are interested in acquiring a
                                             residential stand, build their desired house from the ground, complete their
                                             building, renovate their house to suit their needs.
@@ -643,18 +572,14 @@
                                             spaces to satisfy their needs and all are on course to reach their targets
                                         </p>
                                     </li>
-
                                 </ul>
-                                <h3 class="text-dark text-capitalize text-center p-2" style="font-weight: bolder;background-color : #17A2B8" id="vehicle">Vehicle Platform
-                                </h3>
-                                <p>
-                                <div class="row">
-                                    <h5 class="text-danger text-center">Can i get a slideshow here..with an animation of
-                                        images kuti zviite nice </h5>
-                                </div>
-                                <ul class="text-dark" style="list-style-type: none;">
+                                <br>
+                                <br>
+                                <h3 class="text-white text-capitalize p-2 m-0 text-center" id="vehicle" style="font-family: 'Poppins', sans-serif;font-weight: bolder; background-color : #17A2B8">Vehicle Platform</h3>
+                                <br>
+                                <ul class="text-dark" style="list-style-type: none;font-family: 'Poppins', sans-serif;font-size:small;">
                                     <li>
-                                        <p class="text-dark pl-1" style="font-family: 'Segoe UI'; font-size :20px">
+                                        <p class="pr-4">
                                             <strong class="info-color">‘We help you buy that car that you have always
                                                 wanted’</strong>.
                                             <br>
@@ -677,17 +602,15 @@
                                     </li>
 
                                 </ul>
-                                <h3 class="text-dark text-capitalize text-center p-2" style="font-weight: bolder; background-color : #17A2B8" id="holiday">Holiday trip
-                                    packages
-                                </h3>
-                                <p>
-                                <div class="row">
-                                    <h5 class="text-danger text-center">Can i get a slideshow here..with an animation of
-                                        images kuti zviite nice </h5>
-                                </div>
-                                <ul class="text-dark" style="list-style-type: none;">
+                                <br>
+                                <br>
+                                <h3 class="text-white text-capitalize p-2 m-0 text-center" id="holiday" style="font-family: 'Poppins', sans-serif;font-weight: bolder; background-color : #17A2B8">Holiday trip
+                                    packages</h3>
+                                <br>
+
+                                <ul class="text-dark" style="list-style-type: none;font-family: 'Poppins', sans-serif;font-size:small;">
                                     <li>
-                                        <p class="text-dark pl-1" style="font-family: 'Segoe UI'; font-size :20px">
+                                        <p class="pr-4">
 
                                             Always wanted to take your family for a holiday outing either local or
                                             abroad but funds nowhere to be found, worry not we have just the plan for
@@ -709,17 +632,15 @@
                                     </li>
 
                                 </ul>
-                                <h3 class="text-dark text-capitalize text-center p-2" style="font-weight: bolder; background-color : #17A2B8" id="loan">Loan repayment
-                                    package
-                                </h3>
-                                <p>
-                                <div class="row">
-                                    <h5 class="text-danger text-center">Can i get a slideshow here..with an animation of
-                                        images kuti zviite nice </h5>
-                                </div>
-                                <ul class="text-dark" style="list-style-type: none;">
+                                <br>
+                                <br>
+                                <h3 class="text-white text-capitalize p-2 m-0 text-center" id="loan" style="font-family: 'Poppins', sans-serif;font-weight: bolder; background-color : #17A2B8">Loan repayment
+                                    package</h3>
+                                <br>
+
+                                <ul class="text-dark" style="list-style-type: none;font-family: 'Poppins', sans-serif;font-size:small;">
                                     <li>
-                                        <p class="text-dark pl-1" style="font-family: 'Segoe UI'; font-size :20px">
+                                        <p class="pr-4">
 
                                             Have you taken out a bank loan and in need of assistance to repay it back to
                                             the bank over a set period of time,
@@ -739,32 +660,50 @@
                                     </li>
 
                                 </ul>
+                                <br>
+                                <br>
 
                             </div>
 
                         </div>
+                        <br>
+                        <br>
+                        <br>
                         <!-- Summary of Packages Container -->
                         <div class="row">
-                            <h3 class="p-2 text-center" style="font-weight: bolder; background-color : #17A2B8" id="summary">Special note about our packages</h3>
-                            <p class="text-dark pl-1 pt-4" style="font-family: 'Segoe UI'; font-size :20px">
-                                The deposit amounts and target returns can be adjusted to suit the client’s needs if
-                                they are more than the minimum required which is listed in the packages.
-                                A client is allowed to invest in two or more packages simultaneously
+                            <div class="col">
+                                <h3 class="text-white text-capitalize p-2 m-0 text-center" style="font-family: 'Poppins', sans-serif;font-weight: bolder; background-color : #17A2B8" id="summary">Special note about our packages</h3>
+
                                 <br>
                                 <br>
-                                In summary, the packages can be customized to suit client targets
-                                which also influences the time frame, below are minimum requirements per desired
-                                package.
-                            </p>
-                            <ul class="pl-2" style="list-style-type: none">
-                                <h4 class=" text-dark p-3 " style="font-weight: bolder; background-color : #17A2B8 ; width : 40%" id="summary">Summary of the packages</h4>
-                                <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Vehicle purchase package $500&ensp; <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i> $5900 (in 7 months) </li>
-                                <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Housing package $10 000 &ensp;&ensp;&ensp;&ensp;&ensp; <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i> $30 000 (in 6 months) </li>
-                                <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Holiday trip package $ 1000&ensp;&ensp;&ensp;&ensp; <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i> $5000 (5 months) </li>
-                                <li class="mb-3" style="font-family: 'Segoe UI'; font-size :20px"><i class="fas fa-clipboard-list fa-3x info-color pt-3 pr-3"></i>Loan repayment package $10000 <i class="fas fa-arrow-right fa-2x pt-3  info-color "></i> $30000 (6months) </li>
-                            </ul>
+                                <p class="text-dark" style="font-family: 'Poppins', sans-serif;font-size:small;">
+                                    The deposit amounts and target returns can be adjusted to suit the client’s needs if
+                                    they are more than the minimum required which is listed in the packages.
+                                    A client is allowed to invest in two or more packages simultaneously
+                                    <br>
+                                    <br>
+                                    In summary, the packages can be customized to suit client targets
+                                    which also influences the time frame, below are minimum requirements per desired
+                                    package.
+                                </p>
+                                <br>
+                                <br>
+                                <br>
+
+                                <ul class="text-dark" style="list-style-type: none;font-family: 'Poppins', sans-serif;font-size:small;">
+                                    <h4 class="p-2 m-0 text-left" style="font-family: 'Poppins', sans-serif;font-weight: bolder;color : #17A2B8" id="summary">Summary of the packages</h4>
+                                    <br>
+                                    <li class="mb-3"><i class="far fa-check-square info-color fa-1x"></i>&ensp;Vehicle purchase package $500&ensp;<i class="bi info-color bi-arrow-right"></i>&ensp;$5900 (in 7 months) </li>
+                                    <li class="mb-3"><i class="far fa-check-square info-color fa-1x"></i>&ensp;Housing package $10 000 &ensp;&ensp;&ensp;&ensp;&ensp;<i class="bi info-color bi-arrow-right"></i>&ensp;$30 000 (in 6 months) </li>
+                                    <li class="mb-3"><i class="far fa-check-square info-color fa-1x"></i>&ensp;Holiday trip package $ 1000&ensp;&ensp;&ensp;&ensp;<i class="bi info-color bi-arrow-right"></i>&ensp;$5000 (5 months) </li>
+                                    <li class="mb-3"><i class="far fa-check-square info-color fa-1x"></i>&ensp;Loan repayment package $10000<i class="bi info-color bi-arrow-right"></i>&ensp;$30000 (6months) </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
+                    <br>
+                    <br>
+                    <br>
                 </div>
             </div>
             <!-- end of side bar and content -->
