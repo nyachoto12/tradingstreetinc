@@ -1,0 +1,31 @@
+@media (max-width: 575.98px) {
+    .brand-1 {
+        top: 80px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .brand-1 {
+        top: 80px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .brand-1 {
+        top: 80px;
+    }
+    .side-lg {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px) {
+    .domin {
+        height: 800px;
+        position: relative;
+        top: 80px;
+    }
+}

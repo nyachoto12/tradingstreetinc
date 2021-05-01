@@ -308,7 +308,7 @@
             $newlist = file_get_contents($api_url);
             $newlist = json_decode($newlist);
 
-            $break_out   = 12;
+            $break_out   = 20;
             $counter     = 0;
 
             foreach ($newlist->articles as $news) {

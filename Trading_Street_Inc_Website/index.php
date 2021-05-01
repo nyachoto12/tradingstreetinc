@@ -57,31 +57,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">
 
-    <!-- Border-Css -->
+    <!-- Other-Css -->
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/demo.css" />
     <link rel="stylesheet" type="text/css" href="css/component.css" />
-    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" type="text/css" href="./css/footer.css">
+    <link rel="stylesheet" type="text/css" href="./css/slideshow.css">
+    <link rel="stylesheet" type="text/css" href="./css/packages_card.css">
+    <link rel="stylesheet" href="./css/brand.css">
+    <link rel="stylesheet" href="./css/what_we_do.css">
+    <link rel="stylesheet" href="css/what_we_do.css">
+    <link rel="stylesheet" href="css/testmonies.css">
+    <link rel="stylesheet" href="./css/testmonies.css">
 
     <style>
-        .header {
-            background-color: #00d2ff;
-        }
-
-
         /*First Header Style*/
 
         .ff-header {
             font-family: 'Poppins', sans-serif;
-            font-weight: 400;
-        }
-
-        .about-picture {
-            background: url(./images/homesticky.jpeg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
+            font-weight: 500;
         }
 
         .ff-header2 {
@@ -144,10 +138,305 @@
 
         /*End Of Second Header*/
     </style>
+    <style>
+        @media (max-width: 575.98px) {
+            .button {
+                /* Green */
+                background-color: transparent;
+                border: none;
+                color: white;
+                padding: 8px 16px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 9px !important;
+                margin: 4px 2px;
+                transition-duration: 0.4s;
+                cursor: pointer;
+            }
+
+            .button2 {
+                color: white !important;
+                border: 2px solid white;
+                background-color: transparent;
+                width: 100px;
+            }
+
+            .button2:hover {
+                background-color: #343a40;
+                color: white !important;
+                border: 2px solid #343a40;
+            }
+
+            .button3 {
+                background-color: #008CBA;
+                border: 2px solid #008CBA;
+                color: white;
+                width: 100px;
+            }
+
+            .button3:hover {
+                background-color: #343a40;
+                border: 2px solid #343a40;
+                color: white;
+            }
+        }
+
+        @media (min-width: 576px) and (max-width: 767.98px) {
+            .button {
+                /* Green */
+                background-color: transparent;
+                border: none;
+                color: white;
+                padding: 8px 16px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 9px !important;
+                margin: 4px 2px;
+                transition-duration: 0.4s;
+                cursor: pointer;
+            }
+
+            .button2 {
+                color: white !important;
+                border: 2px solid white;
+                background-color: transparent;
+                width: 100px;
+            }
+
+            .button2:hover {
+                background-color: #343a40;
+                color: white !important;
+                border: 2px solid #343a40;
+            }
+
+            .button3 {
+                background-color: #008CBA;
+                border: 2px solid #008CBA;
+                color: white;
+                width: 100px;
+            }
+
+            .button3:hover {
+                background-color: #343a40;
+                border: 2px solid #343a40;
+                color: white;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 991.98px) {
+            .button {
+                /* Green */
+                background-color: transparent;
+                border: none;
+                color: white;
+                padding: 8px 16px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 9px !important;
+                margin: 4px 2px;
+                transition-duration: 0.4s;
+                cursor: pointer;
+            }
+
+            .button2 {
+                color: white !important;
+                border: 2px solid white;
+                background-color: transparent;
+                width: 100px;
+            }
+
+            .button2:hover {
+                background-color: #343a40;
+                color: white !important;
+                border: 2px solid #343a40;
+            }
+
+            .button3 {
+                background-color: #008CBA;
+                border: 2px solid #008CBA;
+                color: white;
+                width: 100px;
+            }
+
+            .button3:hover {
+                background-color: #343a40;
+                border: 2px solid #343a40;
+                color: white;
+            }
+        }
+
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+            .button {
+                /* Green */
+                background-color: transparent;
+                border: none;
+                color: white;
+                padding: 16px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                transition-duration: 0.4s;
+                cursor: pointer;
+            }
+
+            .button2 {
+                color: white !important;
+                border: 2px solid white;
+                background-color: transparent;
+                width: 220px;
+            }
+
+            .button2:hover {
+                background-color: #343a40;
+                color: white !important;
+                border: 2px solid #343a40;
+            }
+
+            .button3 {
+                background-color: #008CBA;
+                border: 2px solid #008CBA;
+                color: white;
+                width: 220px;
+            }
+
+            .button3:hover {
+                background-color: #343a40;
+                border: 2px solid #343a40;
+                color: white;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .button {
+                /* Green */
+                background-color: transparent;
+                border: none;
+                color: white;
+                padding: 16px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                transition-duration: 0.4s;
+                cursor: pointer;
+            }
+
+            .button2 {
+                color: white !important;
+                border: 2px solid white;
+                background-color: transparent;
+                width: 220px;
+            }
+
+            .button2:hover {
+                background-color: #343a40;
+                color: white !important;
+                border: 2px solid #343a40;
+            }
+
+            .button3 {
+                background-color: #008CBA;
+                border: 2px solid #008CBA;
+                color: white;
+                width: 220px;
+            }
+
+            .button3:hover {
+                background-color: #343a40;
+                border: 2px solid #343a40;
+                color: white;
+            }
+        }
+    </style>
+    <style>
+        @media (max-width: 575.98px) {
+            .domin {
+                height: 800px;
+                position: relative;
+                top: 80px;
+            }
+            .about-picture {
+            background: url(./images/homesticky.jpeg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+          
+        }
+
+        @media (min-width: 576px) and (max-width: 767.98px) {
+            .domin {
+                height: 600px;
+                position: relative;
+                top: 80px;
+            }
+            .about-picture {
+            background: url(./images/homesticky.jpeg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+           
+        }
+
+        @media (min-width: 768px) and (max-width: 991.98px) {
+            .domin {
+                height: 600px;
+                position: relative;
+                top: 80px;
+            }
+            .about-picture {
+            background: url(./images/homesticky.jpeg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+            
+        }
+
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+            .domin {
+                height: 800px;
+                position: relative;
+                top: 80px;
+            }
+            .about-picture {
+            background: url(./images/homesticky.jpeg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        }
+
+        @media (min-width: 1200px) {
+            .domin {
+                height: 800px;
+                position: relative;
+                top: 80px;
+            }
+            .about-picture {
+            background: url(./images/homesticky.jpeg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        }
+    </style>
 
 </head>
 
-<body>
+<body style="font-family: 'Poppins', sans-serif !important;">
 
     <!-- Header -->
     <?php
@@ -155,46 +444,52 @@
     ?>
     <!-- End Of Header -->
     <!-- Carousel -->
-    <div id="carouselExampleCaptions" class="wrapper bg-dark">
+    <style>
+        :root .carousel-item2 {
+            --primary: hsl(212, 100%, 4%);
+            --secondary: rgba(0, 0, 0, 0.0);
+        }
+
+        :root .carousel-item3 {
+            --primary: rgba(0, 0, 0, 0.0);
+            --secondary: hsl(212, 100%, 4%);
+        }
+    </style>
+    <div id="carouselExampleCaptions" class="wrapper bg-white">
+
         <div class="carousel-inner your-slider">
+
             <div class="carousel-item carousel-item2 your-slider-item active ">
-                <img src="./images/1.jpg " class="banner " alt="... ">
+                <img class="img-fluid banner " src="./images/1.jpg " alt="... ">
                 <div class="carousel-caption ">
-                    <div class="container p-0 m-0">
+                    <div class="container-fluid p-0 m-0">
                         <div class="row p-0 m-0">
-                            <div class="col p-0 m-0">
-                                <div class="text-left d-flex justify-content-lg-end ">
-                                    <div class="block-effect " style="--td: 1.2s ">
+                            <div class="col-sm col-md col-lg-12 p-0 m-0">
+                                <div class="text-right">
+                                    <div class="block-effect" style="--td: 1.2s ">
                                         <div class="s-1">
+                                            <div class="block-reveal p-0 ff-header4" style="--bc: #ffffff; --d: .1s">
+                                                <div class="unknown">
+                                                    <!-- <div  style="animation-delay: 0.5s" class="m-0 animated fadeInLeft p-0 mobile-slide-1">
+                                                        <p class="p1 p-0 m-0 text-uppercase"><strong>Trading Street Inc</strong></p>
+                                                        <p class="p2 p-0 m-0 mb-3 ">Your Avenue To Financial Freedom</p>
+                                                    </div> -->
 
-                                            <div class="block-reveal  pb-0 mb-0 ff-header4 " style="--bc: #ffffff; --d: .1s">
-                                                <div style="animation-delay: 1.5s" class=" animated fadeInUp">
-                                                    <ul class="m-0 p-0 " style="list-style-type: none; ">
-                                                        <li class="m-0 p-0 ">
-                                                            <p class="lead p1 p-0 m-0 text-uppercase"><strong>Trading Street Inc</strong></p>
-                                                        </li>
-                                                        <li class="m-0 p-0 ">
-                                                            <p class="small p2 p-0 m-0 mb-3 ">Your Avenue To Financial Freedom</p>
-                                                        </li>
-                                                    </ul>
-                                                    <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder;" class=" text-left display-5 ">WE PROVIDE </h1>
-                                                </div>
-
-                                            </div>
-                                            <div class="block-reveal  mt-0 pt-0 ff-header4 " style="--bc:  #00d2ff; --d: .5s ">
-
-                                                <div style="animation-delay: 1.5s" class="animated slideInRight">
-                                                    <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder;" class="display-5">FINANCIAL FREEDOM</h1>
-                                                    <p class="p3 mt-2 " style="font-size : 10px;font-family: 'Poppins', sans-serif !important;font-weight:300 !important;font-size:12px;">Trading Street Inc is readily available to help you to able to do whatever you
+                                                    <h1 style="font-weight:bolder;animation-delay: 0.7s" class=" animated fadeInUp text-sm text-right display-4">WE PROVIDE</h1>
+                                                    <h1 style="font-weight:bolder;animation-delay: 0.5s" class=" animated fadeInUp  text-sm-1 display-4"> FINANCIAL <b style=" color: #17A2B8;"> FREEDOM</b></h1>
+                                                    <p class="p3 text-right mt-2 mobile-slide-1 " style="font-size : 17px;font-family: 'Poppins', sans-serif !important;font-weight:300;">Trading Street Inc is readily available to help you to able to do whatever you
                                                         like whilst living a good life and having enough money to cover your expenses easily, affordable and happily
                                                     </p>
                                                 </div>
 
                                             </div>
-                                            <div style="margin-left: -45px; ">
-                                                <a style=" font-family: 'Poppins', sans-serif;font-size:15px;text-decoration:none;" href="services.php" class="border p-3 text-white small rounded-0 text-uppercase">&ensp;&ensp;&ensp;&ensp;Our Services&ensp;&ensp;&ensp;&ensp;</a>
-                                                <a style=" font-family: 'Poppins', sans-serif;font-size:15px;text-decoration:none;" href="contact.php" class="p-3 rounded-0 info-bg small text-uppercase text-white ">&ensp;&ensp;&ensp;&ensp;Contact Us&ensp;&ensp;&ensp;&ensp;
-                                                </a>
+                                            <!-- <div class="block-reveal  mt-0 pt-0 ff-header4 text-right" style="--bc:  #00d2ff; --d: .5s ">
+                                                <div style="animation-delay: 1.5s" class="text-right animated fadeInUp">
+                                                </div>
+                                            </div> -->
+                                            <div class="slide-btn pt-4">
+                                                <a style="text-decoration:none;color:white;" href="services.php"> <button style="animation-delay: 0.8s; font-family: 'Poppins', sans-serif;font-size:12px;font-weight:bolder;" class="button  animated fadeInUp text-uppercase button2"> Our Services </button></a>
+                                                <a style="text-decoration:none;color:white;" href="contact.php"> <button style="animation-delay: 1s; font-family: 'Poppins', sans-serif;font-size:12px;font-weight:bolder;" class="button  animated fadeInUp text-uppercase button3">Contact Us</button></a>
                                             </div>
                                         </div>
                                     </div>
@@ -205,32 +500,29 @@
 
                 </div>
             </div>
+
             <div class="carousel-item carousel-item3  your-slider-item ">
-                <video class="video-fluid w-100" autoplay loop muted>
-                    <source src="./video/Market Loop Background Video - High Resolution (2).mp4" type="video/mp4">
+                <video class="video-fluid m-0 w-100" autoplay loop muted>
+                    <source class="video-fluid m-0 w-100" src="./video/Market Loop Background Video - High Resolution (2).mp4" type="video/mp4">
                 </video>
-                <div style="bottom: 380px !important;" class="carousel-caption d-none d-md-block ">
-                    <h3 style="animation-delay: 0.5s;font-family: 'Poppins', sans-serif;font-weight: bolder;"  class="p-3 display-4 m-0 animated fadeInLeft text-capitalize">Latest Market News</h3>
-                    <p>We give you the trending news to keep you updated each and everytime so that you wont miss anything that is happening
+                <div class="carousel-caption carousel-caption-slide-mobile">
+                    <h3 style="animation-delay: 0.5s;font-family: 'Poppins', sans-serif;font-weight: bolder;" class="p-3 display-4 m-0 animated fadeInLeft text-sm-2 text-capitalize">Latest Market News</h3>
+                    <p class="mobile-slide-1">We give you the trending news to keep you updated each and everytime so that you wont miss anything that is happening
                         in the world of trading and forex all around the world</p>
                     <div>
-                        <a href="news.php"> <button type="button" class="btn  btn-outline-secondary text-white small rounded-0 btn-lg ">&ensp;&ensp;Explore our news&ensp;&ensp;</button></a>
+                        <a style="text-decoration:none;color:white;" href="news.php"><button style="animation-delay: 1s; font-family: 'Poppins', sans-serif;font-size:15px;font-weight:bolder;" class="button  animated fadeInUp text-uppercase button3">Explore Our news </button></a>
                     </div>
                 </div>
             </div>
 
-
-
-
-
             <div class="carousel-item carousel-item3 your-slider-item ">
-                <img src="./images/Top_Forex_Trading_Tips_For_Beginners.jpeg " class="d-block w-100 " alt="... ">
-                <div style="bottom: 380px !important;" class="carousel-caption d-none d-md-block ">
-                    <h3 style="animation-delay: 0.5s;font-family: 'Poppins', sans-serif;font-weight: bolder;"  class="p-3 display-4 m-0 animated zoomIn  text-left text-uppercase">Explore Our Packages</h3>
-                    <p class=" text-left p-3">The deposit amounts and target returns can be adjusted to suit the client’s needs if they are more than the minimum required which is listed in the packages.
+                <img class="img-fluid" src="./images/Top_Forex_Trading_Tips_For_Beginners.jpeg " class="w-100" alt="... ">
+                <div class="carousel-caption carousel-caption-slide-mobile">
+                    <h3 style="animation-delay: 0.5s;font-family: 'Poppins', sans-serif;font-weight: bolder;" class="p-3 text-sm-2 display-4 m-0 animated zoomIn  text-left text-uppercase">Explore Our Packages</h3>
+                    <p style="animation-delay: 1.1s;font-family: 'Poppins', sans-serif;font-size:medium;" class="p-3 display-4 m-0 animated fadeInUp mobile-slide-1 text-left ">The deposit amounts and target returns can be adjusted to suit the client’s needs if they are more than the minimum required which is listed in the packages.
                         A client is allowed to invest in two or more packages simultaneously.</p>
-                    <div>
-                        <a href="services.php"> <button type="button" class="btn  btn-info text-white small rounded-0 btn-lg text-uppercase"><strong>Our Packages Summary</strong></button></a>
+                    <div class="d-flex justify-content-start ppt-sm pl-3">
+                        <a style="text-decoration:none;color:white;" href="services.php"> <button style="animation-delay: 1s; font-family: 'Poppins', sans-serif;font-size:12px;font-weight:bolder;" class="button  animated fadeInUp text-uppercase button3">Read More</button></a>
                     </div>
                 </div>
             </div>
@@ -241,22 +533,22 @@
 
 
     <!-- Our Packages -->
-    <section id="team" class="">
+    <section style="font-family: 'Poppins', sans-serif !important;" id="team" class="package moblie-package-2">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
                 <!-- Package 1 -->
-                <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="col-xs-12 col-sm-6 d-flex justify-content-center col-md-4">
                     <div class="image-flip">
                         <div class="mainflip flip-0">
                             <div class="frontside">
-                                <div class="card shadow-sm  rounded-0">
+                                <div class="card shadow-sm card-width rounded-0">
                                     <span class="p-2 info-bg text-white small w-50 text-center">Our Package</span>
                                     <div class="card-body text-center">
                                         <br>
 
                                         <p><i class="fas fa-box fa-3x info-color"></i></p>
-                                        <h4 class="card-title">General Mentorship Packages</h4>
-                                        <p class="card-text text-left">We have inclusive mentorship packages which cater for all types of traders from Newbies,
+                                        <h5 style="font-weight:bold;" class="card-title text-dark">General Mentorship Packages</h5>
+                                        <p class="card-text text-muted small text-left">We have inclusive mentorship packages which cater for all types of traders from Newbies,
                                             Enthusiasts to Professionals on a general basis without any specific target from the profits </p>
 
                                     </div>
@@ -268,8 +560,9 @@
                             <div class="backside">
                                 <div class="card">
                                     <div class="card-body text-center mt-4">
-                                        <h4 class="card-title">Trading Street Inc | 2021</h4>
-                                        <p class="card-text">The client can use the profits as they deem necessary.
+                                        <br>
+                                        <h4 style="font-weight:bold;" class="card-title text-dark">Trading Street Inc | 2021</h4>
+                                        <p class="card-text text-muted small">The client can use the profits as they deem necessary.
                                             These packages are classified into three main packages which include the basic package, proffessional package and the premium package</p>
                                         <ul class="list-inline">
                                             <li class="list-inline-item">
@@ -313,8 +606,8 @@
                                     <div class="card-body text-center">
                                         <br>
                                         <p><i class="fas fa-box fa-3x info-color"></i></p>
-                                        <h4 class="card-title">Developmental Packages</h4>
-                                        <p class="card-text">Trading street also provides phenomenal packages which have had huge
+                                        <h5 style="font-weight:bold;" class="card-title text-dark">Developmental Packages</h5>
+                                        <p class="card-text text-muted text-left small">Trading street also provides phenomenal packages which have had huge
                                             successes over time, classified as target specific developmental packages </p>
 
                                     </div>
@@ -326,8 +619,9 @@
                             <div class="backside">
                                 <div class="card">
                                     <div class="card-body text-center mt-4">
-                                        <h4 class="card-title">Trading Street Inc | 2021</h4>
-                                        <p class="card-text">
+                                        <br>
+                                        <h4 style="font-weight:bold;" class="card-title text-dark">Trading Street Inc | 2021</h4>
+                                        <p class="card-text text-muted small">
                                             We can help you build that home, help you buy that car,
                                             help you payback that bank loan and also help you have that holiday trip you have always wanted through these packages.
                                             This package includes the housing package, vehicle purchase, holiday trip and the loan repayment package</p>
@@ -373,8 +667,8 @@
                                     <div class="card-body text-center">
                                         <br>
                                         <p><i class="fas fa-box fa-3x info-color"></i></p>
-                                        <h4 class="card-title">Packages Summary</h4>
-                                        <p class="card-text">
+                                        <h5 style="font-weight:bold;" class="card-title text-dark">Packages Summary</h5>
+                                        <p class="card-text text-muted small text-left">
                                             In summary, the packages can be customized to suit client targets which also influences the
                                             time frame, at the back are minimum requirements per desired package.
                                         </p>
@@ -387,13 +681,14 @@
                             <div class="backside">
                                 <div class="card">
                                     <div class="card-body text-center mt-4">
-                                        <h4 class="card-title">Trading Street Inc | 2021</h4>
-                                        <p class="card-text">
-                                        <ul class="text-left" style="list-style-type: none">
-                                            <li class="pb-2" style="font-family: 'Segoe UI'; font-size :12px"></i>Vehicle package $500&ensp; <i class="fas fa-arrow-right fa-2x   info-color "></i> $5900 (in 7 months) </li>
-                                            <li class="pb-2" style="font-family: 'Segoe UI'; font-size :12px"></i>Housing package $10 000 <i class="fas fa-arrow-right fa-2x    info-color "></i> $30 000 (in 6 months) </li>
-                                            <li class="pb-2" style="font-family: 'Segoe UI'; font-size :12px"></i>Holiday package $ 1000 <i class="fas fa-arrow-right fa-2x   info-color "></i> $5000 (5 months) </li>
-                                            <li style="font-family: 'Segoe UI'; font-size :12px"></i>Loan package $10000 <i class="fas fa-arrow-right fa-2x   info-color "></i> $30000 (6months) </li>
+                                        <br>
+                                        <h4 style="font-weight:bold;" class="card-title text-dark">Trading Street Inc | 2021</h4>
+                                        <p class="card-text text-muted small">
+                                        <ul class="text-left  text-muted small" style="list-style-type: none">
+                                            <li></i>Vehicle package $500&ensp; <i class="fas fa-arrow-right fa-1x   info-color "></i> $5900 (in 7 months) </li>
+                                            <li></i>Housing package $10 000 <i class="fas fa-arrow-right fa-1x    info-color "></i> $30 000 (in 6 months) </li>
+                                            <li></i>Holiday package $ 1000 <i class="fas fa-arrow-right fa-1x   info-color "></i> $5000 (5 months) </li>
+                                            <li></i>Loan package $10000 <i class="fas fa-arrow-right fa-1x   info-color "></i> $30000 (6months) </li>
                                         </ul>
                                         </p>
                                         <ul class="list-inline">
@@ -428,22 +723,132 @@
                     </div>
                 </div>
                 <!-- ./Package 3 -->
-                <p style="position: relative;display:block;bottom: 60px;" class="text-muted text-center m-0 p-0">Don’t hesitate, contact us for better help and services. <a href="services.php" class="info-color">Explore all services</a></p>
+                <p class="text-muted text-center dnt-h m-0 p-0">Don’t hesitate, contact us for better help and services. <a href="services.php" class="info-color">Explore all services</a></p>
             </div>
 
         </div>
     </section>
     <!-- Our Packages -->
 
+    <!-- moblie package -->
+    <div class="container p-0 m-0  moblie-package">
+
+        <div class='row p-0 m-0'>
+            <div class='col-md-offset-2 col-md-8'>
+                <div class="carousel slide" data-interval="false" id="quote-carousel">
+
+                    <!-- Carousel Slides / Quotes -->
+                    <div class="carousel-inner">
+
+                        <!-- Quote 1 -->
+                        <div class="item active">
+                            <!-- Package 1 -->
+                            <div class="col-xs-12 col-sm package col-md">
+                                <div class="image-flip">
+                                    <div class="mainflip flip-0">
+                                        <div class="frontside">
+                                            <div class="card shadow-sm card-width rounded-0">
+                                                <span class="p-2 info-bg text-white small w-50 text-center">Our Package</span>
+                                                <div class="card-body text-center">
+                                                    <br>
+
+                                                    <p><i class="fas fa-box fa-3x info-color"></i></p>
+                                                    <h5 style="font-weight:bold;" class="card-title text-dark">General Mentorship Packages</h5>
+                                                    <p class="card-text text-muted small text-left">We have inclusive mentorship packages which cater for all types of traders from Newbies,
+                                                        Enthusiasts to Professionals on a general basis without any specific target from the profits </p>
+
+                                                </div>
+                                                <div class="d-flex justify-content-end">
+                                                    <a style="text-decoration: none;" href="services.php" class="info-color pb-2 pr-3 small text-uppercase">Find More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Quote 2 -->
+                        <div class="item">
+                            <!-- Package 2 -->
+                            <div class="col-xs-12 col-sm  package  col-md">
+                                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                    <div class="mainflip">
+                                        <div class="frontside">
+                                            <div class="card  shadow-sm rounded-0">
+                                                <span class="p-2 info-bg text-white small w-50 text-center">Our Package</span>
+                                                <div class="card-body text-center">
+                                                    <br>
+                                                    <p><i class="fas fa-box fa-3x info-color"></i></p>
+                                                    <h5 style="font-weight:bold;" class="card-title text-dark">Developmental Packages</h5>
+                                                    <p class="card-text text-muted text-left small">Trading street also provides phenomenal packages which have had huge
+                                                        successes over time, classified as target specific developmental packages </p>
+
+                                                </div>
+                                                <div class="d-flex justify-content-end">
+                                                    <a style="text-decoration: none;" href="services.php" class="info-color pb-2 pr-3 small text-uppercase">Find More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ./Package 2 -->
+                        </div>
+                        <!-- Quote 3 -->
+                        <div class="item">
+                            <!-- Package 3 -->
+                            <div class="col-xs-12 col-sm  package  col-md">
+                                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                    <div class="mainflip">
+                                        <div class="frontside">
+                                            <div class="card  shadow-sm rounded-0">
+                                                <span class="p-2 info-bg text-white small w-50 text-center">Our Package</span>
+                                                <div class="card-body text-center">
+                                                    <br>
+                                                    <p><i class="fas fa-box fa-3x info-color"></i></p>
+                                                    <h5 style="font-weight:bold;" class="card-title text-dark">Packages Summary</h5>
+                                                    <p class="card-text text-muted small text-left">
+                                                        In summary, the packages can be customized to suit client targets which also influences the
+                                                        time frame, at the back are minimum requirements per desired package.
+                                                    </p>
+                                                </div>
+                                                <div class="d-flex justify-content-end">
+                                                    <a style="text-decoration: none;" href="services.php" class="info-color pb-2 pr-3 small text-uppercase">Find More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ./Package 3 -->
+                        </div>
+                    </div>
+
+                    <!-- Carousel Buttons Next/Prev -->
+                    <div class="d-flex justify-content-center p-0 m-0">
+                        <a data-slide="prev" href="#quote-carousel" class="carousel-control"><i class="bi bi-chevron-left"></i></a>
+                        <a data-slide="next" href="#quote-carousel" class="carousel-control"><i class="bi bi-chevron-right"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- moblie package -->
+
 
     <!-- Dominate Markets -->
-    <section>
+    <section class="domin">
         <div class="container-fluid">
             <div class="row d-m">
-
+                <br>
                 <div class="col-sm col-md col-lg">
                     <h6 class="info-color ff-header text-uppercase">Trading Street Inc</h6>
                     <h1 class="display-6 ff-header4 text-dark"><strong>Are You Ready To Dominate The Markets?</strong></h1>
+                    <br>
                     Trading Street Inc is a business dedicated to help people make money. Yes. We are only aimed at helping our clients generate income
                     at their own time. We equip people with knowledge to gain financial independence. We are champions nurturing champions.
                     <span id="dots">....</span>
@@ -459,9 +864,10 @@
                     </span>
                     </p>
                     <!-- Readmore button with an onclick function-->
-                    <a onclick="myFunction()" id="myBtn" class=" bg-white rounded-0 p-md-3 p-lg-3" style="width: 30%;color:#17A2B8 !important;cursor: pointer; ">Read more</a>
+                    <a onclick="myFunction()" id="myBtn" class=" bg-white rounded-0" style="width: 30%;color:#17A2B8 !important;cursor: pointer; ">Read more</a>
                 </div>
-                <div class="col-sm col-md col-lg">
+                <br>
+                <div class="col-sm col-md brand-1 col-lg">
                     <div style="float: right;display:block;position:relative;right:40px;top:-10px;" class="info-bg w-25 p-2 d-flex justify-content-center">
                         <span class="text-center text-white">Brand</span>
                     </div>
@@ -479,22 +885,19 @@
 
     <!-- Services Section -->
     <!-- Sticky Image -->
-    <div style="font-family: 'Segoe UI';" class="container-fluid">
-        <div class="row about-picture">
-            <div style=" background-color: rgba(0, 0, 0, 0.8);font-size: small;" class="text-white p-5">
+    <div class="container-fluid p-0 m-0">
+        <div class="row p-0 m-0 about-picture">
+            <div style=" background-color: rgba(0, 0, 0, 0.8);font-size: small;" class="col-sm col-md demo-1 col-lg text-white ">
 
                 <div class="text-center">
                     <br>
                     <h6 class="text-uppercase text-white "><strong>What we do</strong></h6>
-                    <h3 style="font-family: 'Segoe UI';font-weight:bold;" class="text-white "><strong>Trading Street Inc Services</strong></h3>
-                    <div style="position: relative;display:block;border-bottom: 5px solid #00d2ff;height:10px;width:150px;left: 560px;"></div>
+                    <h3 style="font-weight:bold;" class="text-white "><strong>Trading Street Inc Services</strong></h3>
+                    <div class="hori-line"></div>
                 </div>
-
-                <section class="demo-1 p-5">
-
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-sm col-md col-lg">
+                <div class="container-fluid p-0 m-0">
+                        <div class="row p-0 m-0">
+                            <div class="col-sm col-md  p-0 m-0 col-lg">
                                 <div class="grid">
                                     <div class="box">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
@@ -517,7 +920,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-sm col-md col-lg">
+                            <div class="col-sm col-md p-0 m-0 col-lg">
                                 <div class="grid">
 
                                     <div class="box">
@@ -540,7 +943,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-sm col-md col-lg">
+                            <div class="col-sm col-md col-lg p-0 m-0">
                                 <div class="grid">
 
                                     <div class="box">
@@ -565,8 +968,8 @@
 
 
 
-                        <div class="row">
-                            <div class="col-sm col-md col-lg">
+                        <div class="row p-0 m-0">
+                            <div class="col-sm col-md col-lg p-0 m-0">
                                 <div class="grid">
                                     <div class="box">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
@@ -589,7 +992,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-sm col-md col-lg">
+                            <div class="col-sm col-md p-0 m-0 col-lg">
                                 <div class="grid">
 
                                     <div class="box">
@@ -612,7 +1015,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-sm col-md col-lg">
+                            <div class="col-sm col-md p-0 m-0 p-0 m-0 col-lg">
                                 <div class="grid">
 
                                     <div class="box">
@@ -636,15 +1039,12 @@
                         </div>
                     </div>
 
-                </section>
+                
 
 
             </div>
-
         </div>
-
     </div>
-
     <!-- End of Sticky Image -->
     <!-- End of Services Section -->
 
@@ -726,66 +1126,222 @@
     <br>
     <!-- Testmonies -->
 
-    <div style="width: 1230px;" id="carouselExampleCaptions2" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleCaptions2" class="carousel testmonies slide" data-bs-ride="carousel">
+        <style>
+            @media (min-width: 576px) and (max-width: 767.98px) {
+                .testmonies {
+                    width: 1230px;
+                }
 
-        <div style="background-image: url(./images/map5-01.png);background-size: cover;">
+                .testmonies-2 {
+                    height: 600px;
+                }
+
+                .testmonies-image {
+                    background-image: url(./images/map5-01.png);
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                }
+
+                .carousel-inner2 {
+                    height: 80vh !important;
+                    min-height: 300px !important;
+                    background: no-repeat scroll center scroll !important;
+                    -webkit-background-size: cover !important;
+                    background-size: cover !important;
+                }
+
+                .carousel-inner2::before {
+                    content: "" !important;
+                    display: block !important;
+                    position: absolute !important;
+                    top: 0 !important;
+                    left: 100 !important;
+                    bottom: 0 !important;
+                    right: 0 !important;
+                    background-color: #00bae4 !important;
+                    opacity: 0.9 !important;
+                    width: 100%;
+                }
+
+                .fa-size {
+                    font-size: 80px !important;
+                }
+            }
+
+            @media (min-width: 768px) and (max-width: 991.98px) {
+                .testmonies {
+                    width: 1230px;
+                }
+
+                .testmonies-2 {
+                    height: 600px;
+                }
+
+                .testmonies-image {
+                    background-image: url(./images/map5-01.png);
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                }
+
+                .carousel-inner2 {
+                    height: 80vh !important;
+                    min-height: 300px !important;
+                    background: no-repeat scroll center scroll !important;
+                    -webkit-background-size: cover !important;
+                    background-size: cover !important;
+                }
+
+                .carousel-inner2::before {
+                    content: "" !important;
+                    display: block !important;
+                    position: absolute !important;
+                    top: 0 !important;
+                    left: 100 !important;
+                    bottom: 0 !important;
+                    right: 0 !important;
+                    background-color: #00bae4 !important;
+                    opacity: 0.9 !important;
+                    width: 100%;
+                }
+
+                .fa-size {
+                    font-size: 80px !important;
+                }
+            }
+
+            @media (min-width: 992px) and (max-width: 1199.98px) {}
+
+            @media (min-width: 1200px) {
+                .high{
+                    height:600px;
+                }
+                .testmonies {
+                    width: 1230px;
+                }
+
+                .testmonies-2 {
+                    height: 600px;
+                }
+
+                .testmonies-image {
+                    background-image: url(./images/map5-01.png);
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                }
+
+                .carousel-inner2 {
+                    height: 80vh !important;
+                    min-height: 300px !important;
+                    background: no-repeat scroll center scroll !important;
+                    -webkit-background-size: cover !important;
+                    background-size: cover !important;
+                }
+
+                .carousel-inner2::before {
+                    content: "" !important;
+                    display: block !important;
+                    position: absolute !important;
+                    top: 0 !important;
+                    left: 100 !important;
+                    bottom: 0 !important;
+                    right: 0 !important;
+                    background-color: #00bae4 !important;
+                    opacity: 0.9 !important;
+                    width: 100%;
+                }
+
+                .fa-size {
+                    font-size: 80px !important;
+                }
+            }
+
+            @media (max-width: 575.98px) {
+                .fa-size {
+                    font-size: 50px !important;
+                }
+
+                .star {
+                    font-size: small !important;
+                }
+
+                .ts {
+                    visibility: hidden;
+                    display: none;
+                }
+                .high{
+                    height:600px;
+                }
+                .hppy {
+                    visibility: hidden;
+                    display: none;
+                }
+               
+            }
+        </style>
+
+        <div class="testmonies-image">
 
             <div class="carousel-inner carousel-inner2">
-                <div style="height:600px;" class="carousel-item active">
+                <div style="height:600px;" class="carousel-item  testmonies-2 active">
                     <div class="animated fadeIn p-5" style="animation-delay: 1.5s">
-                        <h4 class="text-white">Testmonies</h4>
-                        <h1 class="w-50 text-white" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder;">Don’t Belive Us, Check Our Client Feedback</h1>
+                        <h4 class="text-white test-head">Testmonies</h4>
+                        <h1 class="w-50 text-white test-content" style="font-weight:bolder;">Don’t Belive Us, Check Our Client Feedback</h1>
                     </div>
 
-                    <div class="carousel-caption carousel-caption2 d-none d-md-block">
-                        <div class="text-center text-white">
-                            <h1><i class="fas fa-3x fa-user-circle"></i></h1>
+                    <div class="carousel-caption carousel-caption2 ">
+                        <div class="text-center p-0 m-0 text-white">
+                            <p class="fa-size p-0 m-0"><i class="fas  fa-user-circle"></i></p>
                         </div>
-                        <h5><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
+                        <p class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
                         <p>“Avenue to financial freedom indeed, was all stressed out with my loan repayment crisis owing to the lockdown and all,
-                            got referred by a friend to try out these new guys in town @Trading Street and guess what l was able to repay my loan in time,
-                            <span id="dots1">....</span><span id="more1"> they made follow up calls on every trade and information they had passed through and it worked, thank you winning team”
+                            <span id="dots1">....</span><span id="more1"> got referred by a friend to try out these new guys in town @Trading Street and guess what l was able to repay my loan in time, they made follow up calls on every trade and information they had passed through and it worked, thank you winning team”
                             </span>
                         </p>
                         <p class=" d-flex justify-content-end">
                             <a onclick="myFunction1()" id="myBtn1" class="btn" style="text-decoration: underline; color:white !important;">Read more</a>
                         </p>
-                        <h5 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder">Happy Client</h5>
-                        <p>Trading Street Inc</p>
+                        <h5 class="hppy" style="font-weight:bolder">Happy Client</h5>
+                        <p class="ts">Trading Street Inc</p>
                     </div>
                 </div>
-                <div style="height:600px;" class="carousel-item">
+                <div  class="carousel-item high">
                     <div class="animated fadeInRight p-5" style="animation-delay: 1s">
-                        <h4 class="text-white">Testmonies</h4>
-                        <h1 class="w-50 text-white" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder;">Don’t Belive Us, Check Our Client Feedback</h1>
+                        <h4 class="text-white test-head">Testmonies</h4>
+                        <h1 class="w-50 text-white test-content" style="font-weight:bolder;">Don’t Belive Us, Check Our Client Feedback</h1>
                     </div>
-                    <div class="carousel-caption  carousel-caption2  d-none d-md-block">
-                        <div class="text-center text-white">
-                            <h1><i class="fas fa-3x fa-user-circle"></i></h1>
+                    <div class="carousel-caption  carousel-caption2 ">
+                        <div class="text-center  p-0 m-0  text-white">
+                            <p class="fa-size  p-0 m-0"><i class="fas fa-user-circle"></i></p>
                         </div>
-                        <h5><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
+                        <p class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
                         <p>“Ndakaenda kumaoffices with doubts ko mukandibira panoitwa sei,
-                            vakanditi we enter into a contract asi kana musati mava ready then munodzoka mava shuwa kuti mukuda tishande tese,
-                            <span id="dots2">....</span><span id="more2"> they made follow up calls on every trade and information they had passed through and it worked, thank you winning team”
+                            <span id="dots2">....</span><span id="more2"> vakanditi we enter into a contract asi kana musati mava ready then munodzoka mava shuwa kuti mukuda tishande tese, they made follow up calls on every trade and information they had passed through and it worked, thank you winning team”
                             </span>
                         </p>
                         <p class=" d-flex justify-content-end">
                             <a onclick="myFunction2()" id="myBtn2" class="btn" style="text-decoration: underline; color:white !important;">Read more</a>
                         </p>
-                        <h5 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder">Happy Client</h5>
-                        <p>Trading Street Inc Clients</p>
+                        <h5  class="hppy" style="font-weight:bolder">Happy Client</h5>
+                        <p class="ts">Trading Street Inc</p>
                     </div>
                 </div>
-                <div style="height:600px;" class="carousel-item">
+                <div  class="carousel-item high">
                     <div class="animated backInUp p-5" style="animation-delay: 1s">
-                        <h4 class="text-white">Testmonies</h4>
-                        <h1 class="w-50 text-white" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder;">Don’t Belive Us, Check Our Client Feedback</h1>
+                        <h4 class="text-white test-head">Testmonies</h4>
+                        <h1 class="w-50 text-white test-content" style="font-weight:bolder;">Don’t Belive Us, Check Our Client Feedback</h1>
                     </div>
-                    <div class="carousel-caption  carousel-caption2  d-none d-md-block">
-                        <div class="text-center text-white">
-                            <h1><i class="fas fa-3x fa-user-circle"></i></h1>
+                    <div class="carousel-caption  carousel-caption2">
+                        <div class="text-center  p-0 m-0  text-white">
+                            <p class="fa-size  p-0 m-0"><i class="fas fa-user-circle"></i></p>
                         </div>
-                        <h5><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
+                        <p class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
                         <p>“Got referred by my brother and at first was afraid of being scammed, but you guys take your mentorship programs really seriously,
                             <span id="dots3">....</span><span id="more3">
                                 I have made some profits from some of my trades while still learning and I can only imagine where we are going,independence!!!!
@@ -795,20 +1351,20 @@
                         <p class=" d-flex justify-content-end">
                             <a onclick="myFunction3()" id="myBtn3" class="btn" style="text-decoration: underline; color:white !important;">Read more</a>
                         </p>
-                        <h5 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder">Happy Client</h5>
-                        <p>Trading Street Inc Clients</p>
+                        <h5 class="hppy"  style="font-weight:bolder">Happy Client</h5>
+                        <p class="ts">Trading Street Inc</p>
                     </div>
                 </div>
-                <div style="height:600px;" class="carousel-item">
+                <div class="carousel-item high">
                     <div class="animated bounce p-5" style="animation-delay: 1s">
-                        <h4 class="text-white">Testmonies</h4>
-                        <h1 class="w-50 text-white" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder;">Don’t Belive Us, Check Our Client Feedback</h1>
+                        <h4 class="text-white test-head">Testmonies</h4>
+                        <h1 class="w-50 text-white test-content" style="font-weight:bolder;">Don’t Belive Us, Check Our Client Feedback</h1>
                     </div>
-                    <div class="carousel-caption  carousel-caption2  d-none d-md-block">
-                        <div class="text-center text-white">
-                            <h1><i class="fas fa-3x fa-user-circle"></i></h1>
+                    <div class="carousel-caption  carousel-caption2">
+                        <div class="text-center  p-0 m-0 text-white">
+                            <p class="fa-size  p-0 m-0"><i class="fas fa-user-circle"></i></p>
                         </div>
-                        <h5><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
+                        <p class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
                         <p>“The best risk I have taken y’all, invested $10000 in April 2020, I wasn’t even sure it was gonna to work out,
                             <span id="dots4">....</span><span id="more4"> then come November booooom I got my $33000 as promised and l got my house”
 
@@ -817,20 +1373,20 @@
                         <p class=" d-flex justify-content-end">
                             <a onclick="myFunction4()" id="myBtn4" class="btn" style="text-decoration: underline; color:white !important;">Read more</a>
                         </p>
-                        <h5 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder">Happy Client</h5>
-                        <p>Trading Street Inc Clients</p>
+                        <h5 class="hppy"  style="font-weight:bolder">Happy Client</h5>
+                        <p class="ts">Trading Street Inc</p>
                     </div>
                 </div>
-                <div style="height:600px;" class="carousel-item">
+                <div class="carousel-item high">
                     <div class="animated flipOutY p-5" style="animation-delay: 1s">
-                        <h4 class="text-white">Testmonies</h4>
-                        <h1 class="w-50 text-white" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder;">Don’t Belive Us, Check Our Client Feedback</h1>
+                        <h4 class="text-white test-head">Testmonies</h4>
+                        <h1 class="w-50 text-white test-content" style="font-weight:bolder;">Don’t Belive Us, Check Our Client Feedback</h1>
                     </div>
-                    <div class="carousel-caption  carousel-caption2  d-none d-md-block">
-                        <div class="text-center text-white">
-                            <h1><i class="fas fa-3x fa-user-circle"></i></h1>
+                    <div class="carousel-caption  carousel-caption2">
+                        <div class="text-center  p-0 m-0  text-white">
+                            <p class="fa-size  p-0 m-0 "><i class="fas fa-user-circle"></i></p>
                         </div>
-                        <h5><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
+                        <p class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
                         <p>“I m still active on my vehicle package plan and haven't bought it yet but I like what I am seeing,
                             <span id="dots5">....</span><span id="more5"> I am hopeful of making it in the prescribed time frame and looking forward to go onto the building package”
                             </span>
@@ -838,20 +1394,20 @@
                         <p class=" d-flex justify-content-end">
                             <a onclick="myFunction5()" id="myBtn5" class="btn" style="text-decoration: underline; color:white !important;">Read more</a>
                         </p>
-                        <h5 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder">Happy Client</h5>
-                        <p>Trading Street Inc Clients</p>
+                        <h5 class="hppy" style="font-weight:bolder">Happy Client</h5>
+                        <p class="ts">Trading Street Inc</p>
                     </div>
                 </div>
-                <div style="height:600px;" class="carousel-item">
+                <div class="carousel-item high">
                     <div class="animated lightSpeedInLeft p-5" style="animation-delay: 1s">
-                        <h4 class="text-white">Testmonies</h4>
-                        <h1 class="w-50 text-white" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder;">Don’t Belive Us, Check Our Client Feedback</h1>
+                        <h4 class="text-white test-head">Testmonies</h4>
+                        <h1 class="w-50 text-white test-content" style="font-weight:bolder;">Don’t Belive Us, Check Our Client Feedback</h1>
                     </div>
-                    <div class="carousel-caption  carousel-caption2  d-none d-md-block">
-                        <div class="text-center text-white">
-                            <h1><i class="fas fa-3x fa-user-circle"></i></h1>
+                    <div class="carousel-caption  carousel-caption2">
+                        <div class="text-center  p-0 m-0  text-white">
+                            <p class="fa-size  p-0 m-0 "><i class="fas fa-user-circle"></i></p>
                         </div>
-                        <h5><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
+                        <p class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
                         <p>“I had $12000 on me but the house I wanted was costing a whole $35000 and I knew I couldn’t purchase it in time otherwise someone was going to buy it before me,
                             thats when l approached Trading street Inc. <span id="dots6">....</span><span id="more6">
                                 . and the playing field turned in my favour,I collected my $27000 in 6 months and bought myself a beatiful home thanx to Trading Street Inc team.”
@@ -860,20 +1416,20 @@
                         <p class=" d-flex justify-content-end">
                             <a onclick="myFunction6()" id="myBtn6" class="btn" style="text-decoration: underline; color:white !important;">Read more</a>
                         </p>
-                        <h5 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder">Happy Client</h5>
-                        <p>Trading Street Inc Clients</p>
+                        <h5 class="hppy" style="font-weight:bolder">Happy Client</h5>
+                        <p class="ts">Trading Street Inc</p>
                     </div>
                 </div>
-                <div style="height:600px;" class="carousel-item">
+                <div class="carousel-item high">
                     <div class="animated rollIn p-5" style="animation-delay: 1s">
-                        <h4 class="text-white">Testmonies</h4>
-                        <h1 class="w-50 text-white" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder;">Don’t Belive Us, Check Our Client Feedback</h1>
+                        <h4 class="text-white test-head">Testmonies</h4>
+                        <h1 class="w-50 text-white test-content" style="font-weight:bolder;">Don’t Belive Us, Check Our Client Feedback</h1>
                     </div>
-                    <div class="carousel-caption  carousel-caption2  d-none d-md-block">
-                        <div class="text-center text-white">
-                            <h1><i class="fas fa-3x fa-user-circle"></i></h1>
+                    <div class="carousel-caption  carousel-caption2">
+                        <div class="text-center  p-0 m-0  text-white">
+                            <p class="fa-size  p-0 m-0"><i class="fas fa-user-circle"></i></p>
                         </div>
-                        <h5><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
+                        <p class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
                         <p>“I had lost all hope on my planned vacation to Dubai last year in December but all thanks to Trading Street Inc. <span id="dots7">....</span><span id="more7">
                                 (holiday trip package) and their amazing work ethic I pulled through and it was a beautiful experience, thumps up guys”
 
@@ -881,20 +1437,20 @@
                         <p class=" d-flex justify-content-end">
                             <a onclick="myFunction7()" id="myBtn7" class="btn" style="text-decoration: underline; color:white !important;">Read more</a>
                         </p>
-                        <h5 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder">Happy Client</h5>
-                        <p>Trading Street Inc Clients</p>
+                        <h5 class="hppy" style="font-weight:bolder">Happy Client</h5>
+                        <p class="ts">Trading Street Inc</p>
                     </div>
                 </div>
-                <div style="height:600px;" class="carousel-item">
+                <div class="carousel-item high">
                     <div class="animated fadeInTopRight p-5" style="animation-delay: 1s">
-                        <h4 class="text-white">Testmonies</h4>
-                        <h1 class="w-50 text-white" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder;">Don’t Belive Us, Check Our Client Feedback</h1>
+                        <h4 class="text-white test-head">Testmonies</h4>
+                        <h1 class="w-50 text-white test-content" style="font-weight:bolder;">Don’t Belive Us, Check Our Client Feedback</h1>
                     </div>
-                    <div class="carousel-caption  carousel-caption2  d-none d-md-block">
-                        <div class="text-center text-white">
-                            <h1><i class="fas fa-3x fa-user-circle"></i></h1>
+                    <div class="carousel-caption  carousel-caption2 ">
+                        <div class="text-center  p-0 m-0  text-white">
+                            <p class="fa-size  p-0 m-0"><i class="fas fa-user-circle"></i></p>
                         </div>
-                        <h5><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
+                        <p class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
                         <p>“Thank you trading street for such a platform yakarongeka. Ndakapinda pabasic package trying to check out mastreets kuti how far semaghetto yuts vanenge vasina baggy rakakwana <span id="dots8">....</span>
                             <span id="more8">but so far I have made way more than mari yandakaisa , I am upgrading my package manje manje”
 
@@ -903,28 +1459,28 @@
                         <p class=" d-flex justify-content-end">
                             <a onclick="myFunction8()" id="myBtn8" class="btn" style="text-decoration: underline; color:white !important;">Read more</a>
                         </p>
-                        <h5 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder">Happy Client</h5>
-                        <p>Trading Street Inc Clients</p>
+                        <h5 class="hppy" style="font-weight:bolder">Happy Client</h5>
+                        <p class="ts">Trading Street Inc</p>
                     </div>
                 </div>
-                <div style="height:600px;" class="carousel-item">
+                <div class="carousel-item high">
                     <div class="animated swing p-5" style="animation-delay: 1s">
-                        <h4 class="text-white">Testmonies</h4>
-                        <h1 class="w-50 text-white" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder;">Don’t Belive Us, Check Our Client Feedback</h1>
+                        <h4 class="text-white test-head">Testmonies</h4>
+                        <h1 class="w-50 text-white test-content" style="font-weight:bolder;">Don’t Belive Us, Check Our Client Feedback</h1>
                     </div>
-                    <div class="carousel-caption  carousel-caption2  d-none d-md-block">
-                        <div class="text-center text-white">
-                            <h1><i class="fas fa-3x fa-user-circle"></i></h1>
+                    <div class="carousel-caption  carousel-caption2 ">
+                        <div class="text-center  p-0 m-0  text-white">
+                            <p class="fa-size  p-0 m-0 "><i class="fas fa-user-circle"></i></p>
                         </div>
-                        <h5><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h5>
+                        <p class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
                         <p>“I was one of those guys who just thought that forex trading was also about just guessing and I lost so much money that I regret not meeting this mentors from trading street earlier.<span id="dots9">....</span><span id="more9">
                                 I am on the premium package and I have more knowledge of forex trading than I ever thought I needed and have made profits thus far and I am still to enjoy those benefits for 8 more months”
                             </span></p>
                         <p class=" d-flex justify-content-end">
                             <a onclick="myFunction9()" id="myBtn9" class="btn" style="text-decoration: underline; color:white !important;">Read more</a>
                         </p>
-                        <h5 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight:bolder">Happy Client</h5>
-                        <p>Trading Street Inc Clients</p>
+                        <h5 class="hppy" style="font-weight:bolder">Happy Client</h5>
+                        <p class="ts">Trading Street Inc</p>
                     </div>
                 </div>
             </div>
@@ -993,7 +1549,9 @@
         }
     </script>
     <!-- Below is javascript code for readmore and readless functionality-->
-    <script src="./js/readmore.js"></script>
+    <!-- Below is javascript code for readmore and readless functionality-->
+
+    <!-- End of Below is javascript code for readmore and readless functionality-->
     <!-- End of Below is javascript code for readmore and readless functionality-->
     <!-- Counters -->
 
@@ -1014,6 +1572,18 @@
         });
     </script>
     <!-- Counters -->
+
+
+    <script>
+        // When the DOM is ready, run this function
+        $(document).ready(function() {
+            //Set the carousel options
+            $('#quote-carousel').carousel({
+                pause: true,
+                interval: 4000,
+            });
+        });
+    </script>
 
 </body>
 

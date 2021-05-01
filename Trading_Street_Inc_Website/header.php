@@ -39,8 +39,8 @@
 
 <!-- Second Header -->
 <!-- Sticky navbar-->
-<header class="header m-0 sticky-top">
-    <nav class="navbar  navbar-expand-lg navbar-white rounded-0 m-0 p-3 bg-white">
+<header class="header m-0 p-0 sticky-top">
+    <nav class="navbar  navbar-expand-lg navbar-expand-md navbar-white rounded-0 m-0 p-3 bg-white">
         <div class="container custom-header custom-toggler mb-0">
 
             <span class="navbar-brand " href="index.php"><strong class="text-uppercase ff-header4">Trading Street Inc</strong></span>

@@ -52,6 +52,7 @@
 
 .box:hover svg line.bottom {
     -webkit-transform: translateX(600px);
+    stroke: #0085dd;
     transform: translateX(600px);
 }
 
