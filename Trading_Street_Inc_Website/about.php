@@ -19,6 +19,24 @@
 
     <!-- Font Awesome -->
     <script src="./js/all.js"></script>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
+    <link rel="manifest" href="./icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- MainCss -->
     <link rel="stylesheet" href="css/w3.css">
@@ -187,15 +205,15 @@
     ?>
     <!-- End Of Header -->
 
-    <!-- Conduct header -->
+    <!-- About header -->
     <div style="font-family: 'Segoe UI';" class="container-fluid">
         <div class="row picture" style="height: 250px !important;">
-        <style>
-            :root {
-                --primary: hsl(0, 0%, 7%, 0.4);
-                --secondary: hsl(0, 0%, 5%, 1);
-            }
-        </style>
+            <style>
+                :root {
+                    --primary: hsl(0, 0%, 7%, 0.4);
+                    --secondary: hsl(0, 0%, 5%, 1);
+                }
+            </style>
             <div style="background: linear-gradient(90deg,var(--secondary), var(--primary));font-size: small;" class="text-white p-2">
 
                 <div class="cond-in">
@@ -214,7 +232,7 @@
         </div>
 
     </div>
-    <!-- End of Conduct header -->
+    <!-- End of About header -->
     <!-- why chose us section -->
     <div class="container-fluid p-5">
         <div class="row pl-5 pr-5 pt-5">
@@ -230,15 +248,15 @@
                 <h1 class="text-dark " style="font-weight: bolder; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">We Work With You To Address Your Most Critical Business Priorities
                 </h1>
                 <br>
-                <p class="text-dark">Trading Street Inc. is a registered forex trading company in Zimbabwe,the first of 
-                    its kind that seeks to empower and mentor willing would be traders in Zimbabwe and beyond to earn from 
-                    forex Trading, providing a scam free forex trading experience to its clients.  <span id="dots">....</span>
+                <p class="text-dark">Trading Street Inc. is a registered forex trading company in Zimbabwe,the first of
+                    its kind that seeks to empower and mentor willing would be traders in Zimbabwe and beyond to earn from
+                    forex Trading, providing a scam free forex trading experience to its clients. <span id="dots">....</span>
                     <span id="more">
-                    <br>
-                    <br>
-                    The company has over 1330 
-                    local clients and over 45 international clients, a sign of the efficiency and reliable nature the company 
-                    has shown since 2019
+                        <br>
+                        <br>
+                        The company has over 1330
+                        local clients and over 45 international clients, a sign of the efficiency and reliable nature the company
+                        has shown since 2019
 
 
                     </span>
@@ -269,14 +287,14 @@
 
                 <br>
                 <p class="text-dark">We are a Zimbabwean based forex trading firm which prides itself in leading growth in the industry.
-                     We produce profitable forex traders  and promote adaptation to the fast changing digital money systems.
-                     <span id="dots2">....</span>
-                     <br>
-                     <br>
-                    <span id="more2"> 
-                     We are your ultra modern forex trading academy with no physical offices but a digital office setup, 
-                     open and available 24/7. We lead in transparency and results.
-                     And we are your one stop hub for all your valuable stock market insight. We are here to empower. 
+                    We produce profitable forex traders and promote adaptation to the fast changing digital money systems.
+                    <span id="dots2">....</span>
+                    <br>
+                    <br>
+                    <span id="more2">
+                        We are your ultra modern forex trading academy with no physical offices but a digital office setup,
+                        open and available 24/7. We lead in transparency and results.
+                        And we are your one stop hub for all your valuable stock market insight. We are here to empower.
                     </span>
                 </p>
                 <p class=" d-flex justify-content-end">
@@ -307,7 +325,7 @@
                         <span style="font-size: 24px; font-weight: bolder;">Our Mission</span> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
                         <div class=" pl-5 pr-3 pt-3" style="height: 90px; border-left: 1px solid gray; position: relative; left: 400px; top: -60px;">
                             <p class="text-white w-50" style="position: relative; left: 150px;">To promote financial freedom through stock, financial
-                            technologies and crypto currency trading knowledge and aided trading on behalf of cooporates</p>
+                                technologies and crypto currency trading knowledge and aided trading on behalf of cooporates</p>
                         </div>
 
                     </div>
@@ -320,7 +338,7 @@
                         <span style="font-size: 24px; font-weight: bolder;"> Our Vision</span> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
                         <div class=" pl-5 pr-3 pt-3" style="height: 90px; border-left: 1px solid gray; position: relative; left: 400px; top: -60px;">
                             <p class="text-white w-50" style="position: relative; left: 150px;">The company seeks to grow the forex & commodities market legitimately while promoting financial literacy in our clients,
-                             empowering and advocating for financial freedom to our clients and the public at large</p>
+                                empowering and advocating for financial freedom to our clients and the public at large</p>
                         </div>
 
                     </div>
@@ -331,14 +349,15 @@
                         </span> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
                         <span style="font-size: 24px; font-weight: bolder;"> Our Values</span> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
                         <div class=" pl-5 pr-3 pt-3" style="height: 90px; border-left: 1px solid gray; position: relative; left: 382px; top: -100px;">
-                            <p class="text-white w-50" >
-                            <ul style="position: relative; left: 130px; list-style-type : none; "  >
-                            <li> <strong>Honesty </strong>  - To offer service in all honesty and in the best interest of all our valued customers</li>
-                            <li> <strong>Procedure</strong>  -We value all ( even in uniqueness), institutional, legal and business processes in our service delivery</li>
-                            <li> <strong>Results and Targets</strong>  - We  value our clients words and we honor our words, working deligently to meet all targets at all times</li>
-                            <li> <strong>Growth </strong>  - We value growth & freedom.
-                             <li>Growth of the client through financial freedom.</li>
-                             <li>Growth of a more investment oriented population group</li> </li>
+                            <p class="text-white w-50">
+                            <ul style="position: relative; left: 130px; list-style-type : none; ">
+                                <li> <strong>Honesty </strong> - To offer service in all honesty and in the best interest of all our valued customers</li>
+                                <li> <strong>Procedure</strong> -We value all ( even in uniqueness), institutional, legal and business processes in our service delivery</li>
+                                <li> <strong>Results and Targets</strong> - We value our clients words and we honor our words, working deligently to meet all targets at all times</li>
+                                <li> <strong>Growth </strong> - We value growth & freedom.
+                                <li>Growth of the client through financial freedom.</li>
+                                <li>Growth of a more investment oriented population group</li>
+                                </li>
                             </ul>
                             </p>
                         </div>
@@ -357,22 +376,22 @@
         <div class="row">
             <div class="col d-flex justify-content-center">
                 <div class="text-center">
-                 <h6 class="text-uppercase  info-color mt-5 "><strong>Our team</strong></h6>
-                        <div class="text-center">
-                            <h1 style="font-family: 'Segoe UI';font-weight:bolder;" class="text-white"><strong>Discover Our
-                                    Team And
-                                    Experts
-                                </strong></h1>
-                            <div style="position: relative;display:block;border-bottom: 7px solid #00d2ff;height:10px;width:150px;left: 560px;">
-                            </div>
-                        
-                            <h1 style="font-family: 'Segoe UI';font-weight:bolder;" class="dark"><strong>Discover Our Team And
-                                    Experts
-                                </strong></h1>
-                            <div style="position: relative;display:block;border-bottom: 7px solid #00d2ff;height:10px;width:150px;left: 560px;">
-                              
-                            </div>
+                    <h6 class="text-uppercase  info-color mt-5 "><strong>Our team</strong></h6>
+                    <div class="text-center">
+                        <h1 style="font-family: 'Segoe UI';font-weight:bolder;" class="text-white"><strong>Discover Our
+                                Team And
+                                Experts
+                            </strong></h1>
+                        <div style="position: relative;display:block;border-bottom: 7px solid #00d2ff;height:10px;width:150px;left: 560px;">
                         </div>
+
+                        <h1 style="font-family: 'Segoe UI';font-weight:bolder;" class="dark"><strong>Discover Our Team And
+                                Experts
+                            </strong></h1>
+                        <div style="position: relative;display:block;border-bottom: 7px solid #00d2ff;height:10px;width:150px;left: 560px;">
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -473,6 +492,15 @@
         }
     </script>
     <!-- End of Below is javascript code for readmore and readless functionality-->
+    <script src="./jquery.unveil.js"></script>
+    <script>
+        $("img").unveil(200, function() {
+            $(this).load(function() {
+                this.style.opacity = 1;
+            });
+        });
+    </script>
+
 
 </body>
 

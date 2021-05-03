@@ -19,6 +19,24 @@
 
     <!-- Font Awesome -->
     <script src="./js/all.js"></script>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
+    <link rel="manifest" href="./icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- MainCss -->
     <link rel="stylesheet" href="css/w3.css">
@@ -287,7 +305,7 @@
     <div class="container-fluid widget make-me-sticky">
         <div class="row medium">
             <div class="col-sm col-md-0 col-lg p-0 m-0">&ensp;</div>
-            
+
             <div class="col-sm col-md col-lg side-lg mt-5 mb-5" style="background-color: #F8FEFF;">
                 <div class="sidebar-item">
                     <div class="bg-white text-white">
@@ -461,7 +479,7 @@
                                 </div>
                             </div>
                             <div class="col-sm col-md col-lg">
-                                <img class="img-fluid" src="./images/best_forex_traders.jpeg" alt="Forex">
+                                <img class="img-fluid" src="./images/trading_street_logo-05.png" data-src="./images/best_forex_traders.jpeg" alt="Forex">
                             </div>
                         </div>
                         <div class="row">
@@ -484,8 +502,8 @@
                             </div>
                             <div class="col-sm col-md col-lg">
                                 <marquee behavior="" direction="">
-                                    <span><img class="img-fluid" src="./images/Capture.PNG" alt="Partners"></span>
-                                    <span><img class="img-fluid" src="./images/Capture2.PNG" alt="Partners"></span>
+                                    <span><img class="img-fluid" src="./images/trading_street_logo-05.png" data-src="./images/Capture.PNG" alt="Partners"></span>
+                                    <span><img class="img-fluid" src="./images/trading_street_logo-05.png" data-src="./images/Capture2.PNG" alt="Partners"></span>
                                 </marquee>
 
                             </div>
@@ -509,7 +527,7 @@
                         <div class="row p-2">
                             <div class="col-sm col-md col-lg">
                                 <br>
-                                <img class="img-fluid" src="./images/Nadya-Khan-Kenya.jpeg" alt="Mentor">
+                                <img class="img-fluid" src="./images/trading_street_logo-05.png" data-src="./images/Nadya-Khan-Kenya.jpeg" alt="Mentor">
                             </div>
                         </div>
                         <div class="row">
@@ -610,7 +628,7 @@
 
 
                             </div>
-                            
+
 
                             <!-- New side -->
 
@@ -664,7 +682,7 @@
                                                                 <div class="col-sm col-md  m-0 col-lg-12">
                                                                     <ol class="p-0 m-0" style="list-style-type: none;">
                                                                         <li class="p-0 m-0">
-                                                                            <img style="width: 50px;" src="<?php echo $news->urlToImage; ?>" alt="News">
+                                                                            <img style="width: 50px;" src="./images/trading_street_logo-05.png" data-src="<?php echo $news->urlToImage; ?>" alt="News">
                                                                             <span class="text-muted" style="font-size:smaller;"><?php echo $news->publishedAt; ?></span>
                                                                             <p><strong><a class="text-dark" style="font-family: 'Poppins', sans-serif;" href="<?php echo $news->url; ?>"><?php echo $news->title; ?></a></strong></p>
                                                                         </li>
@@ -722,7 +740,7 @@
                         <br>
                         <div class="row">
                             <div class="col-sm col-md col-lg">
-                                <img class="img-fluid" src="./images/devs.jpg" alt="Development">
+                                <img class="img-fluid" src="./images/trading_street_logo-05.png" data-src="./images/devs.jpg" alt="Development">
                             </div>
                         </div>
                         <br>
@@ -1068,6 +1086,15 @@
     <!-- Below is javascript code for readmore and readless functionality-->
 
     <!-- End of Below is javascript code for readmore and readless functionality-->
+    <script src="./jquery.unveil.js"></script>
+    <script>
+        $("img").unveil(200, function() {
+            $(this).load(function() {
+                this.style.opacity = 1;
+            });
+        });
+    </script>
+
 
 </body>
 
