@@ -1632,7 +1632,9 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js " integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=" anonymous "></script>
     <script src="js/jquery.carousel-line-arrow.js "></script>
     <script src="js/main.js "></script>
+   <script src="js/readmore.js"></script>
     <script type="text/javascript ">
+    
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-36251023-1']);
         _gaq.push(['_setDomainName', 'jqueryscript.net']);
