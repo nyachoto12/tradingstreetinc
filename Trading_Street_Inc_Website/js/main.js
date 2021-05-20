@@ -4,7 +4,7 @@ $(function() {
         slideDur: 600, //duration of toggle slide animation (ms), default is 500
         heightIsProportional: true, // height of slider is proportional to the width when resized, defaultl is true
         linePosition: 'top', // position of line-time: 'bottom' or 'top', default is 'bottom'
-        lineHeight: '5px', // height of line-time (px, em, rem, %), default is '5px';
-        lineColor: 'hsla(0, 0%, 100%, 0.248)' // color of line-time, default is 'red'
+        lineHeight: '3px', // height of line-time (px, em, rem, %), default is '5px';
+        lineColor: 'rgba(255, 255, 255, 0.261)' // color of line-time, default is 'red'
     });
 })

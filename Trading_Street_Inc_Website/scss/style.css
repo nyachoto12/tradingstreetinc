@@ -8,7 +8,8 @@
     --card-img-height: 200px;
 }
 
-.card-container {
+
+/* .card-container {
     width: 100%;
     height: 100vh;
     display: -webkit-box;
@@ -26,15 +27,12 @@
     align-items: center;
     -webkit-transition: all 200ms ease-in-out;
     transition: all 200ms ease-in-out;
-}
+} */
 
 .card {
-    -ms-flex-item-align: start;
-    align-self: flex-start;
     position: relative;
     width: 325px;
     min-width: 275px;
-    background: white;
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
 }

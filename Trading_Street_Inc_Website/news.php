@@ -19,23 +19,14 @@
     <!-- Font Awesome -->
     <script src="./js/all.js"></script>
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="./icons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="./icons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="./icons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="./icons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="./icons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="./icons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="./icons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="./icons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="./icons/android-icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="./icons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
-    <link rel="manifest" href="./icons/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <link rel="manifest" href="./icons/site.webmanifest">
+    <link rel="mask-icon" href="./icons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+
 
     <!-- MainCss -->
     <link rel="stylesheet" href="css/w3.css">
@@ -308,12 +299,52 @@
 
     </div>
     <!-- End of News header -->
-    <br>
-    <br>
+
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <!--<div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Ticker Tape</span></a> by TradingView</div>-->
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+            {
+                "symbols": [{
+                        "proName": "FOREXCOM:SPXUSD",
+                        "title": "S&P 500"
+                    },
+                    {
+                        "proName": "FOREXCOM:NSXUSD",
+                        "title": "Nasdaq 100"
+                    },
+                    {
+                        "proName": "FX_IDC:EURUSD",
+                        "title": "EUR/USD"
+                    },
+                    {
+                        "proName": "BITSTAMP:BTCUSD",
+                        "title": "BTC/USD"
+                    },
+                    {
+                        "proName": "BITSTAMP:ETHUSD",
+                        "title": "ETH/USD"
+                    }
+                ],
+                "showSymbolLogo": true,
+                "colorTheme": "dark",
+                "isTransparent": false,
+                "displayMode": "compact",
+                "locale": "en"
+            }
+        </script>
+    </div>
+    <!-- TradingView Widget END -->
+
     <!-- News Content -->
     <div class="container-fluid">
         <div class="row no-gutters p-0 m-0">
             <!-- Side Bar -->
+            <p class="text-light pt-5 pl-5 pr-5 pb-0 small w-75 text-left">Follow breaking news on global financial markets with our daily news feed. Access forex news live and read about the latest trends affecting commodities, indices and more.</p>
+
+            <h4 class="text-white text-light pl-5 pr-5 pb-4 pt-2 text-uppercase"><strong>today <b style="color: red;"> Latest</b> </strong></h4>
+
 
             <?php
 
@@ -325,124 +356,89 @@
             $api_url = 'https://newsapi.org/v2/everything?q=' . $news_key . '&from=' . $a . '&to=' . $a . '&sortBy=popularity&apiKey=e13ea32f8a5344e7bce102118a253256';
             $newlist = file_get_contents($api_url);
             $newlist = json_decode($newlist);
+            $today = date('Format String', time());
+            $today = date("F j Y");
 
-            $break_out   = 20;
+            $break_out   = 12;
             $counter     = 0;
 
             foreach ($newlist->articles as $news) {
                 $counter++;
                 if ($counter > $break_out)
                     break; ?>
-                <div class="col-sm col-md  m-0 col-lg">
-                    <div class="card-container-fluid  rounded-0 border-0">
-                        <div class="card card-1  bg-dark rounded-0 border-0">
+                <div class="col-sm col-md  m-0 p-0 col-lg">
+                    <div class="card-container h-100 p-0 m-0  rounded-0 border-0">
+                        <div style="background-color: rgb(10, 10, 10);" class="card card-1 h-75 rounded-0 border-0">
                             <div class="card-img"></div>
                             <a href="<?php echo $news->url; ?>" class="card-link">
                                 <div style="background-image: var(--card-img-hovered-overlay), url(<?php echo $news->urlToImage; ?>);" class="card-img-hovered">
-                                    <p style="background-color: red;" class=" w-50 text-center text-white "> <small style="font-weight:400;"><?php echo $news->source->name; ?></small></p>
+                                    <p style="background-color: red;" class=" w-75 text-center text-white "> <small style="font-weight:400;"><?php echo $news->source->name; ?></small></p>
                                 </div>
                             </a>
                             <div class="card-info text-white">
                                 <div class="card-about">
-                                    <a class="card-tag info-bg tag-news">NEWS</a>
-                                    <div class="card-time"> <small><?php echo $news->publishedAt; ?></small></div>
+                                    <a style="background-color:red !important;" class="card-tag text-white tag-news">NEWS</a>
                                 </div>
-                                <h1 class="card-title"><?php echo $news->title; ?></h1>
-                                <div class="card-creator">by <a href=""> <?php if ($news->author && $news->author != "") { ?>
+                                <h6 class=""><?php echo $news->title; ?></h6>
+                                <div class="card-creator">by <a class="text-light" href=""> <?php if ($news->author && $news->author != "") { ?>
                                             <small><?php echo $news->author; ?></small>
                                         <?php } ?></a></div>
+                                <div class="d-flex justify-content-end p-0 m-0">
+                                    <span class="card-time text-right text-muted"><i class="bi bi-calendar"></i> <small><?php echo  $today; ?></small></span>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <br>
+                    <br> 
+                    <br>
+                    <br> 
+                    <br>
+                    <br>
                     <br>
                     <br>
                 </div>
             <?php } ?>
         </div>
     </div>
-
-
     <!--End News Content -->
 
-    <!-- News List -->
-    <!-- Button trigger modal -->
-    <button type="button" style="background-color: red;  font-family: 'Poppins', sans-serif;font-weight: 400;" class="btn w-50 text-white rounded-0" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-        Read More
-    </button>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <!-- More News by list -->
+    <div class="container-fluid">
+        <div class="row p-3">
+            <h4 class="text-white border-bottom border-danger text-light pl-5 pr-5 pb-4 pt-2 text-uppercase"><strong>Old <b style="color: red;">Posts</b> </strong></h4>
 
-    <!-- Modal -->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div style="max-width: 50%;" class=" modal-dialog modal-fullscreen-xxl-down">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">All News list</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <?php
+
+            $date = new DateTime();
+            $n = $date->modify("-1 days")->format('d/m/Y');
+
+            $news_key = 'forex'; // we will be fetching only sports news related
+            $api_url = 'https://newsapi.org/v2/everything?q=' . $news_key . '&from=' . $n . '&to=' . $n . '&sortBy=popularity&apiKey=e13ea32f8a5344e7bce102118a253256';
+            $newlist = file_get_contents($api_url);
+            $newlist = json_decode($newlist);
+
+
+
+            $break_out   = 50;
+            $counter     = 0;
+
+            foreach ($newlist->articles as $news) {
+                $counter++;
+                if ($counter > $break_out)
+                    break; ?>
+                <div class="col-sm col-md  m-0 col-lg-2">
+                    <ol class="p-0 m-0" style="list-style-type: none;">
+                        <li class="p-0 m-0">
+                            <img style="width: 50px;" src="<?php echo $news->urlToImage; ?>" alt="News">
+                            <span class="text-danger" style="font-size:smaller;">&ensp; <i class="bi bi-calendar"></i> <?php echo $n; ?></span>
+                            <p><strong><a class="text-muted small" style="font-family: 'Poppins', sans-serif;" href="<?php echo $news->url; ?>"><?php echo $news->title; ?></a></strong></p>
+                        </li>
+                    </ol>
                 </div>
-                <div class="modal-body">
-
-
-
-                    <div class="container">
-                        <div class="list-wrapper">
-
-
-
-                            <?php
-
-                            $date = new DateTime();
-                            $n = $date->modify("-1 days")->format('Y/m/d');
-
-                            $news_key = 'forex'; // we will be fetching only sports news related
-                            $api_url = 'https://newsapi.org/v2/everything?q=' . $news_key . '&from=' . $n . '&to=' . $n . '&sortBy=popularity&apiKey=e13ea32f8a5344e7bce102118a253256';
-                            $newlist = file_get_contents($api_url);
-                            $newlist = json_decode($newlist);
-
-                            foreach ($newlist->articles as $news) { ?> <div class="row w-100 signle-news">
-
-                                    <div class="col-lg-7">
-
-                                        <h6><?php echo $news->title; ?></h6>
-                                        <small class="text-muted"><?php echo $news->publishedAt; ?></small>
-                                        <small class="text-muted"><?php echo $news->source->name; ?></small>
-
-                                    </div>
-
-                                    <div class="col-lg-5">
-
-                                        <?php if ($news->author && $news->author != "") { ?>
-                                            <small>By <?php echo $news->author; ?></small>
-                                        <?php } ?>
-                                        <a href="<?php echo $news->url; ?>" target="_blank">Read More</a>
-                                    </div>
-                                </div>
-                            <?php } ?>
-                        </div>
-                    </div>
-
-
-
-
-
-
-
-
-
-
-                </div>
-            </div>
+            <?php } ?>
         </div>
-
     </div>
-    </div>
-    </div>
-    <!-- End Of News list -->
-
-
     <!-- footer -->
     <?php
     include('footer.php');
@@ -462,7 +458,7 @@
     </script>
     <!--Bootstrap JavaScript-->
     <script src="./js/bootstrap.bundle.min.js"></script>
-  
+
 </body>
 
 </html>

@@ -23,7 +23,7 @@
                 <span style="height:20px;display:inline-block;width:1px; background-color:rgba(146, 142, 142, 0.33);position:relative;top:7px;"></span>
 
                 <span>&ensp;<strong><i class="fas text-white small fa-phone-alt"></i></strong></span>
-                <span class="ff-header2 text-white small">+263 773 467 4737&ensp;</span>
+                <span class="ff-header2 text-white small">+263 7717 57160&ensp;</span>
                 <span style="height:20px;display:inline-block;width:1px; background-color:rgba(146, 142, 142, 0.33);position:relative;top:7px;"></span>
 
                 <span>&ensp;<strong><i class="fab text-white small fa-facebook-f"></i></strong></span>
@@ -38,8 +38,8 @@
 
 <!-- Second Header -->
 <!-- Sticky navbar-->
-<header class="header m-0 p-0 sticky-top">
-    <nav class="navbar  navbar-expand-lg navbar-white rounded-0 m-0 p-3 bg-white">
+<header style="font-family: 'Poppins', sans-serif;"  class="header m-0 p-0 sticky-top">
+    <nav class="navbar  navbar-expand-lg navbar-expand-md navbar-white rounded-0 m-0 p-3 bg-white">
         <div class="container custom-header custom-toggler mb-0">
 
             <span class="navbar-brand " href="index.php"><strong class="text-uppercase ff-header4">Trading Street Inc</strong></span>
@@ -65,7 +65,7 @@
 
             </div>
             <div class="more-btn my-2 mx-auto my-lg-0 ">
-                <button class="btn btn-outline-dark rounded-0 my-2 my-sm-0 " type="submit ">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;More&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</button>
+               <a href="https://track.deriv.com/_2kWwmqIDHgC2vdm9PpHVCmNd7ZgqdRLk/1/"> <button class="btn btn-outline-dark rounded-0 my-2 my-sm-0 " type="submit ">Sign up with Deriv</button></a>
             </div>
         </div>
     </nav>

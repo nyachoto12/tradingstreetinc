@@ -1,0 +1,53 @@
+    @media (max-width: 575.98px) {
+        .contact {
+            height: 250px !important;
+        }
+    }
+    
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        .contact {
+            height: 250px !important;
+        }
+    }
+    
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        .contact {
+            height: 250px !important;
+        }
+        .form-padding {
+            padding: 50px !important;
+        }
+        .contact-h {
+            height: 700px !important;
+        }
+        .form-inline {
+            display: block !important;
+        }
+    }
+    
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        .contact {
+            height: 250px !important;
+        }
+        .form-padding {
+            padding: 50px !important;
+        }
+        .contact-h {
+            height: 700px !important;
+        }
+    }
+    
+    @media (min-width: 1200px) {
+        .contact {
+            height: 250px !important;
+        }
+        .form-padding {
+            padding: 50px !important;
+        }
+        .contact-padding {
+            padding: 50px !important;
+        }
+        .contact-h {
+            height: 595px !important;
+        }
+    }

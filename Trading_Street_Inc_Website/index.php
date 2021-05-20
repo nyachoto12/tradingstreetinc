@@ -17,26 +17,25 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
+
+
+    <!-- Counters -->
+    <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="multi-animated-counter.js"></script>
+
+
+
     <!-- Font Awesome -->
     <script src="./js/all.js"></script>
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="./icons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="./icons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="./icons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="./icons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="./icons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="./icons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="./icons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="./icons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="./icons/android-icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="./icons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
-    <link rel="manifest" href="./icons/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <link rel="manifest" href="./icons/site.webmanifest">
+    <link rel="mask-icon" href="./icons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+
 
     <!-- MainCss -->
     <link rel="stylesheet" href="css/w3.css">
@@ -87,6 +86,7 @@
     <link rel="stylesheet" href="css/what_we_do.css">
     <link rel="stylesheet" href="css/testmonies.css">
     <link rel="stylesheet" href="./css/testmonies.css">
+    <link rel="stylesheet" href="style1.css">
 
     <style>
         /*First Header Style*/
@@ -783,7 +783,42 @@
         </div>
     </section>
     <!-- Our Packages -->
-
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <!--<div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Ticker Tape</span></a> by TradingView</div>-->
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+            {
+                "symbols": [{
+                        "proName": "FOREXCOM:SPXUSD",
+                        "title": "S&P 500"
+                    },
+                    {
+                        "proName": "FOREXCOM:NSXUSD",
+                        "title": "Nasdaq 100"
+                    },
+                    {
+                        "proName": "FX_IDC:EURUSD",
+                        "title": "EUR/USD"
+                    },
+                    {
+                        "proName": "BITSTAMP:BTCUSD",
+                        "title": "BTC/USD"
+                    },
+                    {
+                        "proName": "BITSTAMP:ETHUSD",
+                        "title": "ETH/USD"
+                    }
+                ],
+                "showSymbolLogo": false,
+                "colorTheme": "dark",
+                "isTransparent": false,
+                "displayMode": "adaptive",
+                "locale": "en"
+            }
+        </script>
+    </div>
+    <!-- TradingView Widget END -->
     <!-- moblie package -->
     <div class="container p-0 m-0  moblie-package">
 
@@ -913,7 +948,7 @@
             <div class="row d-m">
                 <br>
                 <div class="col-sm col-md col-lg">
-                    <h6 class="info-color ff-header text-uppercase">Trading Street Inc</h6>
+                    <h6 style="font-weight:bolder;" class="info-color text-uppercase">Trading Street Inc</h6>
                     <h1 class="display-6 ff-header4 text-dark"><strong>Are You Ready To Dominate The Markets?</strong>
                     </h1>
                     <br>
@@ -940,12 +975,12 @@
                 </div>
                 <br>
                 <div class="col-sm col-md brand-1 col-lg">
-                    <div style="float: right;display:block;position:relative;right:40px;top:-10px;" class="info-bg w-25 p-2 d-flex justify-content-center">
+                    <div style="float: right;display:block;position:relative;right:30px;top:-10px;" class="info-bg w-25 p-2 d-flex justify-content-center">
                         <span class="text-center text-white">Brand</span>
                     </div>
 
                     <div>
-                        <img class="img-fluid" src="./images/conputer&phone.png" alt="">
+                        <img class="img-fluid" src="./images/Trading_street_Backgrounds_4-02.png" alt="">
                     </div>
                 </div>
 
@@ -957,241 +992,131 @@
 
     <!-- Services Section -->
     <!-- Sticky Image -->
-    <div class="container-fluid p-0 m-0">
-        <div class="row p-0 m-0 about-picture">
-            <div style=" background-color: rgba(0, 0, 0, 0.8);font-size: small;" class="col-sm col-md demo-1 col-lg text-white ">
+    <div class="counter-up">
+        <section class="services">
 
-                <div class="text-center">
-                    <br>
-                    <h6 class="text-uppercase text-white "><strong>What we do</strong></h6>
-                    <h3 style="font-weight:bold;" class="text-white "><strong>Trading Street Inc Services</strong></h3>
-                    <div class="hori-line"></div>
-                </div>
-                <div class="container-fluid p-0 m-0">
-                    <div class="row p-0 m-0">
-                        <div class="col-sm col-md  p-0 m-0 col-lg">
-                            <div class="grid">
-                                <div class="box">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-                                        <line class="top" x1="0" y1="0" x2="900" y2="0" />
-                                        <line class="left" x1="0" y1="460" x2="0" y2="-920" />
-                                        <line class="bottom" x1="300" y1="460" x2="-600" y2="460" />
-                                        <line class="right" x1="300" y1="0" x2="300" y2="1380" />
-                                    </svg>
-                                    <div class="text-center">
-                                        <p style="display: block;position:relative;left:100px;top:50px;"><i class="fas info-color fa-5x fa-balance-scale"></i></p>
-                                        <br><br> <br><br> <br><br> <br>
-                                        <div class="p-2">
-                                            <h4>Forex Trading Courses</h4>
-                                            <p class="small">An exclusive full basic-enthusiast-expert Forex trading
-                                                course.</p>
-                                        </div>
-                                    </div>
-                                </div>
+            <div class="container-fluid">
 
-
+                <div class="row">
+                    <div class="col-sm col-md col-lg">
+                        <div class="content">
+                            <div class="heading">
+                                <h1 id="moblie-text" style="font-weight:bolder;">What we do</h1>
+                                <h1 id="moblie-text2" style="font-weight:bolder;" class="text-white">Trading Street Inc Services</h1>
+                                <h1 class="border-bottom border-info border-5">&ensp;</h1>
                             </div>
-                        </div>
-
-                        <div class="col-sm col-md p-0 m-0 col-lg">
-                            <div class="grid">
-
-                                <div class="box">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-                                        <line class="top" x1="0" y1="0" x2="900" y2="0" />
-                                        <line class="left" x1="0" y1="460" x2="0" y2="-920" />
-                                        <line class="bottom" x1="300" y1="460" x2="-600" y2="460" />
-                                        <line class="right" x1="300" y1="0" x2="300" y2="1380" />
-                                    </svg>
-                                    <div class="text-center">
-                                        <p style="display: block;position:relative;left:100px;top:50px;"><i class="fas fa-5x info-color fa-signal"></i></p>
-                                        <br><br> <br><br> <br><br> <br>
-                                        <div class="p-2">
-                                            <h4>Signals</h4>
-                                            <p class="small">Ultra-profitable signals on the premium to platinum
-                                                packages.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
+                            <div class="  d-flex justify-content-center">
+                                <div class="border-bottom w-50 border-info border-5">&ensp;</div>
                             </div>
-                        </div>
-
-                        <div class="col-sm col-md col-lg p-0 m-0">
-                            <div class="grid">
-
-                                <div class="box">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-                                        <line class="top" x1="0" y1="0" x2="900" y2="0" />
-                                        <line class="left" x1="0" y1="460" x2="0" y2="-920" />
-                                        <line class="bottom" x1="300" y1="460" x2="-600" y2="460" />
-                                        <line class="right" x1="300" y1="0" x2="300" y2="1380" />
-                                    </svg>
-                                    <div class="text-center">
-                                        <p style="display: block;position:relative;left:100px;top:50px;"><i class="fas info-color fa-5x fa-headset"></i></p>
-                                        <br><br> <br><br> <br><br> <br>
-                                        <div class="p-2">
-                                            <h4>Consultation</h4>
-                                            <p class="small">Consultation on digital money systems, covering everything
-                                                stock and forex markets related as well as e-commerce.</p>
-                                        </div>
-                                    </div>
+                            <div class="box">
+                                <div class="inner">
+                                    <div class="icon"><i class="fas info-color fa-chart-line"></i></div>
+                                    <h3>Forex Trading Courses</h3>
+                                    <p>An exclusive full basic-enthusiast-expert Forex trading course.</p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="row p-0 m-0">
-                        <div class="col-sm col-md col-lg p-0 m-0">
-                            <div class="grid">
-                                <div class="box">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-                                        <line class="top" x1="0" y1="0" x2="900" y2="0" />
-                                        <line class="left" x1="0" y1="460" x2="0" y2="-920" />
-                                        <line class="bottom" x1="300" y1="460" x2="-600" y2="460" />
-                                        <line class="right" x1="300" y1="0" x2="300" y2="1380" />
-                                    </svg>
-                                    <div class="text-center">
-                                        <p style="display: block;position:relative;left:100px;top:50px;"><i class="fas fa-5x info-color fa-coins"></i></p>
-                                        <br><br> <br><br> <br><br> <br>
-                                        <div class="p-2">
-                                            <h4>Cash Withdrawals</h4>
-                                            <p class="small">We facilitate cash withdrawals at trader-friendly rates.
-                                            </p>
-                                        </div>
-                                    </div>
+                            <div class="box">
+                                <div class="inner">
+                                    <div class="icon"><i class="fas info-color fa-signal"></i></div>
+                                    <h3>Signals</h3>
+                                    <p>Ultra-profitable signals on the premium to platinum packages.</p>
                                 </div>
-
-
                             </div>
-                        </div>
-
-                        <div class="col-sm col-md p-0 m-0 col-lg">
-                            <div class="grid">
-
-                                <div class="box">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-                                        <line class="top" x1="0" y1="0" x2="900" y2="0" />
-                                        <line class="left" x1="0" y1="460" x2="0" y2="-920" />
-                                        <line class="bottom" x1="300" y1="460" x2="-600" y2="460" />
-                                        <line class="right" x1="300" y1="0" x2="300" y2="1380" />
-                                    </svg>
-                                    <div class="text-center">
-                                        <p style="display: block;position:relative;left:100px;top:50px;"><i class="fas fa-5x info-color fa-money-bill-wave"></i></p>
-                                        <br><br> <br><br> <br><br> <br>
-                                        <div class="p-2">
-                                            <h4>Referral Benefits</h4>
-                                            <p class="small">Referral program which allows you to earn 10% in cash for
-                                                each client you refer to us.</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="col-sm col-md p-0 m-0 p-0 m-0 col-lg">
-                            <div class="grid">
-
-                                <div class="box">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
-                                        <line class="top" x1="0" y1="0" x2="900" y2="0" />
-                                        <line class="left" x1="0" y1="460" x2="0" y2="-920" />
-                                        <line class="bottom" x1="300" y1="460" x2="-600" y2="460" />
-                                        <line class="right" x1="300" y1="0" x2="300" y2="1380" />
-                                    </svg>
-                                    <div class="text-center">
-                                        <p style="display: block;position:relative;left:100px;top:50px;"><i class="fas fa-5x info-color fa-sync-alt"></i></p>
-                                        <br><br> <br><br> <br><br> <br>
-                                        <div class="p-2">
-                                            <h4>Updates</h4>
-                                            <p class="small">Get updates on significant events that have an effect on
-                                                the market.</p>
-                                        </div>
-                                    </div>
+                            <div class="box">
+                                <div class="inner">
+                                    <div class="icon"><i class="fas info-color fa-sync-alt"></i></div>
+                                    <h3>Updates</h3>
+                                    <p>Get updates on significant events that have an effect on the market.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
+                <div class="row">
+                    <div class="col-sm col-md col-lg">
+                        <div class="content">
+                            <div class="box">
+                                <div class="inner">
+                                    <div class="icon"><i class="fas info-color fa-dollar-sign"></i></div>
+                                    <h3>Cash Withdrawals</h3>
+                                    <p>We facilitate cash withdrawals at trader-friendly rates.</p>
+                                    <br>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="inner">
+                                    <div class="icon"><i class="fas info-color fa-money-bill-wave"></i></div>
+                                    <h3>Referral Benefits</h3>
+                                    <p>Referral program which allows you to earn 10% in cash for each client you refer to us.</p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="inner">
+                                    <div class="icon"><i class="fas info-color fa-headset"></i></div>
+                                    <h3>Consultation</h3>
+                                    <p>Consultation on digital money systems, covering everything stock and forex markets related as well as e-commerce.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
             </div>
-        </div>
+        </section>
     </div>
     <!-- End of Sticky Image -->
     <!-- End of Services Section -->
-
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
     <!-- Counters -->
-    <style>
-        .cc {
-            margin-top: 100px
-        }
-
-        .counter-box {
-            display: block;
-            background: #f6f6f6;
-            padding: 40px 20px 37px;
-            text-align: center
-        }
-
-        .counter-box p {
-            margin: 5px 0 0;
-            padding: 0;
-            color: #909090;
-            font-size: 18px;
-            font-weight: 500
-        }
-
-        .counter-box i {
-            font-size: 60px;
-            margin: 0 0 15px;
-            color: #d2d2d2
-        }
-
-        .counter {
-            display: block;
-            font-size: 32px;
-            font-weight: 700;
-            color: #666;
-            line-height: 28px
-        }
-
-        .counter-box.colored p,
-        .counter-box.colored i,
-        .counter-box.colored .counter {
-            color: #666;
-        }
-    </style>
-    <div class="container p-5 cc">
+    <div class="container">
         <div class="row">
-            <div class="four col-md-3">
-                <div class="counter-box colored"> <i class="fas fa-3x  fa-handshake"></i><span class="counter">1113</span>
-                    <p>Trained Traders</p>
-                </div>
-            </div>
-            <div class="four col-md-3">
-                <div class="counter-box"> <i class="fas fa-3x fa-sort-amount-up"></i><span class="counter">600000</span>
-                    <p class="small">Amount Generated </p>
-                </div>
-            </div>
-            <div class="four col-md-3">
-                <div class="counter-box"> <i class="fas fa-3x fa-universal-access"></i><span class="counter">440</span>
-                    <p>Channel Audience</p>
-                </div>
-            </div>
-            <div class="four col-md-3">
-                <div class="counter-box"> <i class="fas fa-3x fa-calendar-alt"></i><span class="counter">5</span>
-                    <p>Years Experince</p>
-                </div>
+            <div class="col-sm col-md col-lg">
+                <h4 style="font-weight:bolder;" class="text-uppercase ">Clientele base</h4>
+                <h6 style="border-bottom: 5px solid  #17a2b8 !important;" class="border-bottom border-info border-5 w-25">&ensp;</h6>
             </div>
         </div>
     </div>
+    <div class="container-fluid " id="counters_2">
+
+        <div class="row d-flex justify-content-around">
+            <div class="col-sm bg-light p-5  col-md col-lg m-5">
+                <div class="cont text-center">
+                    <h6><i class="fas fa-3x text-secondary fa-handshake"></i></h6>
+                    <div class="counter" data-TargetNum="1113" data-Speed="2000">0</div>
+                    Trained Traders
+                </div>
+            </div>
+            <div class="col-sm col-md  bg-light p-5 col-lg m-5">
+                <div class="cont text-center">
+                    <h6><i class="fas fa-3x   text-secondary  fa-sort-amount-up"></i></h6>
+                    <div class="counter" data-TargetNum="600000" data-Speed="2500">0</div>
+                    Amount Generated
+                </div>
+            </div>
+            <div class="col-sm col-md bg-light p-5  col-lg m-5">
+                <div class="cont text-center">
+                    <h6> <i class="fas fa-3x  text-secondary fa-universal-access"></i></h6>
+                    <div class="counter" data-TargetNum="440" data-Speed="3000">0</div>
+                    Channel Audience
+                </div>
+            </div>
+            <div class="col-sm col-md  bg-light p-5 col-lg m-5">
+                <div class="cont text-center">
+                    <h6> <i class="fas fa-3x  text-secondary  fa-calendar-alt"></i></h6>
+                    <div class="counter" data-TargetNum="10" data-Speed="3000">0</div>
+                    Years Experince
+                </div>
+            </div>
+
+        </div>
+    </div>
+
     <!-- End Of Counters -->
     <!-- End Of Services Section -->
     <br>
@@ -1207,6 +1132,10 @@
     <div id="carouselExampleCaptions2" class="carousel testmonies slide" data-bs-ride="carousel">
         <style>
             @media (min-width: 576px) and (max-width: 767.98px) {
+                .high {
+                    height: 600px;
+                }
+
                 .testmonies {
                     width: 1230px;
                 }
@@ -1250,6 +1179,10 @@
             }
 
             @media (min-width: 768px) and (max-width: 991.98px) {
+                .high {
+                    height: 600px;
+                }
+
                 .testmonies {
                     width: 1230px;
                 }
@@ -1292,7 +1225,52 @@
                 }
             }
 
-            @media (min-width: 992px) and (max-width: 1199.98px) {}
+            @media (min-width: 992px) and (max-width: 1199.98px) {
+                .high {
+                    height: 600px;
+                }
+
+                .testmonies {
+                    width: 1230px;
+                }
+
+                .testmonies-2 {
+                    height: 600px;
+                }
+
+                .testmonies-image {
+                    background-image: url(./images/map5-01.png);
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                }
+
+                .carousel-inner2 {
+                    height: 80vh !important;
+                    min-height: 300px !important;
+                    background: no-repeat scroll center scroll !important;
+                    -webkit-background-size: cover !important;
+                    background-size: cover !important;
+                }
+
+                .carousel-inner2::before {
+                    content: "" !important;
+                    display: block !important;
+                    position: absolute !important;
+                    top: 0 !important;
+                    left: 100 !important;
+                    bottom: 0 !important;
+                    right: 0 !important;
+                    background-color: #00bae4 !important;
+                    opacity: 0.9 !important;
+                    width: 100%;
+                }
+
+                .fa-size {
+                    font-size: 80px !important;
+                }
+            }
 
             @media (min-width: 1200px) {
                 .high {
@@ -1632,9 +1610,8 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js " integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=" anonymous "></script>
     <script src="js/jquery.carousel-line-arrow.js "></script>
     <script src="js/main.js "></script>
-   <script src="js/readmore.js"></script>
+    <script src="js/readmore.js"></script>
     <script type="text/javascript ">
-    
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-36251023-1']);
         _gaq.push(['_setDomainName', 'jqueryscript.net']);
@@ -1672,26 +1649,6 @@
 
     <!-- End of Below is javascript code for readmore and readless functionality-->
     <!-- End of Below is javascript code for readmore and readless functionality-->
-    <!-- Counters -->
-
-    <!-- Counters -->
-    <script>
-        $(document).ready(function() {
-            $('.counter').each(function() {
-                $(this).prop('Counter', 0).animate({
-                    Counter: $(this).text()
-                }, {
-                    duration: 4000,
-                    easing: 'swing',
-                    step: function(now) {
-                        $(this).text(Math.ceil(now));
-                    }
-                });
-            });
-        });
-    </script>
-    <!-- Counters -->
-
 
     <script>
         // When the DOM is ready, run this function

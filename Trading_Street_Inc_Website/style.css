@@ -1,0 +1,31 @@
+#counters_2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding: 33px;
+}
+
+#counters_2 .counter {
+    font-size: 33px;
+    font-weight: 600;
+    width: auto;
+}
+
+
+/* #counters_2 .cont .row {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+} */
+
+@media (max-width: 480px) {
+    #counters_2 .counter {
+        font-size: 25px;
+        background-color: rgb(13, 13, 14);
+    }
+}
+
+
+/*# sourceMappingURL=style.css.map */

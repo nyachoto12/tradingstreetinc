@@ -85,7 +85,43 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .testmonies {
+        width: 1230px;
+    }
+    .testmonies-2 {
+        height: 600px;
+    }
+    .testmonies-image {
+        background-image: url(./images/map5-01.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .carousel-inner2 {
+        height: 80vh !important;
+        min-height: 300px !important;
+        background: no-repeat scroll center scroll !important;
+        -webkit-background-size: cover !important;
+        background-size: cover !important;
+    }
+    .carousel-inner2::before {
+        content: "" !important;
+        display: block !important;
+        position: absolute !important;
+        top: 0 !important;
+        left: 100 !important;
+        bottom: 0 !important;
+        right: 0 !important;
+        background-color: #00bae4 !important;
+        opacity: 0.9 !important;
+        width: 100%;
+    }
+    .fa-size {
+        font-size: 80px !important;
+    }
+}
 
 @media (min-width: 992px) and (max-width: 1199.98px) {}
 

@@ -20,23 +20,14 @@
     <!-- Font Awesome -->
     <script src="./js/all.js"></script>
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="./icons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="./icons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="./icons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="./icons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="./icons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="./icons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="./icons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="./icons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="./icons/android-icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="./icons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
-    <link rel="manifest" href="./icons/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <link rel="manifest" href="./icons/site.webmanifest">
+    <link rel="mask-icon" href="./icons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+
 
     <!-- MainCss -->
     <link rel="stylesheet" href="css/w3.css">
@@ -257,6 +248,90 @@
             }
         }
     </style>
+    <style>
+        @media (max-width: 575.98px) {
+
+
+            .button3 {
+                background-color: tomato !important;
+                border: 2px solid tomato;
+                color: white;
+                width: 100px;
+            }
+
+            .button3:hover {
+                background-color: #343a40;
+                border: 2px solid #343a40;
+                color: white;
+            }
+        }
+
+        @media (min-width: 576px) and (max-width: 767.98px) {
+
+            .button3 {
+                background-color: tomato;
+                border: 2px solid tomato;
+                color: white;
+                width: 100px;
+            }
+
+            .button3:hover {
+                background-color: #343a40;
+                border: 2px solid #343a40;
+                color: white;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 991.98px) {
+
+
+            .button3 {
+                background-color: tomato;
+                border: 2px solid tomato;
+                color: white;
+                width: 100px;
+            }
+
+            .button3:hover {
+                background-color: #343a40;
+                border: 2px solid #343a40;
+                color: white;
+            }
+        }
+
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+            .button3 {
+                background-color: tomato;
+                border: 2px solid tomato;
+                color: white;
+                width: 220px;
+            }
+
+            .button3:hover {
+                background-color: #343a40;
+                border: 2px solid #343a40;
+                color: white;
+            }
+        }
+
+        @media (min-width: 1200px) {
+
+            .button3 {
+                background-color: tomato;
+                border: 2px solid tomato;
+                color: white;
+                width: 220px;
+            }
+
+            .button3:hover {
+                background-color: #343a40;
+                border: 2px solid #343a40;
+                color: white;
+            }
+        }
+    </style>
 
 </head>
 
@@ -304,7 +379,7 @@
     <!-- Start of side bar and right content -->
     <div class="container-fluid widget make-me-sticky">
         <div class="row medium">
-            <div class="col-sm col-md-0 col-lg p-0 m-0">&ensp;</div>
+            <!-- <div class="col-sm col-md-0 col-lg p-0 m-0">&ensp;</div> -->
 
             <div class="col-sm col-md col-lg side-lg mt-5 mb-5" style="background-color: #F8FEFF;">
                 <div class="sidebar-item">
@@ -355,8 +430,8 @@
                     <div class="bg-white text-dark">
                         <br>
                         <header style="font-family: 'Poppins', sans-serif;font-size: 20px;" class=" p-3 text-left text-uppercase">
-                            <strong>&ensp;&ensp;&ensp;&ensp;Latest Daily News</strong>
-                            <div style="border-bottom: 3px solid #17A2B8;position: relative;display:block;width:100px;height: 10px;left:40px;"></div>
+                            <strong>&ensp;&ensp;&ensp;Latest Daily News</strong>
+                            <div style="border-bottom: 3px solid #17A2B8;position: relative;display:block;width:100px;height: 10px;left:30px;"></div>
                         </header>
                         <div class="pt-3">
                             <ul style="list-style-type: none;">
@@ -376,10 +451,12 @@
                                             $api_url = 'https://newsapi.org/v2/everything?q=' . $news_key . '&from=' . $a . '&to=' . $a . '&sortBy=popularity&apiKey=e13ea32f8a5344e7bce102118a253256';
                                             $newlist = file_get_contents($api_url);
                                             $newlist = json_decode($newlist);
+                                            $today = date('Format String', time());
+                                            $today = date("F j Y");
 
 
 
-                                            $break_out   = 4;
+                                            $break_out   = 5;
                                             $counter     = 0;
 
                                             foreach ($newlist->articles as $news) {
@@ -390,8 +467,8 @@
                                                     <ol class="p-0 m-0" style="list-style-type: none;">
                                                         <li class="p-0 m-0">
                                                             <img style="width: 50px;" src="<?php echo $news->urlToImage; ?>" alt="News">
-                                                            <span class="text-muted" style="font-size:smaller;"><?php echo $news->publishedAt; ?></span>
-                                                            <p><strong><a class="text-dark" style="font-family: 'Poppins', sans-serif;" href="<?php echo $news->url; ?>"><?php echo $news->title; ?></a></strong></p>
+                                                            <span class="text-muted text-right " style="font-size:smaller;">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<i class="bi bi-calendar"></i>  <?php echo $today; ?></span>
+                                                            <p><strong><a class="text-dark small" style="font-family: 'Poppins', sans-serif;" href="<?php echo $news->url; ?>"><?php echo $news->title; ?></a></strong></p>
                                                         </li>
                                                     </ol>
                                                 </div>
@@ -420,14 +497,14 @@
                         <div class="bg-white text-dark pb-5">
                             <br>
                             <header style="font-family: 'Poppins', sans-serif;font-size: 20px;" class=" p-3 text-left text-uppercase">
-                                <strong>&ensp;&ensp;&ensp;&ensp;Get In Touch</strong>
-                                <div style="border-bottom: 3px solid #17A2B8;position: relative;display:block;width:100px;height: 10px;left:40px;"></div>
+                                <strong>&ensp;&ensp;Get In Touch</strong>
+                                <div style="border-bottom: 3px solid #17A2B8;position: relative;display:block;width:100px;height: 10px;left:22px;"></div>
                             </header>
                             <ul style="font-family: 'Poppins', sans-serif;font-size:small;list-style-type: none;" class="text-left">
-                                <li class="p-2"><i class="fas fa-map-marker-alt fa-1x info-color"></i><span>&ensp; Digital Office Business. Borrowdale Harare, Zimbabwe</span></li>
+                                <li class="p-2"><i class="fas fa-map-marker-alt fa-1x info-color"></i></li><span>Ultimate 21st century business with moblie and digital office</span>
                                 <li class="p-2"><i class="fas fa-envelope fa-1x info-color"></i><span>&ensp; sales@tradingstreet.co.zw</span></li>
-                                <li class="p-2"><i class="fas fa-phone-alt fa-1x info-color"></i><span>&ensp; Phone: +263 77 175 7160</span></li>
-                                <li class="p-2"><i class="fas fa-clock fa-1x info-color"></i><span>&ensp; Open Hours: Mon - Sun 9:00 - 17:00</span></li>
+                                <li class="p-2"><i class="fas fa-phone-alt fa-1x info-color"></i>Phone: +263 77 175 7160</li>
+                                <li class="p-2"><i class="fas fa-clock fa-1x info-color"></i>Open Hours: Mon - Sun 9:00 - 17:00</li>
                             </ul>
                         </div>
 
@@ -478,8 +555,73 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm col-md col-lg">
-                                <img class="img-fluid" src="./images/trading_street_logo-05.png" data-src="./images/best_forex_traders.jpeg" alt="Forex">
+                            <div class="col-sm col-md m-0 p-0 col-lg">
+
+                                <style>
+                                    @media (max-width: 575.98px) {}
+
+                                    @media (min-width: 576px) and (max-width: 767.98px) {}
+
+                                    @media (min-width: 768px) and (max-width: 991.98px) {}
+
+                                    @media (min-width: 992px) and (max-width: 1199.98px) {}
+
+                                    @media (min-width: 1200px) {
+                                        .carousel-cap {
+                                            bottom: 150px !important;
+                                        }
+                                    }
+                                </style>
+
+                                <!-- <img class="img-fluid" src="./images/trading_street_logo-05.png" data-src="./images/Trading_street_Backgrounds_4-02.png" alt="Forex"> -->
+                                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./images/Trading_street_Backgrounds_5-03.jpg" class="d-block w-100" alt="...">
+                                            <div class="carousel-caption carousel-cap text-left d-md-block">
+                                                <!-- <h5 style="animation-delay: 1s;" class="small animated zoomIn text-uppercase"><strong><span class="info-color">Trading</span>street Inc and <span style="color: tomato;">De</span>riv</strong></h5> -->
+                                                <!-- Moving Text -->
+                                                <div class="container-fluid text-white ">
+                                                    <div class="row">
+                                                        <div class="col-sm col-md-8 col-lg d-flex justify-content-start">
+                                                            <span style="cursor: pointer;" class="text-uppercase small dis typewrite" data-period="1000" data-type="[&quot;Tradingstreet Inc and Deriv.&quot;,&quot;Together for good.&quot;]"><span class="wrap"></span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End of Moving Text -->
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <video class="video-fluid m-0 w-100" autoplay loop muted>
+                                                <source class="video-fluid m-0 w-100" src="./video/Trading Background.mp4" type="video/mp4">
+                                            </video>
+                                            <div class="carousel-caption carousel-cap d-md-block">
+                                                <h5 style="animation-delay: 1.5s;" class="animated slideInRight"><img class="img-fluid" style="width: 200px;" src="./images/logo.png" alt=""></h5>
+                                                <p>
+                                                <h5 style="color:tomato !important;animation-delay: 2.5s;" class="w3-black animated flipInX text-uppercase p-2"><strong>Simple, Flexible and Reliable.</strong></h5>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img style="height: 550px !important;" src="./images/Binarycom-Rebrands-to-Derivcom.jpg" class="img-fluid d-block w-100" alt="...">
+                                            <div class="carousel-caption carousel-cap d-md-block">
+                                                <h6 style="color:white;animation-delay: 1.5s;" class="animated flipInX text-uppercase p-2"><strong>Create your account today and become rich.</strong></h6>
+                                                <a style="text-decoration:none;color:white;" href="contact.php"> <button style="animation-delay: 1s; font-family: 'Poppins', sans-serif;font-size:12px;font-weight:bolder;" class="button  animated fadeInUp text-uppercase p-3 button3">Create Account</button></a>
+                                            </div>
+
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./images/Trading_street_Backgrounds_4-02.png" class="img-fluid d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                         <div class="row">
@@ -502,8 +644,9 @@
                             </div>
                             <div class="col-sm col-md col-lg">
                                 <marquee behavior="" direction="">
-                                    <span><img class="img-fluid" src="./images/trading_street_logo-05.png" data-src="./images/Capture.PNG" alt="Partners"></span>
-                                    <span><img class="img-fluid" src="./images/trading_street_logo-05.png" data-src="./images/Capture2.PNG" alt="Partners"></span>
+                                    <span><img class="img-fluid" style="width: 200px;" src="./images/trading_street_logo-05.png" data-src="./images/Capture.PNG" alt="Partners"></span>
+                                    <span>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<img class="img-fluid" style="width: 200px;" src="./images/trading_street_logo-05.png" data-src="./images/Deriv-broker.png" alt="Partners"></span>
+                                    <span>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<img class="img-fluid" style="width: 200px;" src="./images/trading_street_logo-05.png" data-src="./images/Capture2.PNG" alt="Partners"></span>
                                 </marquee>
 
                             </div>
@@ -994,8 +1137,8 @@
                     <div class="container-fluid p-3">
                         <div class="row">
                             <div class="col-sm col-md col-lg border-end">
-                                <h6 style="font-weight:bolder;" class="text-center text-dark">Our Physical Address</h6>
-                                <p class="text-center">Digital Office Business. Borrowdale Harare, Zimbabwe</p>
+                                <h6 style="font-weight:bolder;" class="text-center text-dark">Address</h6>
+                                <p class="text-center">Ultimate 21st century business with moblie and digital office</p>
                             </div>
 
                             <div class="col-sm col-md col-lg border-end">
@@ -1028,7 +1171,7 @@
         <div class="container-fluid bg-dark p-4">
             <div class="row justify-content-center">
                 <div class="col-sm col-md col-lg d-flex justify-content-center text-white">
-                    <h6 class="footer-text">All Copy Rights Reserved &copy; Trading Street Inc.</h6>
+                    <h6 class="footer-text" style="font-weight: lighter;">All copyrights reserved &copy; Trading Street Inc 2021</h6>
                 </div>
             </div>
     </footer>
@@ -1094,7 +1237,68 @@
             });
         });
     </script>
+    <!-- Deleting Moving Text -->
+    <script>
+        var TxtType = function(el, toRotate, period) {
+            this.toRotate = toRotate;
+            this.el = el;
+            this.loopNum = 0;
+            this.period = parseInt(period, 10) || 1000;
+            this.txt = '';
+            this.tick();
+            this.isDeleting = false;
+        };
 
+        TxtType.prototype.tick = function() {
+            var i = this.loopNum % this.toRotate.length;
+            var fullTxt = this.toRotate[i];
+
+            if (this.isDeleting) {
+                this.txt = fullTxt.substring(0, this.txt.length - 1);
+            } else {
+                this.txt = fullTxt.substring(0, this.txt.length + 1);
+            }
+
+            this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+            var that = this;
+            var delta = 200 - Math.random() * 100;
+
+            if (this.isDeleting) {
+                delta /= 2;
+            }
+
+            if (!this.isDeleting && this.txt === fullTxt) {
+                delta = this.period;
+                this.isDeleting = true;
+            } else if (this.isDeleting && this.txt === '') {
+                this.isDeleting = false;
+                this.loopNum++;
+                delta = 500;
+            }
+
+            setTimeout(function() {
+                that.tick();
+            }, delta);
+        };
+
+        window.onload = function() {
+            var elements = document.getElementsByClassName('typewrite');
+            for (var i = 0; i < elements.length; i++) {
+                var toRotate = elements[i].getAttribute('data-type');
+                var period = elements[i].getAttribute('data-period');
+                if (toRotate) {
+                    new TxtType(elements[i], JSON.parse(toRotate), period);
+                }
+            }
+            // INJECT CSS
+            var css = document.createElement("style");
+            css.type = "text/css";
+            css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #FFFFFF}";
+            document.body.appendChild(css);
+        };
+    </script>
+    <!-- End of Deleting Moving text -->
 
 </body>
 

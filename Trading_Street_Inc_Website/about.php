@@ -20,23 +20,15 @@
     <!-- Font Awesome -->
     <script src="./js/all.js"></script>
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="./icons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="./icons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="./icons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="./icons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="./icons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="./icons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="./icons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="./icons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="./icons/android-icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="./icons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
-    <link rel="manifest" href="./icons/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <link rel="manifest" href="./icons/site.webmanifest">
+    <link rel="mask-icon" href="./icons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+
+
 
     <!-- MainCss -->
     <link rel="stylesheet" href="css/w3.css">
@@ -76,6 +68,7 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/demo.css" />
     <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" href="css/about.css">
 
     <style>
         .header {
@@ -97,21 +90,22 @@
         /*First Header Style*/
 
         .ff-header {
-            font-family: 'Roboto', sans-serif;
-            font-weight: 400;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
         }
 
         .ff-header2 {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Poppins', sans-serif;
             font-weight: 300;
         }
 
         .ff-header3 {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Poppins', sans-serif;
+
         }
 
         .ff-header4 {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Poppins', sans-serif;
             font-weight: 700;
         }
 
@@ -195,7 +189,7 @@
 
 </head>
 
-<body>
+<body style="font-family: 'Poppins', sans-serif !important;">
 
 
 
@@ -206,7 +200,7 @@
     <!-- End Of Header -->
 
     <!-- About header -->
-    <div style="font-family: 'Segoe UI';" class="container-fluid">
+    <div class="container-fluid">
         <div class="row picture" style="height: 250px !important;">
             <style>
                 :root {
@@ -214,14 +208,14 @@
                     --secondary: hsl(0, 0%, 5%, 1);
                 }
             </style>
-            <div style="background: linear-gradient(90deg,var(--secondary), var(--primary));font-size: small;" class="text-white p-2">
+            <div style="background: linear-gradient(90deg,var(--secondary), var(--primary));font-size: small;" class="col-sm col-md col-lg text-white p-2">
 
                 <div class="cond-in">
 
                     <strong>
                         <h6 class="text-white display-4 cond-header" style="font-weight: bold;">About Us</h6>
                     </strong>
-                    <h6 class="text-white cond-p"><i class="fas fa-home"></i><strong>&ensp;Home</strong>&ensp;<span style="position: relative; display: inline; height: 2px; border-left: 2px solid white; font-weight: bold;"></span>
+                    <h6 class="text-white cond-p"> <a style="text-decoration: none; color: white" href="index.php"><i class="fas fa-home"></i><strong>&ensp;Home</strong></a> &ensp;<span style="position: relative; display: inline; height: 2px; border-left: 2px solid white; font-weight: bold;"></span>
                         <span class="info-color">&ensp;&ensp;About Us</span>
                     </h6>
 
@@ -234,21 +228,21 @@
     </div>
     <!-- End of About header -->
     <!-- why chose us section -->
-    <div class="container-fluid p-5">
-        <div class="row pl-5 pr-5 pt-5">
+    <div class="container-fluid p-0 m-0 about-padding">
+        <div class="row pl-0 pr-0  about-padding pt-5">
             <div class="col-sm col-md col-lg-5 picture-about" style="height: 350px;">
             </div>
 
-            <div class="col-sm col-md col-lg-1">
+            <div class="col-sm-0 col-md-0 col-lg-1">
                 &ensp;
             </div>
             <div class="col-sm col-md col-lg-5 pb-3">
-                <h4 style="font-weight: 600;" class="info-color text-uppercase">Why Choose Us
-                </h4>
-                <h1 class="text-dark " style="font-weight: bolder; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">We Work With You To Address Your Most Critical Business Priorities
-                </h1>
+                <h6 style="font-weight: bolder;" class="info-color pl-2 text-uppercase">Why Choose Us
+                </h6>
+                <h2 class="text-dark pl-2" style="font-weight: bolder;">We Work With You To Address Your Most Critical Business Priorities
+                </h2>
                 <br>
-                <p class="text-dark">Trading Street Inc. is a registered forex trading company in Zimbabwe,the first of
+                <p class="text-dark pl-2">Trading Street Inc. is a registered forex trading company in Zimbabwe,the first of
                     its kind that seeks to empower and mentor willing would be traders in Zimbabwe and beyond to earn from
                     forex Trading, providing a scam free forex trading experience to its clients. <span id="dots">....</span>
                     <span id="more">
@@ -269,7 +263,7 @@
 
         </div>
         <!-- Second section on why us -->
-        <div class="row pl-5 pr-5 pt-5">
+        <div class="row pl-0 pr-0  about-padding pt-5">
             <div class="col-sm col-md col-lg-5 picture-about2" style="height: 200px;">
                 <br>
                 <br>
@@ -278,15 +272,15 @@
                 <h6 class="bg-light p-3" style="width: 170px;"> <strong>10 </strong> <br> Years of Experience</h6>
             </div>
 
-            <div class="col-sm col-md col-lg-1">
+            <div class="col-sm-0 col-md-0 col-lg-1">
                 &ensp;
             </div>
             <div class="col-sm col-md col-lg-5 pb-3">
-                <h4 style="font-weight: 600;" class="info-color text-uppercase">WHO IS TRADING STREET INC
-                </h4>
+                <h6 style="font-weight:bolder;" class="info-color pl-2 text-uppercase">WHO IS TRADING STREET INC
+                </h6>
 
                 <br>
-                <p class="text-dark">We are a Zimbabwean based forex trading firm which prides itself in leading growth in the industry.
+                <p class="text-dark pl-2 ">We are a Zimbabwean based forex trading firm which prides itself in leading growth in the industry.
                     We produce profitable forex traders and promote adaptation to the fast changing digital money systems.
                     <span id="dots2">....</span>
                     <br>
@@ -307,95 +301,226 @@
     </div>
     <br>
     <!-- Our Missions Section -->
-    <div style="font-family: 'Segoe UI';" class="container-fluid">
+    <div class="container-fluid our-lg">
         <div class="row about-picture">
-            <div style=" background-color: rgba(0, 0, 0, 0.9);font-size: small;padding: 100px !important;" class="text-white">
+            <div style=" background-color: rgba(0, 0, 0, 0.9);font-size: small;padding: 100px !important;" class="col-sm col-md col-lg text-white">
 
                 <div class="text-center">
-                    <h1 style="font-family: 'Segoe UI';font-weight:bolder;" class="text-white"><strong>We Create
-                            Solutions For You</strong></h1>
-                    <div style="position: relative;display:block;border-bottom: 7px solid #00d2ff;height:10px;width:150px;left: 560px;">
+                    <h1 style="font-weight:bolder;" class="text-white"><strong>We Create Solutions For You</strong></h1>
+                    <div style="position: relative;display:block;border-bottom: 5px solid #00d2ff;height:10px;width:150px;left: 500px;">
                     </div>
                 </div>
 
-                <div class="row" style="height: 155px; border-bottom: 1px solid gray;">
-                    <div class="col p-5">
-                        <span style="position: relative; top: 15px;"> <i class="fas fa-chart-pie fa-4x info-color"></i>
-                        </span> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
-                        <span style="font-size: 24px; font-weight: bolder;">Our Mission</span> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
-                        <div class=" pl-5 pr-3 pt-3" style="height: 90px; border-left: 1px solid gray; position: relative; left: 400px; top: -60px;">
-                            <p class="text-white w-50" style="position: relative; left: 150px;">To promote financial freedom through stock, financial
-                                technologies and crypto currency trading knowledge and aided trading on behalf of cooporates</p>
+                <div class="container">
+                    <div class="row" style="height: 155px; border-bottom: 1px solid gray;">
+                        <div class="col-sm col-md col-lg p-5">
+                            <span style="position: relative; top: 15px;"> <i class="fas fa-chart-pie fa-3x info-color"></i>
+                            </span> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                            <span style="font-size: 17px; font-weight: bolder;">Our Mission</span> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                            <div class=" pl-5 pr-3 pt-3" style="height: 90px; border-left: 1px solid gray; position: relative; left: 400px; top: -60px;">
+                                <p class="text-white small w-50" style="position: relative; left: 150px;">To promote financial freedom through stock, financial
+                                    technologies and crypto currency trading knowledge and aided trading on behalf of cooporates</p>
+                            </div>
+
                         </div>
-
                     </div>
-                </div>
 
-                <div class="row" style="height: 155px; border-bottom: 1px solid gray;">
-                    <div class="col p-5">
-                        <span style="position: relative; top: 15px;"> <i class="fas fa-box-open fa-4x info-color"></i>
-                        </span> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
-                        <span style="font-size: 24px; font-weight: bolder;"> Our Vision</span> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
-                        <div class=" pl-5 pr-3 pt-3" style="height: 90px; border-left: 1px solid gray; position: relative; left: 400px; top: -60px;">
-                            <p class="text-white w-50" style="position: relative; left: 150px;">The company seeks to grow the forex & commodities market legitimately while promoting financial literacy in our clients,
-                                empowering and advocating for financial freedom to our clients and the public at large</p>
+                    <div class="row" style="height: 155px; border-bottom: 1px solid gray;">
+                        <div class="col-sm col-md col-lg p-5">
+                            <span style="position: relative; top: 15px;"> <i class="fas fa-box-open fa-3x info-color"></i>
+                            </span> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                            <span style="font-size: 17px; font-weight: bolder;"> Our Vision</span> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                            <div class=" pl-5 pr-3 pt-3" style="height: 90px; border-left: 1px solid gray; position: relative; left: 400px; top: -60px;">
+                                <p class="text-white small w-50" style="position: relative; left: 150px;">The company seeks to grow the forex & commodities market legitimately while promoting financial literacy in our clients,
+                                    empowering and advocating for financial freedom to our clients and the public at large</p>
+                            </div>
+
                         </div>
-
                     </div>
-                </div>
-                <div class="row" style="height: 155px; border-bottom: 1px solid gray; position: relative; left: 17px;">
-                    <div class="col p-5">
-                        <span style="position: relative; top: 15px; "> <i class="fas fa-bookmark fa-3x info-color"></i>
-                        </span> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
-                        <span style="font-size: 24px; font-weight: bolder;"> Our Values</span> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
-                        <div class=" pl-5 pr-3 pt-3" style="height: 90px; border-left: 1px solid gray; position: relative; left: 382px; top: -100px;">
-                            <p class="text-white w-50">
-                            <ul style="position: relative; left: 130px; list-style-type : none; ">
-                                <li> <strong>Honesty </strong> - To offer service in all honesty and in the best interest of all our valued customers</li>
-                                <li> <strong>Procedure</strong> -We value all ( even in uniqueness), institutional, legal and business processes in our service delivery</li>
-                                <li> <strong>Results and Targets</strong> - We value our clients words and we honor our words, working deligently to meet all targets at all times</li>
-                                <li> <strong>Growth </strong> - We value growth & freedom.
-                                <li>Growth of the client through financial freedom.</li>
-                                <li>Growth of a more investment oriented population group</li>
-                                </li>
-                            </ul>
-                            </p>
+                    <div class="row" style="height: 155px; border-bottom: 1px solid gray;">
+                        <div class="col-sm col-md col-lg p-5">
+                            <span style="position: relative; top: 15px; "> <i class="fas fa-bookmark fa-3x info-color"></i>
+                            </span> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                            <span style="font-size: 17px; font-weight: bolder;"> Our Values</span> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                           
+                            <div class=" pl-5 pr-3 pt-3" style="height: 90px; border-left: 1px solid gray; position: relative; left: 400px; top: -60px;">
+                                <p class="text-white w-50 small" style="position: relative; left: 150px;"><strong>Honesty </strong> - To offer service in all honesty and in the best interest of all our valued customers,
+                                <strong>Procedure</strong> -We value all ( even in uniqueness), institutional, legal and business processes in our service delivery,
+                                <strong>Results and Targets</strong> - We value our clients words and we honor our words, working deligently to meet all targets at all times and
+                                <strong>Growth </strong> - We value growth & freedom, Growth of the client through financial freedom and Growth of a more investment oriented population group.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
+
 
 
             </div>
 
         </div>
 
+    </div>
+
+    <div class="container-fluid our-sm p-0 m-0">
+        <div class="row p-0 m-0 text-white about-picture">
+            <div style=" background-color: rgba(0, 0, 0, 0.9);font-size: small;padding: 50px !important;">
+                <div class="col-sm col-md col-lg p-0 m-0 text-center">
+                    <p> <i class="fas fa-chart-pie fa-4x info-color"></i></p>
+                    <h6 style="font-size: 24px; font-weight: bolder;">Our Mission</h6>
+                    <div class="">
+                        <p class="">To promote financial freedom through stock, financial technologies and crypto currency trading knowledge and aided trading on behalf of cooporates</p>
+                    </div>
+                </div>
+                <div class="col-sm col-md col-lg p-0 m-0 text-center">
+                    <p><i class="fas fa-box-open fa-4x info-color"></i></p>
+                    <h6 style="font-size: 24px; font-weight: bolder;">Our Vision</h6>
+                    <div class="">
+                        <p class="">The company seeks to grow the forex & commodities market legitimately while promoting financial literacy in our clients,
+                            empowering and advocating for financial freedom to our clients and the public at large</p>
+                    </div>
+                </div>
+                <div class="col-sm col-md col-lg m-0 p-0 text-center">
+                    <p> <i class="fas fa-bookmark fa-3x info-color"></i></p>
+                    <h6 style="font-size: 24px; font-weight: bolder;">Our Values</h6>
+                    <div class="">
+                    <p class="">
+                    <ul style="list-style-type : none; ">
+                            <li>Honesty - To offer service in all honesty and in the best interest of all our valued customers</li>
+                            <li>Procedure -We value all ( even in uniqueness), institutional, legal and business processes in our service delivery</li>
+                            <li>Results and Targets - We value our clients words and we honor our words, working deligently to meet all targets at all times</li>
+                            <li>Growth - We value growth & freedom, Growth of the client through financial freedom, Growth of a more investment oriented population group.</li>
+                        </ul>
+                    </p>
+                     
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
     <!-- Our Missions Section -->
     <!-- Start of teams section -->
-    <div class="container-fluid p-5">
-        <div class="row">
-            <div class="col d-flex justify-content-center">
-                <div class="text-center">
-                    <h6 class="text-uppercase  info-color mt-5 "><strong>Our team</strong></h6>
-                    <div class="text-center">
-                        <h1 style="font-family: 'Segoe UI';font-weight:bolder;" class="text-white"><strong>Discover Our
-                                Team And
-                                Experts
-                            </strong></h1>
-                        <div style="position: relative;display:block;border-bottom: 7px solid #00d2ff;height:10px;width:150px;left: 560px;">
+
+
+    <style>
+        #leadership {
+            padding: 100px 0;
+        }
+
+        #leadership .accordion .card {
+            border: none;
+        }
+
+        #leadership .accordion .card img {
+            height: 64px;
+            width: 64px;
+        }
+
+        #leadership .accordion .card .accordion-group .card-header {
+            background-color: white;
+            padding: 10px;
+        }
+
+        #leadership .accordion .card .accordion-group .card-header:hover {
+            background-color:  #17A2B8;
+            transition: 0.3s;
+        }
+
+        #leadership .accordion .card .accordion-group .card-header a {
+            text-decoration: none;
+        }
+
+        #leadership .accordion .card .accordion-group .card-header a:hover {
+            color: white;
+        }
+        .media-body:hover{
+            color: white !important;
+        }
+    </style>
+
+    <section id="leadership">
+        <div class="text-center pb-5">
+            <h1 style="font-weight:bolder;" class=""><strong> <b class="info-color">Discover</b>&ensp;Executive</strong></h1>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-12 col-md-6 offset-lg-2 col-lg-4">
+                    <div class="accordion" id="accordionLeaders">
+                        <div class="card rounded-0">
+                            <div class="accordion-group">
+                                <div class="card-header rounded-0">
+                                    <a class="accordion-toggle text-secondary" data-toggle="collapse" data-parent="#accordionLeaders" href="#leader1">
+                                        <div class="media">
+                                            <img src="http://bit.ly/2IirA9e" class="mr-3 rounded-circle" alt="...">
+                                            <div class="media-body">
+                                                <h5 class="mt-2 text-dark">Mr Takunda Patrick Musengi</h5>
+                                                <p>C.E.O (Chief Executive Officer)</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div id="leader1" class="accordion-body in collapse" style="height: auto; ">
+                                    <div class="card-body">
+                                        brief
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        <div class="card rounded-0">
+                            <div class="accordion-group">
+                                <div class="card-header rounded-0">
+                                    <a class="accordion-toggle  text-secondary" data-toggle="collapse" data-parent="#accordionLeaders" href="#leader2">
+                                        <div class="media">
+                                            <img src="http://bit.ly/2IirA9e" class="mr-3 rounded-circle" alt="...">
+                                            <div class="media-body">
+                                                <h5 class="mt-2  text-dark">Mr Macdonald Mashawi</h5>
+                                                <p>C.F.O (Chief Financial Officer)</p>
 
-                        <h1 style="font-family: 'Segoe UI';font-weight:bolder;" class="dark"><strong>Discover Our Team And
-                                Experts
-                            </strong></h1>
-                        <div style="position: relative;display:block;border-bottom: 7px solid #00d2ff;height:10px;width:150px;left: 560px;">
-
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div id="leader2" class="accordion-body collapse" style="height: 0px; ">
+                                    <div class="card-body">
+                                        Brief
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card rounded-0">
+                            <div class="accordion-group">
+                                <div class="card-header rounded-0">
+                                    <a class="accordion-toggle  text-secondary" data-toggle="collapse" data-parent="#accordionLeaders" href="#leader3">
+                                        <div class="media">
+                                            <img src="http://bit.ly/2IirA9e" class="mr-3 rounded-circle" alt="...">
+                                            <div class="media-body">
+                                                <h5 class="mt-2  text-dark">Mr Gilbert Ncube</h5>
+                                                <p>C.O.O (Chief Operating Officer)</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div id="leader3" class="accordion-body collapse" style="height: 0px; ">
+                                    <div class="card-body">
+                                        Brief
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-sm col-md col-lg">
+                <img style="width: 500px;" class="img-fluid" src="./images/trading_street_logo-05.png" alt="">
+                </div>
+
             </div>
         </div>
-    </div>
+    </section>
+
+
+
     <!-- End of teams header -->
 
     <!-- footer -->
@@ -403,11 +528,6 @@
     include('footer.php');
     ?>
     <!-- end of footer -->
-
-
-
-
-
 
     <!--JQuery-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js " integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0 " crossorigin="anonymous "></script>

@@ -42,8 +42,8 @@
         <div class="container-fluid p-3">
           <div class="row">
             <div class="col-sm col-md col-lg border-end">
-              <h6 style="font-weight:bolder;" class="text-center text-dark">Our Physical Address</h6>
-              <p class="text-center">Digital Office Business. Borrowdale Harare, Zimbabwe</p>
+              <h6 style="font-weight:bolder;" class="text-center text-dark">Address</h6>
+              <p class="text-center">Ultimate 21st century business with moblie  and digital office</p>
             </div>
 
             <div class="col-sm col-md col-lg border-end">
@@ -76,7 +76,7 @@
   <div class="container-fluid bg-dark p-4">
     <div class="row justify-content-center">
       <div class="col-sm col-md col-lg d-flex justify-content-center text-white">
-        <h6 class="footer-text" >All Copy Rights Reserved &copy; Trading Street Inc.</h6>
+        <h6 class="footer-text" style="font-weight: 400 !important;" >All copyrights reserved &copy; Trading Street Inc 2021</h6>
       </div>
     </div>
 </footer>

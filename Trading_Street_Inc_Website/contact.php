@@ -20,22 +20,12 @@
     <!-- Font Awesome -->
     <script src="./js/all.js"></script>
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="./icons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="./icons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="./icons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="./icons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="./icons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="./icons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="./icons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="./icons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="./icons/android-icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="./icons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
-    <link rel="manifest" href="./icons/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <link rel="manifest" href="./icons/site.webmanifest">
+    <link rel="mask-icon" href="./icons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
     <!-- MainCss -->
@@ -76,8 +66,17 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/demo.css" />
     <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" href="css/contact.css">
 
     <style>
+        .info-bg {
+            background-color: #17A2B8;
+        }
+
+        .info-color {
+            color: #17A2B8;
+        }
+
         .header {
             background-color: #00d2ff;
             background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 100%);
@@ -86,30 +85,27 @@
         /*First Header Style*/
 
         .ff-header {
-            font-family: 'Roboto', sans-serif;
-            font-weight: 400;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
         }
 
         .ff-header2 {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Poppins', sans-serif;
             font-weight: 300;
         }
 
         .ff-header3 {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Poppins', sans-serif;
+
         }
 
         .ff-header4 {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Poppins', sans-serif;
             font-weight: 700;
         }
 
         .info-bg {
             background-color: #17A2B8;
-        }
-
-        .info-color {
-            color: #17A2B8;
         }
 
         /*End First Header Style*/
@@ -168,7 +164,7 @@
 
 </head>
 
-<body>
+<body style="font-family: 'Poppins', sans-serif;">
 
 
     <!-- Header -->
@@ -178,61 +174,60 @@
 
     <!-- End Of Header -->
     <!-- Conduct header -->
-    <div style="font-family: 'Segoe UI';" class="container-fluid">
+    <div class="container-fluid ">
         <style>
             :root {
                 --primary: hsl(0, 0%, 7%, 0.4);
                 --secondary: hsl(0, 0%, 5%, 1);
             }
         </style>
-        <div class="row picture" style="height: 250px !important;">
-            <div style="background: linear-gradient(90deg,var(--secondary), var(--primary));font-size: small;" class="text-white p-3">
-                <div class="cond-in"><strong>
-                        <h6 class="text-white display-4 cond-header" style="font-weight: bold;">Conduct Us</h6>
-                    </strong><a href="index.php" style="text-decoration: none; color: white">
-                        <h6 class="text-white cond-p"><i class="fas fa-home"></i><strong>&ensp;
-                                Home</strong>&ensp;
-                            <span style="position: relative; display: inline; height: 2px; border-left: 2px solid white; font-weight: bold;"></span>
-                    </a><a href="#" style="text-decoration: none"><span class="info-color">&ensp;
-                            &ensp;
-                            Contact Us</span></a></h6>
+        <div class="row  contact picture">
+            <div style="background: linear-gradient(90deg,var(--secondary), var(--primary));font-size: small;" class="col-sm col-md col-lg p-3">
+                <div class="cond-in">
+                    <strong>
+                        <h6 class="text-white display-4 cond-header" style="font-weight: bold;">Contact Us</h6>
+                    </strong>
+                    <h6 class="cond-p"> <a href="index.php" style="text-decoration: none; color: white"><i class="fas fa-home"></i><strong>&ensp; Home</strong></a>&ensp;<span style="position: relative; display: inline; height: 2px; border-left: 2px solid white; font-weight: bold;"></span>
+                        <span class="info-color">&ensp;&ensp;Contact Us</span>
+                    </h6>
                 </div>
             </div>
         </div>
     </div>
     <!-- End of Conduct header -->
-    <div class="container-fluid p-5">
+    <div class="container-fluid  p-5">
         <div class="row">
-            <div class="col d-flex justify-content-center">
+            <div class="col-sm col-md col-lg d-flex justify-content-center">
                 <div class="text-center">
-                    <h6 class="text-uppercase  info-color mt-5 "><strong>Conduct Us</strong></h6>
-                    <h3 style="font-weight: bold;" lass="text-dark "><strong>Conduct Us If Need Help</strong></h3>
+                    <h6 class="text-uppercase  info-color mt-5 "><strong>Contact Us</strong></h6>
+                    <h3 style="font-weight: bolder;"><strong>Conduct Us If Need Help</strong></h3>
                     <div class="cond"></div>
                 </div>
             </div>
         </div>
     </div><br>
     <!-- Form Section -->
-    <div class="container-fluid p-5">
+    <div class="container-fluid m-0 p-0 form-padding">
         <div class="row no-gutters">
             <div class="col-sm col-md-6 picture-form text-dark col-lg-6 ">
-                <div style=" background-color: rgba(0, 0, 0, 0.474);font-size: small;height: 550px;" class="container-fluid ">
+                <div style=" background-color: rgba(0, 0, 0, 0.474);font-size: small;" class="container-fluid contact-h p-0 m-0">
                     <div class="row ">
-                        <div class="col-lg-12 text-white text-center" style="padding-top: 450px; ">
+                        <div class="col-sm col-md col-lg-12 text-white text-center" style="padding-top: 450px; ">
                             <p>We will get back to you very soon</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div style="font-family: 'Segoe UI'; " class="col-md-6 border">
-                <div class="container ">
-                    <div class="row p-5">
+                <div class="container">
+                    <div class="row contact-padding">
                         <div class="col-sm col-md col-lg p-4 ">
                             <h2 style="font-weight: 600;">Get In Touch </h2><br>
 
                             <form action="mail.php" method="POST " class="">
                                 <div class="form-inline ml-3">
                                     <div class="form-group pr-3"><input type="text" class="form-control rounded-0" id="exampleInputEmail3 " name="name" placeholder="Your Name"><span class="error pr-2 text-danger pl-2"></span></div>
+                                    <br>
                                     <div class="form-group "><input type="email" class="form-control  rounded-0" id="exampleInputPassword3 " name="email" placeholder="Your Email"><span class="error pr-2 text-danger pl-2"></span></div>
                                 </div>
                                 <div>
